@@ -10,7 +10,11 @@ def prep_io(model_name, precision="bf16", device="auto"):
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     dtype = torch.bfloat16 if precision=="bf16" and torch.cuda.is_available() else torch.float32
-    mdl = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=dtype, device_map=device)
+    mdl = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype=dtype,
+    device_map=device,
+    offload_folder="experiments/conceptual_circuits/offload" )
     mdl.eval()
     return tok, mdl
 
@@ -91,3 +95,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
