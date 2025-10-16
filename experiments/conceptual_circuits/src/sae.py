@@ -42,16 +42,22 @@ def save_sae(model, path): torch.save(model.state_dict(), path)
 
 def main():
     cfg = load_cfg()
-    layer = cfg["layers_to_probe"][-1]  # pick one to start
+    # automatically detect valid layers
+    arr = np.load(os.path.join(cfg["save_dir"], "activations", cfg["languages"][0], "mlp_post.npy"), allow_pickle=True)
+    available_layers = sorted(set(int(i) for (i, _) in arr))
+    layer = available_layers[-1]  # use last one by default
+    print(f"Training SAE on layer {layer} (available layers: {available_layers})")
+
     X = []
     for lang in cfg["languages"]:
         Xi = load_layer_acts(cfg["save_dir"], lang, key="mlp_post", layer_idx=layer)
-        X.append(Xi)
-    X = np.vstack(X)  # pooled multilingual
-    sae = train_sae(X, d_hidden=4096, l1=2e-3, epochs=2)
-    os.makedirs(os.path.join(cfg["save_dir"], "sae"), exist_ok=True)
-    save_sae(sae, os.path.join(cfg["save_dir"], "sae", f"sae_layer{layer}.pt"))
-    print("SAE saved.")
+        if Xi.size > 0:
+            X.append(Xi)
+    if not X:
+        raise ValueError("No activations found for the selected layer. Check your layer indices.")
+    X = np.vstack(X)
+
 
 if __name__ == "__main__":
     main()
+
