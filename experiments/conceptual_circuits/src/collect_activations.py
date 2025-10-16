@@ -39,17 +39,24 @@ def register_hooks(model, layers_to_probe):
             cache["resid"].append((i, out.detach().float().cpu()))
         return fn
 
+    def safe_detach(x):
+    if isinstance(x, tuple):
+        x = x[0]
+    if hasattr(x, "detach"):
+        return x.detach().float().cpu()
+    else:
+        return torch.tensor(x, dtype=torch.float32).cpu()
+
     def hook_mlp_pre(i):
         def fn(module, inp, out):
-            # capture pre-activation if available
-            x = inp[0] if isinstance(inp, tuple) else inp
-            cache["mlp_pre"].append((i, x.detach().float().cpu()))
+            cache["mlp_pre"].append((i, safe_detach(inp)))
         return fn
 
     def hook_mlp_post(i):
         def fn(module, inp, out):
-            cache["mlp_post"].append((i, out.detach().float().cpu()))
+        cache["mlp_post"].append((i, safe_detach(out)))
         return fn
+
 
     for i in layers_to_probe:
         # heuristic: each block usually has .mlp / .feed_forward
@@ -95,4 +102,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
