@@ -54,7 +54,7 @@ def register_hooks(model, layers_to_probe):
 
     def hook_mlp_post(i):
         def fn(module, inp, out):
-        cache["mlp_post"].append((i, safe_detach(out)))
+            cache["mlp_post"].append((i, safe_detach(out)))
         return fn
 
 
@@ -102,6 +102,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
