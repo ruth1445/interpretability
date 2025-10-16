@@ -40,12 +40,12 @@ def register_hooks(model, layers_to_probe):
         return fn
 
     def safe_detach(x):
-    if isinstance(x, tuple):
-        x = x[0]
-    if hasattr(x, "detach"):
-        return x.detach().float().cpu()
-    else:
-        return torch.tensor(x, dtype=torch.float32).cpu()
+        if isinstance(x, tuple):
+            x = x[0]
+        if hasattr(x, "detach"):
+            return x.detach().float().cpu()
+        else:
+            return torch.tensor(x, dtype=torch.float32).cpu()
 
     def hook_mlp_pre(i):
         def fn(module, inp, out):
@@ -102,5 +102,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
