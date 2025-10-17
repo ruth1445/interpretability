@@ -48,12 +48,16 @@ def register_hooks(model, layers_to_probe):
     cache = {"mlp_pre": [], "mlp_post": [], "resid": []}
     handles = []
 
-    # heuristic: most models define blocks here
-    blocks = [m for m in model.modules() if m.__class__.__name__.lower().endswith(("block", "layer"))]
-
+    # ✅ XGLM puts layers directly under model.model.layers
     if hasattr(model, "model") and hasattr(model.model, "layers"):
         blocks = model.model.layers
+    elif hasattr(model, "model") and hasattr(model.model, "decoder") and hasattr(model.model.decoder, "layers"):
+        blocks = model.model.decoder.layers
     elif hasattr(model, "transformer") and hasattr(model.transformer, "h"):
+        blocks = model.transformer.h
+    else:
+        raise ValueError("Couldn't locate transformer blocks in this model.")
+
         blocks = model.transformer.h
 
     def hook_resid(i):
@@ -73,7 +77,6 @@ def register_hooks(model, layers_to_probe):
             for t in safe_detach_all(out):
                 cache["mlp_post"].append((i, t))
         return fn
-
     for i in layers_to_probe:
         blk = blocks[i]
         if hasattr(blk, "mlp"):
@@ -81,15 +84,22 @@ def register_hooks(model, layers_to_probe):
                 blk.register_forward_hook(hook_resid(i)),
                 blk.mlp.register_forward_hook(hook_mlp_pre(i)),
                 blk.mlp.register_forward_hook(hook_mlp_post(i)),
-            ]
+        ]
         elif hasattr(blk, "feed_forward"):
             handles += [
                 blk.register_forward_hook(hook_resid(i)),
                 blk.feed_forward.register_forward_hook(hook_mlp_pre(i)),
                 blk.feed_forward.register_forward_hook(hook_mlp_post(i)),
-            ]
+        ]
+        elif hasattr(blk, "fc1") and hasattr(blk, "fc2"):  # ✅ XGLM
+            handles += [
+                blk.register_forward_hook(hook_resid(i)),
+                blk.fc1.register_forward_hook(hook_mlp_pre(i)),
+                blk.fc2.register_forward_hook(hook_mlp_post(i)),
+        ]
         else:
             handles += [blk.register_forward_hook(hook_resid(i))]
+
 
     return cache, handles
 
