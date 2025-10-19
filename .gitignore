@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.pyc
+
+# experiments artifacts
+experiments/conceptual_circuits/results/
+experiments/conceptual_circuits/offload/
+*.npy
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.log
+.ipynb_checkpoints/
+
+# hf caches
+.cache/
+huggingface/
