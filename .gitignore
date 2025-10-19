@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 
 # experiments artifacts
-experiments/conceptual_circuits/results/
 experiments/conceptual_circuits/offload/
 *.npy
 *.pt
@@ -12,6 +11,10 @@ experiments/conceptual_circuits/offload/
 *.ckpt
 *.log
 .ipynb_checkpoints/
+
+# allow committed results artifacts
+!experiments/conceptual_circuits/results/
+!experiments/conceptual_circuits/results/**
 
 # hf caches
 .cache/
