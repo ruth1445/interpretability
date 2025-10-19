@@ -13,14 +13,29 @@ def last_token_logit(model, tok, prompt, device):
 def patch_layer_resid(model, layer_idx, src_hidden, hook_token_idx=-1):
     blocks = model.model.layers if hasattr(model.model, "layers") else model.transformer.h
     def fn(module, inp, out):
-        out[..., hook_token_idx, :] = torch.from_numpy(src_hidden).to(out.device)
+        replacement = torch.from_numpy(src_hidden)
+        if isinstance(out, tuple):
+            hidden = out[0]
+            replacement = replacement.to(hidden.device)
+            hidden = hidden.clone()
+            hidden[..., hook_token_idx, :] = replacement
+            return (hidden,) + out[1:]
+        replacement = replacement.to(out.device)
+        out = out.clone()
+        out[..., hook_token_idx, :] = replacement
         return out
     return blocks[layer_idx].register_forward_hook(fn)
 
 def main():
     cfg = load_cfg()
     tok = AutoTokenizer.from_pretrained(cfg["model_name"])
-    mdl = AutoModelForCausalLM.from_pretrained(cfg["model_name"], device_map="auto")
+    offload_dir = os.environ.get("HF_OFFLOAD_DIR", "/tmp/cc_offload")
+    os.makedirs(offload_dir, exist_ok=True)
+    mdl = AutoModelForCausalLM.from_pretrained(
+        cfg["model_name"],
+        device_map=cfg.get("device", "auto"),
+        offload_folder=offload_dir
+    )
     layer = cfg["layers_to_probe"][-1]
 
     # load a cached EN activation to patch into other languages
