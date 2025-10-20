@@ -1,3 +1,4 @@
+import argparse
 import os
 import yaml
 import numpy as np
@@ -41,12 +42,12 @@ def token_strings(tokenizer, prompts, max_len=None):
     return decoded
 
 
-def plot_heatmaps(tensor, tokens, neuron_ids, title, save_path):
+def plot_heatmaps(tensor, tokens, neuron_ids, title, save_path, cmap):
     batch, seq_len, _ = tensor.shape
     for idx in range(min(batch, 4)):
         slice_ = tensor[idx, :, neuron_ids]
         plt.figure(figsize=(max(6, len(neuron_ids) / 6), max(3, seq_len / 3)))
-        plt.imshow(slice_, aspect="auto", interpolation="nearest")
+        plt.imshow(slice_, aspect="auto", interpolation="nearest", cmap=cmap)
         plt.colorbar()
         plt.xticks(range(len(neuron_ids)), [str(i) for i in neuron_ids], rotation=90)
         plt.yticks(range(len(tokens[idx])), tokens[idx])
@@ -59,9 +60,10 @@ def plot_heatmaps(tensor, tokens, neuron_ids, title, save_path):
 
 def plot_token_magnitude(tensor, tokens, title, save_path):
     magnitudes = np.mean(np.abs(tensor), axis=(0, 2))
-    plt.figure(figsize=(max(6, len(tokens[0]) / 2), 3.5))
+    x_len = len(tokens[0])
+    plt.figure(figsize=(max(6, x_len / 2), 3.5))
     plt.plot(magnitudes, marker="o")
-    plt.xticks(range(len(tokens[0])), tokens[0], rotation=90)
+    plt.xticks(range(x_len), tokens[0], rotation=90)
     plt.title(title)
     plt.tight_layout()
     plt.savefig(save_path, dpi=160)
@@ -77,43 +79,67 @@ def plot_histogram(tensor, title, save_path):
     plt.close()
 
 
+def parse_args(cfg):
+    parser = argparse.ArgumentParser(description="Visualize arithmetic conceptual circuit activations.")
+    parser.add_argument("--lang", choices=cfg["languages"], default="en", help="Language to visualize.")
+    parser.add_argument(
+        "--kind",
+        choices=["resid", "mlp_pre", "mlp_post"],
+        default="mlp_post",
+        help="Activation kind to visualize.",
+    )
+    parser.add_argument(
+        "--layer",
+        type=int,
+        default=cfg["layers_to_probe"][-1],
+        help="Layer index to visualize (default: last configured layer).",
+    )
+    parser.add_argument("--topk", type=int, default=48, help="Number of neurons to display in heatmaps.")
+    parser.add_argument("--cmap", default="magma", help="Matplotlib colormap to use for heatmaps.")
+    parser.add_argument(
+        "--heatmaps-only",
+        action="store_true",
+        help="If set, only the heatmap figures are generated (skip histogram and token magnitude plots).",
+    )
+    return parser.parse_args()
+
+
 def main():
     cfg = load_cfg()
+    args = parse_args(cfg)
+
     tokenizer = AutoTokenizer.from_pretrained(cfg["model_name"], use_fast=True)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    lang = "en"
-    layer = cfg["layers_to_probe"][-1]
-    kind = "mlp_post"
-
-    base_dir = os.path.join(cfg["save_dir"], "activations", lang)
-    figures_dir = os.path.join(cfg["save_dir"], "figures", f"{lang}_L{layer}")
+    base_dir = os.path.join(cfg["save_dir"], "activations", args.lang)
+    figures_dir = os.path.join(cfg["save_dir"], "figures", f"{args.lang}_L{args.layer}")
     os.makedirs(figures_dir, exist_ok=True)
 
-    tensor = get_layer_tensor(load_obj_array(os.path.join(base_dir, f"{kind}.npy")), layer)
+    tensor = get_layer_tensor(load_obj_array(os.path.join(base_dir, f"{args.kind}.npy")), args.layer)
 
-    with open(os.path.join(cfg["prompts_dir"], f"{lang}.txt"), "r", encoding="utf-8") as f:
+    with open(os.path.join(cfg["prompts_dir"], f"{args.lang}.txt"), "r", encoding="utf-8") as f:
         prompts = [line.strip() for line in f if line.strip()]
 
-    token_text = token_strings(tokenizer, prompts[:tensor.shape[0]], max_len=tensor.shape[1])
-    top_neurons = topk_neurons_by_variance(tensor, k=48)
+    token_text = token_strings(tokenizer, prompts[: tensor.shape[0]], max_len=tensor.shape[1])
+    top_neurons = topk_neurons_by_variance(tensor, k=args.topk)
 
-    title = f"{lang.upper()} {kind} layer {layer}"
-    heatmap_root = os.path.join(figures_dir, f"heatmap_{kind}_L{layer}.png")
-    plot_heatmaps(tensor, token_text, top_neurons, title, heatmap_root)
+    title = f"{args.lang.upper()} {args.kind} layer {args.layer}"
+    heatmap_root = os.path.join(figures_dir, f"heatmap_{args.kind}_L{args.layer}.png")
+    plot_heatmaps(tensor, token_text, top_neurons, title, heatmap_root, cmap=args.cmap)
 
-    plot_token_magnitude(
-        tensor,
-        token_text,
-        f"{lang.upper()} mean |act| per token — {kind} L{layer}",
-        os.path.join(figures_dir, f"token_magnitude_{kind}_L{layer}.png"),
-    )
-    plot_histogram(
-        tensor,
-        f"{lang.upper()} distribution — {kind} L{layer}",
-        os.path.join(figures_dir, f"hist_{kind}_L{layer}.png"),
-    )
+    if not args.heatmaps_only:
+        plot_token_magnitude(
+            tensor,
+            token_text,
+            f"{args.lang.upper()} mean |act| per token — {args.kind} L{args.layer}",
+            os.path.join(figures_dir, f"token_magnitude_{args.kind}_L{args.layer}.png"),
+        )
+        plot_histogram(
+            tensor,
+            f"{args.lang.upper()} distribution — {args.kind} L{args.layer}",
+            os.path.join(figures_dir, f"hist_{args.kind}_L{args.layer}.png"),
+        )
 
     print(f"Saved figures to: {figures_dir}")
 
