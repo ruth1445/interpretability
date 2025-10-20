@@ -1,0 +1,14 @@
+model_name: facebook/xglm-564M
+precision: bf16
+device: auto
+layers_to_probe: [5, 10]
+max_new_tokens: 2
+seed: 42
+batch_size: 8
+save_dir: experiments/conceptual_circuits/arith/results
+prompts_dir: experiments/conceptual_circuits/arith/data/prompts
+languages: [en, ar, de]
+token_targets:
+  en: ["twelve", "fifteen", "seventeen"]
+  ar: ["أربعة", "ثمانية", "خمسة"]
+  de: ["wahr", "falsch"]

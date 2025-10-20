@@ -1,0 +1,3 @@
+Die Aussage 'Zwei ist größer als Eins' ist
+Die Aussage 'Drei ist kleiner als Eins' ist
+Die Aussage 'Es schneit und es schneit nicht' ist
