@@ -328,3 +328,521 @@ As our Universe expanded and cooled, it grew more interesting as its particles c
 Like our Universe itself, life gradually grew more complex and interesting, *1 and as I’ll now explain, I find it helpful to classify life forms into three levels of sophistication: Life 1.0, 2.0 and 3.0. I’ve summarized these three levels in figure 1.1. 
 It’s still an open question how, when and where life first appeared in our Universe, but there is strong evidence that here on Earth life first appeared about 4 billion years ago. Before long, our planet was teeming with a diverse panoply of life forms. The most successful ones, which soon outcompeted the rest, were able to react to their environment in some way. Specifically, they were what computer scientists call “intelligent agents”: entities that collect information about their environment from sensors and then process this information to decide how to act back on their environment. This can include highly complex information processing, such as when you use information from your eyes and ears to decide what to say in a conversation. But it can also involve hardware and software that’s quite simple. 
 Inspired by Olaf Stapledon’s 1937 sci-fi classic Star Maker, with rings of artificial worlds orbiting their parent star, Freeman Dyson published a description in 1960 of what became known as a Dyson sphere. 1 Freeman’s idea was to rearrange Jupiter into a biosphere in the form of a spherical shell surrounding the Sun, where our descendants could flourish, enjoying 100 billion times more biomass and a trillion times more energy than humanity uses today. 2 He argued that this was the natural next step: “One should expect that, within a few thousand years of its entering the stage of industrial development, any intelligent species should be found occupying an artificial biosphere which completely surrounds its parent star.” If you lived on the inside of a Dyson sphere, there would be no nights: you’d always see the Sun straight overhead, and all across the sky, you’d see sunlight reflecting off the rest of the biosphere, just as you can nowadays see sunlight reflecting off the Moon during the day. If you wanted to see stars, you’d simply go “upstairs” and peer out at the cosmos from the outside of the Dyson sphere. 
+There is only a very limited family of stationary, asymptotically flat, black hole solutions to the Einstein
+equations. Such a spacetime is one that has an event horizon and a Killing vector that is timelike at infinity.
+A static spacetime is a stationary one that also has a time reflection symmetry. Thus a rotating black hole
+is stationary but not static, whereas a nonrotating one is static.
+A number of black hole uniqueness theorems have been proved under various reasonably well motivated
+assumptions. The EF metric (1.2) gives the unique static vacuum solution with an event horizon. The
+only stationary vacuum solution with a horizon is the Kerr solution, parametrized by the total mass M and
+angular momentum J . Including an electromagnetic field, the only static solution with a horizon with one
+connected component is the Reissner-Nordstrom solution parametrized by mass and electric and magnetic
+charges Qe, Qm. Since the electromagnetic stress-energy tensor is duality rotation invariant, the metric
+depends only on the combination Q2
+e + Q2
+m. Finally, allowing for angular momentum, the unique stationary
+black hole solution with electromagnetic field is the Kerr-Newman metric.
+1.3 Positive energy theorem
+Energy of an isolated (asymptotically flat) system in GR can be defined as the gravitating mass as measured
+at infinity, times c2. This energy, which is the numerical value of the Hamiltonian that generates the time
+translation symmetry at infinity, is a conserved quantity in general relativity. The energy can be negative
+e.g. if we simply put rs < 0 in the Eddington-Finkelstein line element, but this yields a naked singularity. If
+one assumes (i) spacetime can be spanned by a nonsingular Cauchy surface whose only boundary is the one
+at infinity, and (ii) matter has positive energy (more precisely, the stress-energy tensor satisfies the dominant
+energy condition, which for diagonalizable Tab means that the energy density is greater than the magnitude
+of any principal pressure), then it can be proved that the total energy of the spacetime is necessarily positive.
+This was first proved in a geometrical way by Schoen and Yau, and shortly thereafter proved in a more direct
+way way by Witten. The idea for this proof came from quantum supergravity, where the Hamiltonian has
+the manifestly positive form H= Q2 in terms of the supersymmetry generator Q.
+Witten’s proof goes roughly as follows. The energy is written as a flux integral involving first derivative
+of the metric at infinity which picks oﬀ the coeﬃcient of the 1/r term in the metric. This is sometimes
+called the ADM energy. This is then reexpressed, using the Einstein equations, as a volume integral over
+a spacelike Cauchy surface with an integrand containing a term quadratic in the derivative of an arbitrary
+spinor field and a term in the energy density of matter. If the spinor field is chosen to satisfy a certain
+elliptic diﬀerential equation, then the quadratic spinor term becomes manifestly positive. The only zero
+5
+energy solution is empty flat spacetime. If a black hole is present then the Cauchy surface can be chosen to
+dip below the formation of the event horizon, thus avoiding the presence of an inner boundary or singularity
+on the surface. Alternatively, the contribution from an inner boundary located at an apparent horizon can
+be shown to be positive.
+Positivity of the total energy at infinity does not necessarily mean that the system cannot radiate an
+infinite energy while collapsing, since both the energy of the radiation and the energy of the leftover system are
+included in the total energy. A diﬀerent definition of energy, called the Bondi energy, allows one to evaluate
+just the “leftover” energy. The Bondi energy is the gravitating mass as seen by light rays propagating out
+to infinity in the lightlike direction, rather than the spacelike direction. Essentially the same argument as
+before shows that the Bondi energy is also necessarily nonnegative. Thus only a finite energy can be radiated
+away.
+A positive energy theorem has also been proved in the presence of a negative cosmological constant, in
+which case the asymptotic structure of the spacetime is anti-de-Sitter rather than flat. One might have thought that the singularity at r = 0 is just an artifact of perfect spherical symmetry,
+that in an asymmetric collapse most of the mass would “miss” rather than collide and no infinite density or
+curvature would develop. A strong suggestion that this is not the case comes from the fact that the angular
+momentum barrier for orbits of test particles in a black hole spacetime gives way to a negative 1/r3-term of
+purely relativistic origin which produces an infinite well as r goes to zero. That it is in fact not true was
+proved by Penrose.
+The idea of Penrose’s proof rests on the concept of a trapped surface. This is a closed, spacelike, 2-surface
+whose ingoing and outgoing null normal congruences are both converging (see Fig. 1.3). For example, a
+sphere at constant r and v in Eddington-Finkelstein coordinates is a trapped surface if it lies inside the
+horizon. But even in a somewhat asymmetrical collapse it is expected that a trapped surface will form.
+Penrose argues that the existence of a trapped surface T implies the existence of a singularity on the
+boundary ∂F of its future F . (The “future” of a set is the collection of all spacetime points that can be
+reached by future-going timelike or null curves from that set.) Very roughly his reasoning is this: the null
+normals to T start out converging everywhere so, since gravity is attractive, they must continue converging
+and will necessarily reach crossing points (technically, conjugate points) in a finite aﬃne parameter. ∂F must
+“end” before or when the crossing points are reached (because the boundary ∂F must be locally tangent to
+the light cones) so ∂F must be compact. This is a very weird structure for the boundary of the future of
+T , and in fact is incompatible with other reasonable requirements on the spacetime (see below). The only
+way out is if at least one of the null normals cannot be extended far enough to reach its crossing point. This
+nonextendibility is what is meant in the theorem by the existence of a singularity.
+Einstein’s equation comes into the proof only in ensuring that the initially converging null normals to T
+must reach a crossing point in a finite aﬃne parameter. It is worth explaining this in more detail, since it
+involves technology that figures in many developments in general relativity and black hole thermodynamics,
+namely, the focusing equation (which is often called the Raychaudhuri equation, or Sach’s equation, or
+Newman-Penrose equation). This equation relates the focusing of a bundle of light rays (called a null. This focusing equation shows that an initially converging congruence must reach a “crossing point”, i.e.
+a point where ρ diverges, in a finite aﬃne parameter provided Rabkakb ≥ 0. More precisely, d
+dλ ρ ≥ 1
+2 ρ2
+implies that if ρ(0) = ρ0 > 0, then ρ → ∞ for some λ ≤ 2/ρ0. In flat space this would of course be true, and
+if positive the Ricci tensor term will only make it converge faster. The condition Rabkakb ≥ 0 is equivalent
+via Einstein’s equation to the condition Tabkakb ≥ 0, which for a diagonalizable stress-energy tensor is
+equivalent to the condition that the energy density plus any of the three principal pressures is positive. Thus
+unless there is “anti-gravitational repulsion” due to negative energy and/or pressure, a crossing point must
+be reached.
+A somewhat more precise statement of Penrose’s theorem is that a singularity is unavoidable if there is a
+trapped surface and (i) Rabkakb ≥ 0 for all null ka and (ii) spacetime has the form M = Σ × R, where Σ is
+a non-compact, connected, Cauchy surface. Later Hawking and Penrose gave another proof that weakened
+the second assumption, replacing it by the conditions that (ii′) there are no closed timelike curves and (ii′′)
+the curvature is “generic” in a certain extremely mild sense. In the examples above the most eﬃcient energy extraction occurs when the black hole area is unchanged,
+and in less eﬃcient processes the area always increases. It was shown by Hawking that in fact the area of an
+event horizon can never decrease under quite general assumptions. Hawking’s theorem applies to arbitrary
+dynamical black holes, for which a general definition of the horizon is needed. The future event horizon of
+an asymptotically flat black hole spacetime is defined as the boundary of the past of future null infinity,
+that is, the boundary of the set of points that can communicate with the remote regions of the spacetime
+to the future. Hawking proved that if Rabkakb ≥ 0, and if there are no naked singularities (i.e. if “cosmic
+censorship” holds), the cross sectional area of a future event horizon cannot be decreasing anywhere. The
+reason is that the focusing equation implies that if the horizon generators are converging somewhere then
+they will reach a crossing point in a finite aﬃne parameter. But such a point cannot lie on a future event
+horizon (because the horizon must be locally tangent to the light cones), nor can the generators leave the
+horizon. The only remaining possibility is that the generators cannot be extended far enough to reach the
+crossing point—that is, they must reach a singularity.
+That was an easy argument, but it isn’t as strong as one would like, since the singularity may not be
+10
+naked, i.e. visible from infinity, and we have no good reason to assume clothed (or barely clothed) singularities
+do not occur.1 With a more subtle argument, Hawking showed that convergence of the horizon generators
+does imply existence of a naked singularity. The basic idea is to deform the horizon cross-section outward a
+bit from the point where the generators are assumed to be converging, and to consider the boundary of the
+future of the part of the deformed cross-section that lies outside the horizon. If the deformation is suﬃciently
+small, all of the generators of this boundary are initially converging and therefore reach crossing points and
+leave the boundary at finite aﬃne parameter. But at least one of these generators must reach infinity while
+remaining on the boundary, since the deformed cross-section is outside the event horizon. The only way out
+of the contradiction is if there is a singularity outside the horizon, on the boundary, which is visible from
+infinity and therefore naked.
+Essentially the same argument as the one just given also establishes that an outer trapped surface must
+not be visible from infinity, i.e. must lie inside an event horizon. This fact is used sometimes as an indirect
+way to probe numerical solutions of the Einstein equation for the presence of an event horizon. Whereas
+the event horizon is a nonlocal construction in time, and so can not be directly identified given only a finite
+time interval, a trapped surface is defined locally and may be unambiguously identified at a single time.
+Assuming cosmic censorship, the presence of a trapped surface implies the existence of a horizon. From the forgoing it is apparent that energy can flow not just into black holes but also out of them, and
+they can act as an intermediary in energy exchange processes. Energy extraction is maximally eﬃcient when
+the horizon area does not change, and processes that increase the area are irreversible, since the area cannot
+decrease. The analogy with thermodynamic behavior is striking, with the horizon area playing the role of
+entropy. This analogy was vigorously pursued as soon as it was recognized at the beginning of the 1970’s,
+although it had what appeared at first to be several glaring flaws:
+F1. the temperature of a black hole vanishes;
+F2. entropy is dimensionless, whereas horizon area is a length squared;
+F3. the area of every black hole is separately non-decreasing, whereas only the total entropy is non-
+decreasing in thermodynamics.
+By 1975 it was understood that the resolution to all of these flaws lies in the incorporation of quantum
+theory, as has so often been the case in resolving thermodynamic conundrums. A black hole has a Hawking
+temperature proportional to Planck’s constant ¯ h, the entropy is one fourth the horizon area divided by the
+Planck length squared (¯ hG/c3), and the area can decrease via Hawking radiation.
+Rather than jumping now immediately into the subject of quantum black hole thermodynamics, it is
+worth discussing first the classical aspects of the theory. These are important in their own right, and they
+form the foundation for quantum black hole thermodynamics. But also it is intriguing to see what can
+be inferred without invoking quantum theory, and it may teach us something about the deeper origins of
+gravitation. In proceeding this way we are following more or less the path that was taken historically. It turns out that this missing term is given by κdA/8πG, where κ is the surface gravity of the horizon. The
+surface gravity of a stationary black hole can be defined assuming the event horizon is a Killing horizon, i.e.
+that the null horizon generators are orbits of a Killing field. (See next section for more on this assumption.)
+Then κ is defined as the magnitude of the gradient of the norm of the horizon generating Killing field
+χa = ξa + Ωψa, evaluated at the horizon. That is,
+κ2 :=−(∇a|χ|)(∇a|χ|) (2.1)
+at the horizon. An equivalent definition of κ is the the magnitude of the acceleration, with respect to Killing
+time, of a stationary zero angular momentum particle just outside the horizon. This is the same as the force
+per unit mass that must be applied at infinity in order to hold the particle on its path. For a nonrotating
+neutral black hole the surface gravity is given by 1/4M , so a larger black hole has a smaller surface gravity.
+This happens to be identical to the Newtonian surface gravity of a spherical mass M with radius equal to
+the Schwarzschild radius 2M.
+2.1.2 Zeroth Law
+Although κ is defined locally on the horizon, it turns out that it is always constant over the horizon of a
+stationary black hole. This constancy is reminiscent of the Zeroth Law of thermodynamics which states that
+the temperature is uniform everywhere in a system in thermal equilibrium. The constancy of κ can be traced
+to the special properties of the horizon of a stationary black hole. It can be proved without field equations
+or energy conditions [Carter, R´acz & Wald] assuming the horizon is a Killing horizon (i.e. there is a Killing
+field tangent to the null generators of the horizon) and that the black hole is either (i) static (i.e. stationary
+and time reflection symmetric), or (ii) axisymmetric and “t-φ” reflection symmetric. Alternatively, it can
+be proved [Hawking] assuming only stationarity together with the Einstein field equation with the dominant
+energy condition for matter. (Assuming also hyperbolic field equations for matter, and analyticity of the
+spacetime, Hawking also shows that the event horizon must be a Killing horizon, and that the spacetime
+must be either static or axisymmetric.) Bekenstein proposed that some multiple ηA/¯ hG of the black hole area, measured in units of the squared
+Planck length L2
+p
+= ¯ hG/c3, is actually entropy, and he conjectured a generalized second law (GSL) which
+states that the sum of the entropy outside the black hole and the entropy of the black hole itself will never
+decrease:
+δ(Soutside + ηA/¯ hG) ≥ 0 (2.9)
+Classically, it seems possible to violate the GSL, using processes like those already considered: A box
+containing entropy in the form of, say, radiation, can be lowered to the horizon of a black hole and dropped
+in. For an ideal, infinitesimal box all of the energy can be extracted at infinity, so when the box is dropped
+in it adds no mass to the hole. Thus the horizon area does not change, but the entropy of the exterior has
+decreased, violating the GSL. This may be considered yet another flaw in the thermodynamic analogy:
+F4. the GSL can be violated by adding entropy to a black hole without changing its area.
+At the purely classical level, it thus appears that the GSL is simply not true. Note however that as ¯ h → 0,
+the entropy ηA/¯ hG diverges, and an infinitesimal area change can make a finite change in the Bekenstein
+entropy. The other flaws (F1-F3) in the thermodynamic analogy are also in a sense resolved in the ¯ h → 0
+limit. F2 is resolved by Bekenstein’s postulate, while F3 is resolved because a finite decrease in area would
+imply an infinite decrease in entropy. Furthermore, the first law implies that the black hole has a Bekenstein
+temperature TB = ¯ hκ/8πη, which vanishes in the classical limit, thus resolving flaw F1. The Bekenstein
+proposal therefore “explains” the apparent flaws in the thermodynamic analogy, and it suggests very strongly
+that the analogy is much more than an analogy. It turns out that, with quantum eﬀects included, the GSL
+is indeed true after all, with the coeﬃcient η equal to 1/4. The analogy between surface gravity and temperature was based in the above discussion on the way the
+temperature enters the First Law (2.2), the fact that it is constant over the horizon (Zeroth Law), and the
+fact that it is (probably) impossible to reduce it to zero in a physical process (Third Law). In this section
+we discuss a sense in which a black hole has a thermodynamic temperature, defined in terms of the eﬃciency
+of heat engines, that is proportional to its surface gravity. The discussion is a variation on that of [Sciama,
+1976, see section 1.1.4].
+A thermodynamic definition of temperature can be given by virtue of the second law in the (Clausius)
+form which states that it is impossible to pump heat from a colder body to a hotter one in a cycle with no
+other changes. Given this Second Law, the ratio Qin/Qout of the heat in to the heat out in any reversible
+heat engine cycle operating between two heat baths must be a universal constant characteristic of that pair
+of equilibrium states. The ratio of the thermodynamic temperatures of the two equilibrium states is then
+defined by Tin /Tout := Qin/Qout. This defines the temperature of all equilibrium states up to an overall
+arbitrary constant. In a heat engine, the heat out is wasted, so the most eﬃcient engine is one which dumps
+its heat into the coldest reservoir. Applying this definition to a black hole, it follows that the temperature of the hole must be zero, since as
+we have seen one can, with perfect eﬃciency, extract the entire rest mass of a particle (or of heat) as useful
+work by dumping the heat into a black hole after lowering it down all the way to the horizon. Note however
+that to arrive at this conclusion we must take the unphysical limit of really lowering the heat precisely all
+the way to the horizon.
+A meaningful expression for the ratio of the temperatures of two black holes can be obtained by passing to
+this unphysical limit in a fairly natural manner. Consider operating a heat engine of the type just discussed
+between two black holes separated very far from one another, and suppose there is a minimum proper
+distance dmin to which the horizon of either black hole is approached. We shall assume that this distance is
+the same for both black holes, and take the limit as dmin → 0. We also assume for simplicity that the black
+holes are nonrotating; it is presumably possible to generalize the analysis to the rotating case.
+If the “heat” has a rest mass m, it has Killing energy E1 = ξ1m at its lowest point outside the horizon
+of the first black hole, where ξ is the norm of the Killing field. The heat is then lifted slowly and lowered
+back down to just outside the horizon of the second black hole, where it has Killing energy E2 = ξ2m, and is
+then dumped into the second hole. The diﬀerence E1− E2 is the useful work extracted in the process, and
+the ratio T1/T2 := E1/E2 = ξ1/ξ2 defines the ratio of the thermodynamic temperatures of the two holes.
+Now near the horizon we can approximate ξ ≃ κdmin, where κ is exactly the surface gravity that entered
+above in the First Law. At the lowest points we thus have ξ1/ξ2 ≃ κ1/κ2, which becomes exact in the limit
+dmin → 0, so that T1/T2 = κ1/κ2. That is, the thermodynamic temperature of a black hole is proportional
+to its surface gravity.
+This derivation hinges on the limiting procedure, in which a common minimum distance of approach to
+the horizon taken to zero, which is not very well motivated. It is therefore worth pointing out that this is
+equivalent to taking a common maximum proper acceleration to infinity. The proper acceleration of a static
+worldline is given by a = κ/ξ in the limit that the horizon is approached, so a is just the inverse of the
+proper distance from the horizon. Alternatively, rather than taking a limit as the horizon is approached,
+one might imagine that there is some common minimum distance of approach or maximum acceleration to
+which the heat will be subjected in any given transfer process. Classical black hole physics cries out for the incorporation of ¯ h eﬀects, so the thermodynamic “analogy”
+can become true thermodynamics. Since general relativity is relativistic, it is not quantum mechanics but
+relativistic quantum field theory that is called for. Thus, in principle, one should consider “quantum gravity”,
+whatever that may be. Although no one knows for sure what quantum gravity actually is, formal treatment
+of its semiclassical limit by Gibbons and Hawking in a path integral framework revealed one way in which
+the analogy can become an identity. This will be discussed later. An alternate semiclassical approach—and
+historically the first— is to consider quantum fields in a fixed black hole background. A quantum field
+has vacuum fluctuations that permeate all of spacetime, so there is always something going on, even in the
+“empty space” around a black hole. Thus turning on the vacuum fluctuations of quantum fields can have
+a profound eﬀect on the thermodynamics of black holes. The principal eﬀect is the existence of Hawking
+radiation.
+The historical route to Hawking’s discovery is worth mentioning. (See Thorne’s book, Black Holes and
+Time Warps, for an interesting account.) After the Penrose process was invented, it was only a short step
+to consider a similar process using waves rather than particles [Zel’dovich, Misner], a phenomenon dubbed
+“super-radiance”. Quantum mechanically, supperradiance corresponds to stimulated emission, so it was then
+natural to ask whether a rotating black hole would spontaneously radiate [Zel’dovich, Starobinsky, Unruh].
+In trying to improve on the calculations in favor of spontaneous emission, Hawking stumbled onto the fact
+that even a non-rotating black hole would emit particles, and it would do so with a thermal spectrum at a
+temperature. Killing energy and angular momentum must be conserved, so the two particles must have opposite values for
+these. In the ergoregion there are negative energy states for real particles, so such a pair can be created there,
+with the negative energy partner later falling across the event horizon into the black hole. In the nonrotating
+case the ergoregion exists only beyond the horizon, however the pair creation process can straddle the horizon
+(Fig. 3.1). This turns out to have a thermal amplitude, and gives rise to the Hawking eﬀect.
+Let us now briefly consider the implications of the Hawking eﬀect for black hole thermodynamics. First
+of all the surface gravity κ, which was already implicated as a temperature in the classical theory, turns
+out to give rise to the true Hawking temperature ¯ hκ/2π. From the First Law (2.2) it then follows that the
+entropy of a black hole is given by
+SBH = A/4¯ hG,
+one fourth the area in squared Planck lengths (the subscript ‘BH’ conveniently stands for both ‘Bekenstein-
+Hawking’ and ‘black hole’). The zero-temperature and dimensional flaws (F1) and (F2) (cf. Chapter 2)
+are thus removed. Furthermore, the Hawking radiation leads to a decrease in the horizon area. This is
+obvious in the nonrotating case, since the black hole loses mass, but it also happens in the rotating case.
+The reason is that the negative energy partner in the Hawking pair creation process is never a real particle
+outside the horizon, so it need not carry a locally future-pointing four-momentum flux across the horizon.
+The Bekenstein-Hawking entropy can therefore decrease, so flaw (F3) is removed. The remaining flaw in
+the thermodynamic analogy was the failure of the generalized second law (F4) (cf. section 2.2). This too
+is repaired by the incorporation of quantum field eﬀects, at least in quasistationary. Underlying the Hawking eﬀect is the Unruh eﬀect, which is the fact that the vacuum in Minkowski space
+appears to be a thermal state at temperature
+TU = ¯ ha/2π (3.2)
+when viewed by an observer with acceleration a. Thus there is already something ‘thermal’ about the vacuum
+fluctuations even in flat spacetime. Since it lies at the core of the entire subject, let us first delve in some
+detail into the theory of the Unruh eﬀect, before coming back to the Hawking eﬀect.
+The Unruh eﬀect was discovered after the Hawking eﬀect, as a result of eﬀorts to understand the Hawking
+eﬀect. The original observation was that a detector coupled to a quantum field and accelerating through the
+Minkowski vacuum will be thermally excited. A related observation by Davies was that a mirror accelerating
+through the vacuum will radiate thermally. But the essential point is that the vacuum itself has a thermal
+character, quite independently of anything that might be coupled to it.
+Owing to the symmetry of the Minkowski vacuum under translations and Lorentz tranformations, the
+vacuum will appear stationary in a uniformly accelerated frame, but this appearance will not be independent
+of the acceleration. Moreover, since it is the ground state, it is stable to dynamical perturbations. Sciama
+pointed out that stationarity and stability of the state alone are suﬃcient to indicate that the state is a
+thermal one, as shown by Haag et al in axiomatic quantum field theory. Note that the time scale associated
+with the Unruh temperature, ¯ h/TH = 2πc/a, is the time it takes for the velocity to change by something of
+order c when the acceleration is a.
+Two derivations of the Unruh eﬀect will now be given, both of which are valid for arbitrary interacting
+scalar fields in spacetime of any dimension. (The generalization to fields of nonzero spin is straightforward.For a Schwarzschild black hole, κ = 1/2Rs = 1/4GM , so the Hawking temperature is TH = ¯ h/8πGM ,
+and the corresponding wavelength is λH = 2π/ω = 8π2Rs. A larger black hole is therefore cooler. Recall
+that in the case of the flat space Unruh eﬀect, the redshifting to infinity completely depletes the acceleration
+radiation, since the norm of the boost Killing field diverges at infinity.
+Two remarks should be made here regarding the state dependence of the above argument. First, the
+argument is clearly invalid if the the state of the quantum field is not regular near the horizon. For example,
+there is a state called the “Boulware vacuum”, or “static vacuum”, which corresponds the absence of exci-
+tations in a Fock space constructed with positive Killing frequency modes as the one-particle states. In the
+Boulware vacuum, our accelerated observer sees no particles at all. However, the short distance divergence
+of the two-point function does not have the flat space form as the horizon is approached, and the expectation
+value of the stress energy tensor becomes singular.
+The second remark is that it was important that we started with an observer very close to the horizon.
+Only for such an observer is the acceleration high enough, and therefore the timescale a−1 short enough,
+that the vacuum fluctuations can be taken to have the universal flat space form independent of the details of
+the state of the field and the curvature of the spacetime. Thus, for example, it would be incorrect to argue
+that an unaccelerated observer at infinity must (because he is unaccelerated) see no particles, since there
+is no a priori justification for assuming the state there looks like the Minkowski vacuum. The lesson of the
+Hawking eﬀect is that the state at infinity in fact does not look like the Minkowski vacuum. For every ω a wavepacket can be constructed which is concentrated arbitrarily close to the horizon and
+has arbitrarily high frequency with respect to the time of some fixed free-fall observer crossing the horizon
+or, equivalently, with respect to the aﬃne parameter u along an ingoing null geodesic that plays the role
+of u = t− z in the Rindler horizon case. Thus, provided the state near the horizon looks, to a free-fall
+observer at very short distances, like the Minkowski vacuum, we can conclude that it can also be described
+as a correlated state of Boulware quanta with the same structure as (3.29). In particular, the state restricted
+to the exterior of the horizon is a thermal one, with Boltzmann factor exp(−λ/2π) = exp(−
+¯ hω/TH ), where
+TH = ¯ hκ/2π is the Hawking temperature.
+What is diﬀerent in the black hole case is how these pairs of thermal quanta propagate. In flat space
+they continue to swim in parallel on either side of the horizon. In a black hole spacetime the gravitational
+tidal force peels them apart. Mathematically, since the wavefronts propagate at fixed u, and u =−ξe−η
+,
+ξ scales exponentially with η along a wavefront, increasing toward the future and decreasing toward the
+past. Once ξ starts to be of order the curvature radius, the Rindler approximation for the metric breaks
+down. Thus, toward the future, the ingoing quanta eventually plunge into the singularity, while the outgoing
+quanta eventually climb away from the horizon, partially backscatter oﬀ the angular momentum barrier and
+the curvature, and partially emerge to infinity as exponentially redshifted thermal quanta at the Hawking
+temperature. To every Hawking particle there is a negative Killing energy “partner” that falls into the black
+hole. It is the negative energy carried by this partner that is presumably responsible for the mass loss of the
+hole.
+The number of p-particles reaching infinity thus takes the Planck form,
+Np = Γp(e¯ hω/TH
+− 1)−1
+, (3.30)
+where the coeﬃcient Γp is the fraction of p-particles that make it out to infinity rather than being backscat-
+tered into the black hole. This is sometimes called the greybody factor since it indicates the emissivity of the
+black hole which is not that of a perfect blackbody. Another name for Γp is the absorption coeﬃcient for
+the mode p, since it is equal to the fraction of p-particles that would be absorbed by the black hole if sent
+in from infinity.
+The above reasoning shows that the Hawking radiation is a consequence of the assumption that the state
+near the horizon is the vacuum as viewed by free-fall observers at very short distances. Let us call a state
+with this property a free-fall vacuum. The derivation of the Hawking eﬀect is not complete until on has
+shown that the free-fall vacuum at the horizon indeed results from a generic state prior to collapse of the
+matter that formed the black hole. This is a reasonable sounding proposition, since the initial state is the
+vacuum for the ultra high frequency modes, and the time and length scales associated with the collapse
+are much longer than those associated with such modes. Hawking carried out this step of the argument by
+following the mode υ all the way backwards in time along the horizon, through the collapsing matter, and
+out to past null infinity I−, using the geometrical optics approximation. At I− the mode still has purely
+positive free-fall frequency, so since it is in the vacuum at I− it is in the free-fall vacuum at the horizon. There is something disturbing about Hawking’s reasoning however. As the wavepacket is propagated back-
+wards in time along the horizon, it is blueshifting exponentially with respect to Killing time. For the very
+first Hawking quanta that emerge after a black hole forms this is perhaps not so serious, since they have not
+experienced much blueshifting. But for quanta that emerge a time t after the black hole formed, there is a
+blueshift of order exp(κt). For a Schwarzschild black hole, κ = 1/2Rs, so after, say, t = 1000Rs, the blueshift
+factor is exp(500). That is, the ingoing mode has frequency exp(500) times the frequency of the outgoing
+Hawking quantum at infinity. For a solar mass black hole, the factor is exp(105) after only 2 seconds have
+passed.
+Needless to say, we cannot be confident that we know what physics looks like at such arbitrarily high,
+“transplanckian” frequencies. Of course if exact local lorentz invariance is assumed, then any frequency
+can be Doppler shifted down to a low frequency, just by a change of reference frame. But the unlimited
+extrapolation of local lorentz invariance to arbitrary boost factors (and the associated infinite density of
+states) must be regarded with skepticism. This puzzle can in one sense be sidestepped since, as indicated above, the only role of the transplanckian
+ancestor was, for Hawking, to guarantee that one has a free-fall vacuum at short distances near the horizon.
+This condition on the state could also plausibly arise in a theory which looks very diﬀerent from ordinary
+relativistic field theory at short distances, and in which there are no transplanckian ancestors.
+However, this raises the question of how to account for the outgoing black hole modes if they do not have
+transplanckian ancestry. Where else could they come from? It seems that they could come from ingoing
+modes that are converted into outgoing modes in the neighborhood of the horizon (see figure 3.5). This
+ridiculous sounding possibility actually occurs in simple linear field theories in which the wave equation is
+modified by the addition of higher derivative terms in the spatial directions perpendicular to some preferred
+local time axis [Unruh 1995, Brout et. al, 1995, Corley and Jacobson 1996, Jacobson 1996]. Similar mode
+conversion processes occur in many situations where linear waves with a nonlinear dispersion relation prop-
+agate in an inhomogeneous medium. There are examples from plasma waves, galactic spiral density waves,
+Andreev reflection in superfluid textures, sound waves, and surface waves. If mode conversion accounts for the origin of the outgoing black hole modes, then the ancestors are
+probably planckian, but not trans-planckian, modes. Their detailed form would depend on the physics at
+the planck scale (or at a lower energy scale for new physics). However, from the analysis of the linear
+models referred to above, it is clear that, for black holes that are large compared to the new length scale, the
+Hawking spectrum of black hole radiation is remarkably insensitive to these details. For such large black holes
+the most significant consequence for the Hawking eﬀect is for stimulated emission. In principle, one could
+produce stimulated emission of Hawking radiation by sending in particles in the (presumably planckian)
+ancestor modes of the Hawking quanta at any time after the black hole formed, rather than having to send
+in transplanckian particles before the collapse. When Bekenstein first proposed the GSL (2.9) he was not thinking that A would ever decrease. The only
+question was whether it would necessarily increase enough to compensate for entropy that falls across the
+horizon. However, since a black hole emits Hawking radiation, and therefore loses mass, the area of its
+horizon must shrink. This is not in contradiction with Hawking’s area theorem, since the quantum field
+carries negative energy into the black hole, whereas Hawking assumed a positive energy condition on matter.
+It does, however, pose a potential threat to the GSL.
+Hawking’s calculation of the black hole temperature determined the coeﬃcient of proportionality between
+the black hole entropy and A/¯ hG to be 1/4. The GSL thus takes the form. Classically, the problem was that one could lower a box with entropy to the horizon of a black hole, dropping
+it in after almost all of its energy had been extracted at infinity. In such a process the generalized entropy
+would decrease (cf. section 2.2).
+Bekenstein’s proposal to evade this violation of the GSL was to suggest that there is a universal upper
+bound on the entropy that can be contained in a box of a given “size” R and energy E: S ≤ 2πER. Thus,
+since a box of size R could not get any closer than R to the horizon, it might necessarily still deliver enough
+energy to the black hole to maintain the GSL. He argued that this is so in various thought experiments, but
+there were objections. One obvious objection is that the bound seems to restrict the number of independent
+species of particles that might exist in nature, since more species lead to a greater possible entropy. It
+would be strange if the validity of the GSL imposed a restriction on the number of species. Originally,
+Bekenstein argued that this was the way it was. Later he argued that when the Casimir energies are taken into account the bound holds independent of the number of species. In the meantime, Unruh and Wald
+argued convincingly that no such bound is needed to uphold the GSL.
+The essential point made by Unruh and Wald is that the interaction of the box with the quantum fields
+outside the horizon cannot be neglected. Far from the hole a static box sees the Hawking radiation, while
+close to the hole it sees the Unruh radiation as a result of its acceleration. Analyzing the process in the
+accelerating frame, the box experiences a buoyancy force owing to the fact that the temperature of the Unruh
+radiation is higher on the lower side of the box than on the upper side. At the point where the energy of
+the displaced Unruh radiation is equal to the energy E of the box, the buoyancy force is just great enough
+to float the box. If the box is then pushed further in it acquires more energy, so the energy delivered to
+the hole is minimized by dropping the box at the floating point. When the box is dropped into the hole the
+entropy change of the hole is (from the first law) ∆SBH = E/TH . But the entropy Sbox of the box must
+be less than or equal to the entropy of thermal radiation with the same volume and energy, since thermal
+radiation maximizes entropy. That is, Sbox must be less than or equal to the entropy of the displaced Unruh
+radiation, which has energy E and entropy E/TH . Thus the SBH + Soutside necessarily increases, so the
+GSL holds.
+It is somewhat peculiar to base the argument on the Unruh radiation which is not even seen by an
+inertial observer. Unruh and Wald point out that the stress tensors “seen” by the two observers diﬀer by
+the conserved stress-tensor of the Boulware vacuum. Because it is separately conserved, this diﬀerence will
+not aﬀect the result for any observable like the tension in the rope or the total energy transferred.
+In the inertial viewpoint, the reason the box floats is that as it is lowered it maintains the vacuum in the
+accelerated frame, i.e. the Boulware vacuum, which has negative energy density relative to the surrounding
+Unruh or Hartle-Hawking vacua. Evidently, as it is lowered, the box must radiate positive energy and fill
+with negative energy until at the floating point its total energy equals zero. The Unruh-Wald analysis also shows that energy can be extracted from a black hole faster than it would
+naturally evaporate by Hawking radiation, even if it is nonrotating and neutral. One can lower an open
+box to near the horizon, and then close it. It will be full of Unruh radiation. Now slowly lifting it back
+out to infinity it will arrive at infinity full of radiation with some Killing energy Erad. The work done in
+the cycle is the energy required to lift this radiation, i.e. the diﬀerence (1− χbot)Erad, between its Killing
+energy at infinity and at the bottom. This work is less than the energy extracted, so energy conservation
+implies that one has somehow extracted the energy χbotErad from the black hole! Since Erad is proportional
+to T 4
+bot ∝ χ−4
+botT 4
+H , the extracted energy is arbitrarily large.1
+How can one understand the mass loss by the black hole? When the box is closed, the interior is in
+the local vacuum state, whose essentially zero energy density is comprised of a negative Boulware vacuum
+energy density plus a positive thermal Unruh energy density. As the box is lifted out, the contribution of
+the negative Boulware energy density drops (eventually to zero) as the acceleration drops, but the thermal
+Unruh contribution survives. The negative Boulware energy flows out of the box and into the black hole,
+decreasing its mass.
+How is this all explained from the inertial viewpoint? As the box is lifted back up, it radiates negative
+energy into the black hole and fills up with positive energy. One way to see this is as an eﬀect of radiation
+by (nonuniformly) accelerating mirrors, together with the fact that the lower face of the box experiences a
+greater acceleration than the upper face. At this stage it is clear that black holes are really thermodynamic systems with an actual temperature and
+entropy. What remains to be understood however is the meaning of this entropy in terms of statistical
+mechanics. Somehow the entropy should be the logarithm of the number of independent states of the black
+hole. Understanding how to count these states would constitute a significant step forward in the quest to
+understand quantum gravity.
+It should be said at the outset that the subject of this section lies at the wild frontier of black hole ther-
+modynamics. While many interesting and presumably important facts are known, and significant progress
+continues to be made, there is not yet agreement on a single correct viewpoint. I shall therefore discuss a
+wide range of ideas, pointing out their interconnections, but not insisting on one unified approach.
+The fact that the black hole entropy is even finite is already puzzling. A box of radiation at fixed energy
+and volume has a finite entropy because the box imposes a long wavelength cutoﬀ and the total energy
+imposes a short wavelength cutoﬀ. The Hilbert space describing the radiation field inside the box at fixed
+energy is thus finite dimensional, and the microcanonical entropy is just the logarithm of its dimension. A
+black hole in a box at fixed energy would also have a short wavelength cutoﬀ (at the box) but, as emphasized
+by ’t Hooft, according to standard quantum field theory it has no long wavelength cutoﬀ (at the box). The
+reason is that the horizon is an infinite redshift surface. The wavevector of any outgoing mode diverges at
+the horizon, and is redshifted down to a finite value at the box. The entropy of each radiation field around a
+black hole is therefore infinite due to a divergence in the mode density at the horizon, so it seems the black
+hole entropy must also diverge.
+We shall see below that this divergence is equivalent to a divergence in the renormalization of Newton’s
+constant, or rather in 1/G. Thus one point of view is that it should be absorbed by “counter terms”, and
+only the total, renormalized entropy is relevant. To many physicists this does not seem satisfactory however,
+since one expects that entropy should count dimensions in Hilbert space, which should not be subject to
+infinite subtractions. A possible resolution is that some mechanism cuts oﬀ the short wavlength modes at
+the horizon, so that the entropy (and the renormalization of G−1) is finite.
+This subject will be pursued further below, where we discuss the various diﬀerent interpretations and
+calculations of black hole entropy that have been proposed. Before beginning this journey however, let us
+stop to consider what kind of a cutoﬀ mechanism is called for. Given that the GSL seems to be true, one is led to the conclusion that A/4 (setting ¯ hG = 1) must be the
+most entropy that can be contained in a region surrounded by a surface of area A. To maximize the volume
+one would take a sphere, and if there were more entropy than A/4, but no black hole, one could simply add
+more mass until a black hole formed, at which point the entropy would go down to A/4, violating the GSL.
+Thus the entropy must have been less than A/4 to begin with.
+’t Hooft argued that the inescapable implication of this is that the true space of quantum states in a finite
+region must be finite dimensional and associated with the two-dimensional boundary of the region rather
+than the volume. Thus it is not enough even if the system is like a fermion field on a lattice of finite spacing.
+Rather, the states in the region must be somehow determined by a finite-state system on a boundary lattice!
+’t Hooft made the analogy to a hologram, and the idea was dubbed by Susskind the holographic hypothesis.
+From a classical viewpoint, the holographic hypothesis may correspond to a statement about the phase
+space of a gravitating system surrounded by a surface of area A that is not inside a black hole. It is not
+inconceivable that this phase space is compact with a volume that scales as the area. If something like this is
+true, then the holographic hypothesis could just be a straightforward consequence of quantizing a gravitating
+system.
+On the other hand, it has been suggested by ‘t Hooft and Susskind that the holographic hypothesis can
+only be incorporated into physics with a radical change in the foundations of the subject. If so, it provides
+a tantalizing hint as to the nature of that change. There are some suggestions that string theory might
+be headed in the required direction, or perhaps something very diﬀerent like a cellular automaton model is
+correct. For the remainder of this section I will ignore the holographic hint however, and continue to discuss
+the problem from the point of view of local field theory. Bekenstein’s original idea was that the entropy of a black hole is the logarithm of the number of ways it
+could have formed. This is closely related to the Boltzman definition of entropy as the number of microstates
+compatible with the macrostate.
+Hawking noted that a potential problem arises if one contemplates increasing the number of species of
+fundamental fields. There would seem to be more ways of forming the black hole, however the entropy is
+fixed at A/4. Hawking’s resolution of this was that the black hole will also radiate faster because of the
+extra species, so that there would be less phase space per species available for forming the hole. Presuming
+these two eﬀects balance each other, the puzzle would be resolved. This argument was further developed by
+Zurek and Thorne, whose analysis makes it uneccessary to presume that the two eﬀects cancel. Building up
+the black hole bit by bit, adding energy to the thermal “atmosphere” just outside the horizon, they argue
+that the entropy is equal to the logarithm of the number of ways of making the black hole, independent of
+the number of species.
+Note that to conclude that the actual value of the black hole entropy A/4¯ hG is independent of the
+number of species, one must assume that the value of Newton’s constant is also independent of the number
+of species. This is by no means clear however, since the low energy eﬀective G is renormalized by the vacuum
+fluctuations of all quantum fields. If a fundamental theory could determine G, there is no reason to think it
+would come out to be independent of the number of species.
+The Zurek-Thorne interpretation sounds a lot like it is identifying the black hole entropy with the entropy
+of the thermal bath seen by accelerated observers outside the horizon. Actually, this is not the case. Besides the divergence, which might be cut oﬀ in some way, there is another problem with the idea that
+the thermal or entanglement entropies of quantum fields be identified with black hole entropy. Namely, this
+entropy depends on the number of diﬀerent fields in nature, whereas the black hole entropy is universal,
+always equal to A/4¯ hG.
+Various resolutions to the species problem have been suggested. The most natural one to my mind is
+that the renormalized Newton constant, which appears in the Bekenstein-Hawking entropy A/4¯ hG, depends
+on the number of species in just the right way to absorb all species dependence of the black hole entropy.
+To understand this point, we must include the gravitational degrees of freedom in our description, which we
+do in the next subsection.
+It should be remarked that the formal nature of the argument used to establish the equality ρext =
+exp(−βH) left us on somewhat shaky ground. It may be that entanglement and thermal entropies are not
+exactly the same. This issue is somewhat superseded by the considerations of the next subsection, in which
+the coupling of the matter and gravitational degrees of freedom is allowed for. Shortly after the Hawking eﬀect was discovered, Gibbons and Hawking proposed a formulation of quantum
+gravitational statistical mechanics that enabled them to compute the black hole entropy, and they got the
+right answer. Their approach was nevertheless not generally regarded as the final word, for several reasons
+to be discussed below, which is why people pursued the question in the ways already described above. In
+fact, Gibbons and Hawking even noted that their approach contains the thermal entropy of quantum fields
+as a one-loop quantum correction. The Gibbons-Hawking approach will now be described. The basic idea is to imitate standard methods of
+handling thermodynamic ensembles in other branches of physics. Thus, the goal is to compute the partition
+function Z= T r exp(−βH) for the system of gravitational and matter fields in thermal equilibrium at
+temperature T , from which the entropy and other thermodynamic functions can be evaluated. In fact it is
+better in principle to consider the microcanonical ensemble rather than the canonical one. This is because
+the canonical ensemble is unstable for a gravitating system. If a black hole is in a large heat bath at the
+Hawking temperature, a small fluctuation to larger mass will cause its temperature to drop, which leads
+to a runaway growth of the hole. Conversely, a small fluctuation to smaller mass will lead to a runaway
+evaporation of the hole.
+This instability can be controlled by putting the black hole in a very small container, with radius less than
+3/2 times the Schwarzschild radius (for a Schwarzschild black hole), and somehow holding the temperature
+at the box fixed. The reason this eliminates the instability is interesting: although a fluctuation to (say)
+larger mass causes the Hawking temperature to drop, this is more than compensated by the fact that the
+horizon has moved out, so the local temperature at the box is less redshifted than before, so the hole is in fact
+locally hotter than the box. Alternatively one can work with the more physical microcanonical ensemble, in
+which the total energy is fixed. In the following we shall for simplicity gloss over these refinements in the
+nature of the ensemble, unless explicit mention is called for.
+To actually compute Z would seem to require an understanding the Hilbert space of quantum gravity,
+something which we still lack. Gibbons and Hawking sidestepped this diﬃculty by passing to a path integral
+representation for Z whose semiclassical approximation could be plausibly evaluated. 
