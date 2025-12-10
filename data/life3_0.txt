@@ -186,7 +186,177 @@ The algorithmic complexity of our Universe (how many bits are needed to describe
 The amount of consciousness in our Universe (see next chapter) 
 However, when one starts with a physics perspective, where our cosmos consists of elementary particles in motion, it’s hard to see how one rather than another interpretation of “goodness” would naturally stand out as special. We have yet to identify any final goal for our Universe that appears both definable and desirable
 This means that to wisely decide what to do about AI development, we humans need to confront not only traditional computational challenges, but also some of the most obdurate questions in philosophy. To program a self-driving car, we need to solve the trolley problem of whom to hit during an accident. To program a friendly AI, we need to capture the meaning of life. What’s “meaning”? What’s “life”? What’s the ultimate ethical imperative? In other words, how should we strive to shape the future of our Universe? If we cede control to a superintelligence before answering these questions rigorously, the answer it comes up with is unlikely to involve us. This makes it timely to rekindle the classic debates of philosophy and ethics, and adds a new urgency to the conversation! 
-Although thinkers have pondered the mystery of consciousness for thousands of years, the rise of AI adds a sudden urgency, in particular to the question of predicting which intelligent entities have subjective experiences. As we saw in chapter 3, the question of whether intelligent machines should be granted some form of rights depends crucially on whether they’re conscious and can suffer or feel joy. As we discussed in chapter 7, it becomes hopeless to formulate utilitarian ethics based on maximizing positive experiences without knowing which intelligent entities are capable of having them. As mentioned in chapter 5, some people might prefer their robots to be unconscious to avoid feeling slaveowner guilt. On the other hand, they may desire the opposite if they upload their minds to break free from biological limitations: after all, what’s the point of uploading yourself into a robot that talks and acts like you if it’s a mere unconscious zombie, by which I mean that being the uploaded you doesn’t feel like anything? Isn’t this equivalent to committing suicide from your subjective point of view, even though your friends may not realize that your subjective experience has died? 
+Although thinkers have pondered the mystery of consciousness for thousands of years, the rise of AI adds a sudden urgency, in particular to the question of predicting which intelligent entities have subjective experiences. As we saw in chapter 3, the question of whether intelligent machines should be granted some form of rights depends crucially on whether they’re conscious and can suffer or feel joy. As we discussed in chapter 7, it becomes hopeless to formulate utilitarian ethics based on maximizing positive experiences without knowing which intelligent entities are capable of having them. As mentioned in chapter 5, some people might prefer their robots to be unconscious to avoid feeling slaveowner guilt. On the other hand, they may desire the opposite if they upload their minds to break free from biological limitations: after all, what’s the point of uploading yourself into a robot that talks and acts like you if it’s a mere unconscious zombie, by which I mean that being the uploaded you doesn’t feel like anything? Isn’t this equivalent to committing suicide from your subjective point of view, even though your friends may not realize that your subjective experience has died?  Even if
+we knew the exact equations of motion of the universe and the exact state of
+the universe after evaporation, we still would not be able to ascertain the
+information that went into the black hole. The radiation emitted by the black
+hole as it evaporates must be thermal, and indistinguishable between any
+two evaporated black holes—even if they were originally formed from two
+very different stars!
+An immediate consequence of this phenomenon is that if we knew the exact
+and precise state of the entire universe now (down to its fundamental particles),
+it would be in principle impossible to know what the universe was like a few
+years ago. Since our business as physicists is to use existing information to
+predict the evolution of the universe both forwards and backwards in time, this
+represents a catastrophic and unprecedented loss of determinism in physics.
+There is no other process which is known to result in net information loss.
+Thus we appear to require one of two unappealing options: either strong
+quantum gravity effects are needed to describe the large-scale dynamics of
+regions of the universe that look just like Mercury and the Sun, or physics
+is not a deterministic science. This is the black hole information paradox.
+This paradox has been a guiding post for progress on quantum gravity since its
+discovery by Hawking in 1975. Developments in string theory in the 1990s and
+2000s provided the first conclusive evidence that information is not lost. How
+information can be conserved, however, remained a mystery. Is semiclassical
+gravity violated at the event horizon of a black hole? How can this be, given that
+interactions between quantum effects and gravity must be extremely weak there?
+A NEW PERSPECTIVE
+In 2019, the tide turned with a set of two simultaneously submitted papers by
+myself and my collaborators Almheiri, Marolf and Maxfield, and in parallel,
+Penington. We executed a semiclassical gravity analysis of black hole evaporation
+that was consistent, by a famous litmus test, with information conservation.
+This test, known as the Page curve, tracks the behavior of the von Neumann
+entropy of the radiation. This entropy, which is different from the standard
+entropy of thermodynamics, measures how “entangled” (or, correlated) a system
+is with its complement. Given some quantum system, say, n qubits, we can
+divide it up into two complementary subsystems: R and B. R will stand for the
+radiation of a black hole and B for the remaining black hole. When R is the
+trivial empty set, i.e., R contains zero qubits, R is trivially uncorrelated with B. If black hole evaporation is to be unitary, then the von Neumann entropy of the
+radiation should start out at zero, increase for a while, then—once the black
+hole has fully evaporated—return to zero. The resulting curve is known as the
+Page curve. However, Hawking’s calculation shows that the von Neumann
+entropy of the radiation increases monotonically until the black hole has finished
+evaporating! The radiation, according to a semiclassical gravity treatment of the
+horizon, is now correlated with something that does not exist in the universe.
+In 2019 we found that there exists a different semiclassical analysis from
+Hawking’s that yields the Page curve. There was, however, a catch: while our
+calculation was within the regime of semiclassical gravity, and assumed that
+the standard picture of semiclassical gravity is an accurate description of the
+physics, the rules for how to compute certain quantities were vastly different
+from the standard rules of semiclassical gravity. By analogy, suppose you are
+asked to compute the pressure of an ideal gas in a cylinder. You may be tempted
+to compute the average velocity or momentum of the molecules of the gas
+and then use that to deduce the pressure. However, since the average velocity
+is zero, you would be led astray! Instead, we know that in the limit where
+thermodynamics is emergent from statistical mechanics, we must use PV = nRT,
+which is valid thermodynamically, but inherited from statistical mechanics.
+In complete analogy with the ideal gas law, we used the “quantum extremal
+surface formula,” proposed by myself and A. Wall in 2014, rather than the
+Hawking formula (analogous to the erroneous zero average velocity calculation).
+The logic is identical: in both cases, you use an alternative formula which follows
+from the underlying microscopics of the statistical mechanics of your system.
+This unusual approach gave us precisely the loophole we needed: the basic
+constructs of semiclassical gravity—space and time and its curvatures—
+can be consistent with information conservation, but only if we use the correct
+equations inherited from quantum gravity. This insight resulted in an explosion of progress across the field of black hole
+information: finally, there might be a way of having our cake and eating it too!
+We can have standard spacetime and geometry at the event horizon of a black
+hole without paying the price of determinism of physics.
+TOWARDS A RESOLUTION
+A significant question remained, however: why are the equations for various
+quantities modified by quantum gravity when a black hole is involved, but
+not modified for the Sun or Mercury? Last summer, my collaborators at MIT
+(Chris Akers, Daniel Harlow and Shreya Vardhan) and I, together with Penington,
+proposed a resolution for the distinguishing feature between black holes and
+other objects. Our resolution was predicated on an older insight by Daniel
+Harlow and Patrick Hayden that even though the information about the black
+hole interior must escape in its radiation, actually processing the radiation to
+distill information about the black hole is incredibly complex. To be precise, this
+“decoding” process of the black hole radiation would require a quantum computer
+to implement a circuit whose size is exponential in the size of the black hole.
+For a black hole with the mass of the Sun, this would be exponential in 1077! Black
+holes in general are extremely complex objects, which sets them apart from
+other astrophysical phenomena with similar curvature scales as those at the
+horizon of an astrophysical black hole. We proposed that semiclassical gravity is
+valid at low curvatures and low complexity; in our quantitative models, we saw
+that the modifications to the calculations required by the 2019 calculation of the
+Page curve can be attributed exactly to complexity in toy models of black holes.
+We will likely be exploring the consequences of these developments on quantum
+gravity for years to come. Just as the black hole information problem has served
+as a point of inspiration for a vast landscape of developments in quantum gravity,
+I predict
+—
+with confidence since the fundamental theory of our universe is, in
+fact, predictive!
+—
+that its resolution will do the same. Black Holes and their Effect on Objects
+One of the most interesting phenomena in the universe is the black hole.
+These massive titans of science are renowned for their incredible effect on
+anything around them, including light. While many people believe that they are an
+unrealistic element exaggerated by Sci-Fi, this is far from the truth. Black holes are
+truly a magnificent example of the marvels of space.
+Black holes exhibit extreme amounts of gravity around them, which pulls all
+matter nearby as well as dilating time. This gravity is so powerful that it can even
+trap light within its proximity. Due to the light being trapped inside the singularity,
+or center, of the blackhole, they appear as pitch-black spheres to the human eye.
+There is a small white border around the black hole known as the event horizon.
+Around the event horizon, there is typically a massive collection of Hawking
+radiation, usually expelled from the blackhole when it consumes stars or other
+massive entities, appearing as a sunset-colored cloud.
+A black hole is formed when matter is compressed to such a small point that
+it no longer has a volume. This typically happens when enormous stars implode
+and collapse onto themselves. Black holes are generally classified into three
+categories, being stellar-mass, supermassive, and intermediate mass.
+1 There is
+technically another class, being incredibly rare and not commonly recognized. This
+is an ultramassive black hole, larger than most galaxies with the power to reduce
+anything in the universe to nothing.
+When an object comes close to a black hole, it will begin to be drawn toward
+it with increasing force as it nears. In addition, time slows greatly. To an observer,
+time freezes to a halt for the object. Most small pieces of debris are obliterated by
+the massive amount of radiation, but for those strong enough to pass through it, an
+entirely different fate awaits. Due to the extreme gravity, objects will start to
+stretch out as they get near. This begins slowly, but the rate increases incredibly
+fast. Soon, it will be stretched out into a very thin strand, hence the process being
+nicknamed “spaghettification.
+” Then the strand is sucked into the black hole, past
+the event horizon. Once crossing the horizon, there is no possible way of turning
+back. From the observer’s point of view, the strand will vanish into the abyss of the
+black hole.
+Once inside the black hole’s larger body, the laws of physics no longer apply.
+Both time and space will change and swap roles. (according to Einstein’s theories)2
+At this point, time is the only force pulling objects closer to the singularity, which
+1 “Types of Black Holes,
+” accessed November 20, 2024, https://science.nasa.gov/universe/black-holes/types/.2 Chelsea Gohd,
+“What Happens When Something Gets
+‘Too Close
+’ To A Black Hole,
+”
+accessed November 20,
+2024, https://science.nasa.gov/universe/what-happens-when-something-gets-too-close-to-a-black-hole/.
+is why the event horizon is the point of no return. There is no force in the universe
+strong enough to contradict this pull, meaning anything drawn in is truly lost
+forever.
+The singularity of the black hole is positioned perfectly in the center, and is
+the source from which it is born. It is both infinitely dense as well as infinitely
+small, meaning that even atoms and quarks are larger. The immeasurable density is
+due to all of the matter sucked into the blackhole. The gravity is so strong, in fact,
+that it can merge objects into one another, creating a sensation of it devouring
+mass. As more matter is drawn in, the density increases, strengthening the pull of
+gravity around the black hole and expanding the visual area of it, allowing black
+holes to “grow.
+”
+Black holes “die” very slowly, over hundreds of billions of years. They
+typically just fizzle out from emitting too much hawking radiation and causing
+them to lose their mass. This, however, rarely ever happens. Black holes can also
+merge with each other, with the larger typically absorbing the smaller to add to its
+collective mass.
+When it comes to black holes, we don’t know very much for certain. We
+really have no way of testing theories as anything sent to a black hole would be
+destroyed. As a matter of fact, we can’t even see most black holes with a telescope.
+They are usually discovered by observing strange effects on nearby planets and
+stars. This, of course, sparks many theories. Some scientists even theorize that we
+are living inside a black hole, and while this may seem far-fetched, we currently
+have no way to disprove this theory.
+Black holes are one of the most incredible and awe-inspiring things in the
+universe. We may never understand them in their entirety, which contributes an
+amazing sense of wonder. However, one question still left in my mind is what
+would happen if a black hole came to Earth.
+the von Neumann entropy of R vanishes. If we repartition the system so that
+R has progressively more qubits, we at first expect its von Neumann entropy to
+increase. Analogously, as the black hole evaporates into radiation, the data in
+B must end up in R. Eventually, we can repartition the system so that B has zero
+qubits and R has all of the qubits. That is, the black hole has fully evaporated.
 For the long-term cosmic future of life (chapter 6), understanding what’s conscious and what’s not becomes pivotal: if technology enables intelligent life to flourish throughout our Universe for billions of years, how can we be sure that this life is conscious and able to appreciate what’s happening?
 So what precisely is it that we don't understand about consciousness? Few have thought harder about this question than David Chalmers, a famous Australian philosopher rarely seen without a playful smile and a black leather jacket— which my wife liked so much that she gave me a similar one for Christmas. He followed his heart into philosophy despite making the finals at the International Mathematics Olympiad — and despite the fact that his only B grade in college, shattering his otherwise straight As, was for an introductory philosophy course. Indeed, he seems utterly undeterred by put-downs or controversy, and I've been astonished by his ability to politely listen to uninformed and misguided criticism of his own work without even feeling the need to respond. 
 As David has emphasized, there are really two separate mysteries of the mind. First, there's the mystery of how a brain processes information, which David calls the " easy " problems. For example, how does a brain attend to, interpret and respond to sensory input? How can it report on its internal state using language? Although these questions are actually extremely difficult, they're by our definitions not mysteries of consciousness, but mysteries of intelligence: they ask how a brain remembers, computes and learns. Moreover, we saw in the first part of the book how AI researchers have started to make serious progress on solving many of these “ easy problems ” with machines — from playing Go to driving cars, analyzing images and processing natural language. 
@@ -1013,3 +1183,221 @@ encodes the displacement of the Dirac spinor. Thus a Dirac spinor could potentia
 through a change in its phase when parallel-transported around a curve back to the same point in spacetime.
 Since a change in phase is indistinguishable from a spatial rotation about the spin axis of the Dirac spinor,
 operationally torsion rotates particles, whence the name torsion.
+In fairy tales, a wizard will say the magic words of a spell, or inscribe a set of magic symbols, and the world will change. Fireballs shoot from their hands; the hero is revived from an endless slumber; a couple falls in love. We smile when we hear such stories. They seem quaint but implausible. Common sense tells us that merely speaking certain words, or inscribing certain symbols, cannot cause such changes in the world. And yet our scientific theories are not so different. By speaking the words or inscribing the symbols of such a theory, we can greatly deepen our understanding of the world. That new understanding then enables us to change the world in ways that formerly seemed impossible, even inconceivable. Consider quantum mechanics, one of our deepest theories. It has helped us create lasers, semiconductor chips, and magnetic resonance imaging. One day it will likely help us create quantum computers, perhaps even quantum intelligences. Quantum mechanics is magic that actually works.
+
+In this essay, we explain quantum mechanics in detail. We will describe all the principles of quantum mechanics in depth, nothing held back. It's not a handy-wavy treatment, of the kind often found in articles written for a general audience. While such articles can be entertaining, trying to learn quantum mechanics by reading them is like learning to play basketball by merely watching basketball being played. This essay will get you out on the mathematical court of quantum mechanics. Of course, you won't learn to slam dunk, at least not yet. But the essay will ground you in an understanding of the fundamentals of quantum mechanics, which you can later build upon and extend.
+
+To read the essay, you must first understand the quantum circuit model of quantum computation. If you're not familiar with quantum circuits, you can learn about them from our earlier essay, Quantum Computing for the Very Curious. You may wish to pause to read that essay now, if you haven't already. Once you've understood that material you shouldn't need any other prerequisites. Indeed, when you learned quantum computing, you learned in passing almost all of quantum mechanics. In Part I of this essay we distill those past ideas, collecting them up into the package known as quantum mechanics.
+
+Although quantum mechanics is not so difficult to learn, it's a theory which has disturbed many people. Here's a few classic quotes on this puzzlement:
+
+I think I can safely say that nobody understands quantum mechanics … Do not keep saying to yourself, if you can possibly avoid it, “But how can it be like that?” because you will get “down the drain”, into a blind alley from which nobody has yet escaped. Nobody knows how it can be like that. – Richard Feynman
+
+I have thought a hundred times as much about the quantum problems as I have about general relativity theory. – Albert Einstein
+
+If quantum mechanics hasn't profoundly shocked you, you haven't understood it yet. – Niels Bohr
+
+If quantum mechanics is not so difficult to learn, why has it so disturbed many great physicists? What do they mean when they say they don't understand it, or are shocked by it? How can a scientific theory be both beautiful and disturbing? In Part II of this essay we'll explore these questions. As we'll see, despite its simplicity quantum mechanics raises striking conceptual problems, problems which are among the most exciting open problems in science today.
+
+The essay is presented in an unusual form. It's an example of what we call a mnemonic essay, written in the mnemonic medium. That means it incorporates new user interface elements intended to make it almost effortless for you to remember and apply the ideas in the essay. The motivator is that most people (ourselves included) quickly forget much of what we read in books and articles. The mnemonic medium takes advantage of what cognitive scientists know about how humans learn, creating an interface which ensures you'll remember the ideas and how to apply them near permanently. More on how that works below.
+
+Part I: The postulates of quantum mechanics
+
+So, what is quantum mechanics? It's fun to wax poetic about it being magic that actually works, or to quote eminent scientists saying no-one really understands it. But while fun, those statements give no direct enlightenment. What is quantum mechanics, really?
+
+Quantum mechanics is simply this: it's a set of four postulates that provide a mathematical framework for describing the universe and everything in it. These postulates reflect ideas you've already seen in the quantum circuit model: how to describe a quantum state; how to describe the dynamics of a quantum system; and so on. But rather than talk abstractly, it's better to just see the first postulate:
+
+The first postulate: state space
+
+Postulate 1: Associated to any physical system is a complex vector space known as the state space of the system. If the system is isolated, then the system is completely described by its state vector, which is a unit vector in the system's state space.
+This may seem densely written, but you already know most of it. In particular, we've been working extensively with qubits, and we've seen this postulate in action. For a qubit the state space is, as you know, a two-dimensional complex vector space. The state is a unit vector in that state space (i.e., has length 
+1
+1). And the condition that the state vector is a unit vector expresses the idea that the probabilities for the outcomes of a computational basis measurement add up to
+1
+1.
+
+It's not just qubits that have a state space. The first postulate of quantum mechanics tells us that every physical system has a state space. An atom has a state space; a human being has a state space; even the universe as a whole has a state space. Admittedly, the first postulate doesn't tell us what the state space is, for any given physical system. That needs to be figured out on a case-by-case basis. Different types of atoms have different state spaces; a human being has a different (and much more complicated) state space; the universe has a more complicated state space still.
+
+As an example, suppose you're interested in what happens when you shine light on an atom. To give a quantum mechanical description, you'd need a state space to describe atoms and the electromagnetic field (i.e., light). A priori it's not obvious what that state space should be. How many dimensions should the state space have? How do particular physical configurations of atoms and light correspond to states in that state space? By itself, quantum mechanics doesn't answer these questions. It merely does the subtle-but-important job of instructing you to look for answers to these questions. Fortunately, there is a theory, known as quantum electrodynamics (often shortened to QED), which describes how atoms and light interact. Among other things, QED tells us which states and state spaces to use to give quantum descriptions of atoms and light.
+
+In a similar way, suppose we're trying to describe particles like quarks or the Higgs boson. Just as with the atoms-and-light example, quantum mechanics tells us we need figure out the right state spaces and state vectors. But it doesn't tell us what those are. In this case, the additional theory needed is the standard model of particle physics. Like QED, the standard model sits on top of basic quantum mechanics, fleshing it out, telling us things which aren't in the four postulates of quantum mechanics.
+
+More generally, quantum mechanics alone isn't a fully specified physical theory. Rather, it's a framework to use to construct physical theories (like QED). It's helpful to think of quantum mechanics as analogous to an operating system for a computer. On its own, the operating system doesn't do all the user needs. Rather, it's a framework that accomplishes important housekeeping functions, creating a file system, a graphical display and interface, and so on. But users need another layer of application software on top of those basic functions. That application layer is analogous to physical theories like QED and the standard model. The application layer runs within the framework provided by the operating system, but isn't itself part of the operating systemThis analogy was popularized in Scott Aaronson's book “Quantum Computing Since Democritus”; MN believes Scott first heard it in a talk MN gave at the Fields Institute in Toronto in 2001. This wouldn't warrant mention, except when MN uses the analogy, people often respond “oh yes, that's Scott Aaronson's way of thinking about quantum mechanics”. MN doesn't recall where he first heard it, or if the description is original..
+
+In this essay, we won't get deeply into QED or the standard model or the other theories physicists have developed to describe particular physical systems. Rather, our focus is on quantum mechanics itself – the four postulates. For examples, we'll mostly draw on the quantum circuit model, which makes simple and reasonable assumptions about state spaces and state vectors. This model is already an extremely rich arena for studying quantum mechanics. If you wish, you can learn later about QED, the standard model, and so on.
+
+Of course, this means there is still much more to learn, beyond the scope of this essay. Each physical system requires learning its own particular set of recipes for state spaces and state vectors. You already know some such recipes: if we say “let's consider a 3-qubit system”, then we know the state space is just the 8-dimensional complex vector space spanned by the computational basis states 
+∣
+0
+⟩
+∣
+0
+⟩
+∣
+0
+⟩
+∣0⟩∣0⟩∣0⟩,
+∣
+0
+⟩
+∣
+0
+⟩
+∣
+1
+⟩
+,
+…
+∣0⟩∣0⟩∣1⟩,…. By contrast, you probably don't know the recipe QED gives telling us how to construct the state space for a couple of hydrogen atoms interacting with the electromagnetic fieldA little more strictly speaking, QED tells us how charged elementary particles like electrons interact with the electromagnetic field. After QED was invented, atomic physicists and quantum opticians figured out how to use it to describe atoms and electromagnetic fields. And so the recipe you'd use would likely come from atomic physics or quantum optics.. While that recipe is different than in the three-qubit example, it's really much the same kind of thing. You learn the rules of the recipe, and then you can figure out the state spaces and quantum states.
+
+Where do the recipes for things like the state space of an atom (or the electromagnetic field) come from? The unglamorous answer is that figuring those things out for the first time was incredibly hard. As in: Nobel prize hard, or even multiple Nobel prize hard. People made lots of guesses, tried lots of different things, trying to figure out states and state spaces (and all the other things), constructed lots of bad theories, and lots of good-but-not-good-enough theories along the way. And, eventually, they came up with some great recipes. Most of the time today we can use one of those recipes off-the-shelf. You go pick up a book about atomic physics, say, and it'll just tell you: use such-and-such a state space, and away you go. But in the background is thousands of instances of trial-and-error by often-frustrated physicists.
+The first postulate of quantum mechanics told us how we describe states. What about how states change, that is, the dynamics of a quantum system? That's where the second postulate comes in. In the earlier essay we saw that quantum gates are described by unitary matrices acting on the state space of a quantum system. The second postulate tells us that something very similar is true for any isolated quantum system:
+
+Postulate 2: The evolution of an isolated quantum system is described by a unitary matrix acting on the state space of the system. That is, the state 
+∣
+ψ
+⟩
+∣ψ⟩ of the system at a time 
+t
+1
+t 
+1
+​	
+  is related to the state 
+∣
+ψ
+′
+⟩
+∣ψ 
+′
+ ⟩ at a later time 
+t
+2
+t 
+2
+​	
+  by a unitary matrix, 
+U
+U: 
+∣
+ψ
+′
+⟩
+=
+U
+∣
+ψ
+⟩
+∣ψ 
+′
+ ⟩=U∣ψ⟩. That matrix
+U
+U may depend on the times 
+t
+1
+t 
+1
+​	
+  and 
+t
+2
+t 
+2
+​	
+ , but does not depend on the states 
+∣
+ψ
+⟩
+∣ψ⟩ and 
+∣
+ψ
+′
+⟩
+∣ψ 
+′
+ ⟩.
+Our quantum gates demonstrate this postulate in action. So, for instance, the Pauli 
+X
+X gate, also known as the quantum NOT gate, is an example. Here it is shown in the quantum circuit and matrix representations, as well as the explicit action on states:
+
+
+So too is the Hadamard gate, 
+H
+H:
+
+
+And so on, through the controlled-NOT gate, the Toffoli gate, and all the other quantum gates we met earlier.
+
+Why is it unitary matrices which appear in the second postulate? If you try writing a few matrices down on paper, you quickly find that most matrices aren't unitary, or even close to it. Why can't we have a general matrix in the second postulate? One partial explanation, discussed in depth in the earlier essay, is that unitary matrices are the only matrices which preserve length. If we want the quantum state to remain normalized, then unitary matrices are the only matrices which do the trick, since any other matrix will result in the norm changing. That normalization is in turn connected to the requirement that the probabilities of measurement outcomes sum to one. In this sense, the postulates of quantum mechanics form a tightly interconnected web, with requirements like unitarity from one postulate reflecting requirements elsewhere, like normalization of the state vector, or probabilities summing to one.
+
+How to figure out which unitary transformation is needed to describe any particular physical situation? As you might guess from our discussion of the first postulate, the second postulate is silent on this question. It needs to be figured out case by case. Theories like QED and the standard model supply additional rules specifying the exact (unitary) dynamics of the systems they describe. It's as before: quantum mechanics is a framework, not a complete physical theory in its own right. But being told that the correct way to describe dynamics is using unitary transformations on state space is already an incredibly prescriptive statement. And, as before, the quantum circuit model is a useful source of examples, and working with it is a good way to build intuition.
+the early 1960s, quantum physics was regarded as one of the most successful theories of all time. It explained a wide range of phenomena to an unprecedented level of accuracy, from the structure of atoms and the formation of chemical bonds, to how lasers and superconductors worked. For some, it was more than just a theory, providing an all-encompassing framework for understanding the micro-world of elementary particles. However, it turned out that the very foundations of that entire framework were built on shaky ground – and the person who noticed wasn’t a physicist but an up-and-coming philosopher.
+
+The debate that resulted not only opened the door to new ways of thinking about those foundations, but also had tucked away within it, overlooked by all the participants at the time, an entirely different philosophical perspective on quantum physics – one that can be traced back to the phenomenological philosopher Edmund Husserl. The impact of that shift in perspective is only now being fully appreciated, offering an entirely novel understanding of quantum mechanics, one that prompts a complete re-evaluation of the relationship between philosophy and science as a whole.
+
+The philosopher who kick-started that debate was Hilary Putnam, who went on to make groundbreaking advances in philosophy of language and philosophy of mind, as well as in computer science, logic and mathematics. In 1961, he responded to a paper offering a resolution of the so-called Einstein-Podolsky-Rosen (EPR) paradox, which appeared to show that the description of reality offered by quantum mechanics could not be complete. In the course of his argument, Putnam pointed out that there was an even more profound problem that lay at the very heart of the theory, as it was standardly understood, and which had to do with one of the most basic of all scientific procedures: measurement.
+
+That problem can be set out as follows. A crucial element in the formalism of quantum mechanics is a mathematical device known as the ‘wave function’. This is typically taken to represent the state of a given system – such as an atom or an electron – as a superposition of all its possible states. So, consider an electron and the property known as ‘spin’. (This is not really the same as the spin put on a ball in a game of baseball or cricket, but the name has stuck.) Spin comes in two forms, labelled ‘up’ and ‘down’, and so when we use the wave function to represent the spin state of our electron as it travels towards our detector, it is as a non-classical superposition of spin ‘up’ and spin ‘down’. However, when we come to measure that spin, the outcome is always one or the other, either ‘up’ or ‘down’, never a superposition of both. How can we account for the transition from that superposition to a definite outcome when we perform a measurement?
+
+This question forms the basis of what came to be known as the ‘measurement problem’. One influential answer emerged from the mind of one of the greatest mathematicians of all time, János (or ‘John’) von Neumann, who was responsible for many important advances, not only in pure mathematics and physics but also in computer design and game theory. He pointed out that when our spin detector interacts with the electron, the state of that combined system of the detector + electron will also be described by quantum theory as a superposition of possible states. And so will the state of the even larger combined system of the observer’s eye and brain + the detector + electron. However far we extend this chain, anything physical that interacts with the system will be described by the theory as a superposition of all the possible states that combined system could occupy, and so the crucial question above will remain unanswered. Hence, von Neumann concluded, it had to be something non-physical that somehow generates the transition from a superposition to the definite state as recorded on the device and noted by the observer – namely, the observer’s consciousness. (It is this argument that is the source of much of the so-called New Age commentary on quantum mechanics about how reality must somehow be observer-dependent, and so on.)
+
+What bothered Putnam was that if we accept von Neumann’s conclusion, then the theory could not be extended to apply to the entire Universe, because that would require an observer existing beyond the physical universe whose consciousness would collapse the superposition of all the Universe’s possible states into one definite one. Either physicists would have to give up the idea that quantum theory was universally applicable, or the standard account of measurement would have to be abandoned.
+
+Putnam’s short paper, published in the journal Philosophy of Science, happened to be read by Henry Margenau, a former physicist turned philosopher of science, who then alerted the Nobel Prize-winning physicist Eugene Wigner. Together they published a response in which they defended von Neumann’s argument and dismissed Putnam’s concern. The debate then went back and forth over several years, the two sides essentially talking past each other until Abner Shimony decisively entered the fray. The holder of two PhDs, one each in philosophy and physics, and a former student of Wigner himself, Shimony subsequently went on to play a leading role in devising the experimental tests of Bell’s theorem (which builds on the EPR result by ruling out certain attempts to supplement quantum mechanics). He weighed in behind Putnam. The central concern was this: just how does consciousness effect this transition from a superposition to a definite state? With no satisfactory answer forthcoming, it appeared that Putnam and Shimony had won the day, clearing the philosophical ground for alternative approaches such as Hugh Everett’s Many-Worlds interpretation, according to which there is no such transition at all and each element of the superposition is realised as a definite outcome, albeit in a different branch of reality or alternative world.
+ather than drawing on von Neumann’s chain argument as presented in his own text, which was quite technical and had only recently been translated into English, both sides in the debate actually cited core passages from what Wigner referred to as a ‘little book’ by two other physicists, Fritz London and Edmond Bauer. Originally published in French in 1939, La théorie de l’observation en mécanique quantique (The Theory of Observation in Quantum Mechanics) formed part of a series of semi-popular expositions of the latest advances in science and technology, covering everything from anthropology to zoology. At just 51 pages long, the pamphlet aimed to set out clearly and accessibly not only the basic framework of the quantum mechanical treatment of measurement, but the role of consciousness in that process. Regarded by both sides as a mere summary of von Neumann’s argument, it was anything but.
+
+Both Bauer and London worked in Paris at the time, the former at the prestigious Collège de France and the latter at the Institut Henri Poincaré. Bauer was an excellent teacher and the first in France to teach the new quantum theory. London, however, was in a different league entirely. He earned his quantum mechanical spurs by showing how the theory could explain chemical bonding, leading his collaborator Walter Heitler to exclaim: ‘Now we can eat chemistry with a spoon!’ London went on to successfully apply the theory to superconductivity with his brother Heinz, and then used it to explain the superfluid behaviour of liquid helium, subsequently publishing a two-volume book on these phenomena that became a classic in the field.
+What is phenomenology? It can be summarised as a fundamental enquiry into the correlations between mental acts or experiences, the objects that these acts or experiences are about, and the contents or (where appropriate) meanings of these acts or experiences. Its primary tool is known as the epoché (from the Greek for ‘suspension’), which requires the phenomenological investigator to ‘bracket off’ the world around us, and suppress the ‘natural attitude’ that blithely takes that world to be objective. The idea is to break the hold that such an attitude has on us so that we may uncover the fundamental epistemological and metaphysical presuppositions underpinning it.
+
+It is important to note that this bracketing off does not mean ‘denying the existence of’. Adopting this manoeuvre does not amount to an endorsement of scepticism, nor should it be understood as leading to solipsism. Instead, by using the epoché, we can hold up to scrutiny both the supposedly objective world and that natural attitude, thereby reorienting our understanding of both. What we then discover is that the relationship between our consciousness and the world should be understood as ‘correlative’, in the sense that both exist in a ‘mutually dependent context of being’, as Maximilian Beck put it in 1928. This is not to say that consciousness and the world should be conceived of as existing independently of one another prior to being related, nor that the former somehow creates the latter. Rather, it is the correlations that constitute both consciousness and the world.
+
+There is a great deal more to phenomenology than this, and indeed not everyone agrees with the correlationist interpretation. But it is this view that underpins London and Bauer’s ‘little book’ on measurement in quantum mechanics, which played such a crucial role in the debate over the role of consciousness in that process. Recall that Margenau and Wigner defended the standard view that consciousness somehow produces a definite observation from a quantum superposition, taking London and Bauer to be simply summarising von Neumann’s argument. Putnam and Shimony, on the other hand, questioned that whole approach, pressing the point that it was unclear how consciousness could actually yield such a result. However, both sides in that debate missed the core point of the ‘little book’. London and Bauer actually went beyond von Neumann in adopting a phenomenological perspective on the issue, according to which consciousness plays a constitutive role via the correlation between the observer and the world. They themselves make it clear how they are departing from the standard approach in the introduction:
+
+Without intending to set up a theory of knowledge, although they were guided by a rather questionable philosophy, physicists were so to speak trapped in spite of themselves into discovering that the formalism of quantum mechanics already implies a well-defined theory of the relation between the object and the observer, a relation quite different from that implicit in naive realism, which had seemed, until then, one of the indispensable foundation stones of every natural science.
+What London and Bauer are saying here is that quantum mechanics must be understood as not just a theory like any other – that is, as about the world in some sense – but as a theory of knowledge in itself, insofar as it ‘implies a well-defined theory of the relation between the object and the observer’. This represents a crucial difference from classical physics as it is usually understood. From the perspective of quantum mechanics, the relationship between the observer and the object being observed must now be seen as quite different from that which underpins the previous stance of ‘naive realism’, which is typically adopted with regard to classical mechanics and which holds that objects exist entirely independently of all observation and possess measurable properties, whether these are actually measured or not. That view must now be abandoned. The core of London and Bauer’s text then represents an attempt to articulate the nature of that relationship between the observer and the object or system being measured.
+
+London and Bauer radically depart from von Neumann’s argument at a crucial juncture. In setting out the chain of correlations, from detector + system to observer’s body + detector + system, they do not stop at the consciousness of the observer but also include this in the overall quantum superposition. It is this move that expresses in physical terms the phenomenological idea of the ‘mutually dependent context of being’, so that not just the body of the observer but their consciousness is also correlated, quantum mechanically, with the system under investigation.
+
+How do we go from that correlation, manifested through the quantum superposition, to having a definite belief corresponding to our observation of a certain measurement outcome? Here, London and Bauer insist that
+
+it is not a mysterious interaction between the apparatus and the object that produces a new [wave function] for the system during the measurement. It is only the consciousness of an ‘I’ who can separate himself from the former function … and, by virtue of his observation, set up [or, in the original French, ‘constituer’, constitute] a new objectivity in attributing to the object henceforward a new function.
+In other words, the transition from a superposition to a definite state is not triggered in some mysterious fashion by the consciousness of the observer and, as a result, Putnam and Shimony’s concern regarding how consciousness can cause a definite state to be produced is simply sidestepped. Instead, what we have is a separation of consciousness from the superposition, leading to a ‘new objectivity’, that is, a definite belief on the part of the observer and a definite state attributed to the system.
+
+How can the observer step outside her own perspective and into that of another?
+
+This separation is effected, as London and Bauer explain, via
+
+a characteristic and quite familiar faculty which we can call the ‘faculty of introspection’. [The observer] can keep track from moment to moment of his own state. By virtue of this ‘immanent knowledge’ he attributes to himself the right to create his own objectivity – that is, to cut the chain of statistical correlations.
+And, in a typed note inserted by London in his own copy of the manuscript, he wrote:
+
+Accordingly, we will label this creative action as ‘making objective’. By it the observer establishes his own framework of objectivity and acquires a new piece of information about the object in question.
+It is this characteristic and familiar act of reflection that cuts the chain of statistical correlations expressed by quantum theory as a set of nested superpositions, and keeps the twin phenomenological poles of those correlations – namely consciousness and the world – mutually separate. And so, on the one hand, the system is objectified, or ‘made objective’, in the sense of having a definite state attributed to it, and, on the other, the observer acquires a definite belief state through this objectifying act of reflection.
+
+London and Bauer were not unaware of the radical nature of what they were saying. In the final section of their work, they acknowledge that, as a result, it might appear that the idea of scientific objectivity itself was under threat. Indeed, this is a general problem with all such views that deny that states of systems are observer-independent – how can the observer step outside her own perspective and into that of another, and thereby establish what London and Bauer call a ‘community of scientific perception’ about what constitutes the object of the investigation? Their response is to insist that ‘one always has the right to neglect the effect on the apparatus of the “scrutiny” of the observer.’
+
+To understand what they mean here, it is important to realise that the word ‘scrutiny’ in this quote is translated from ‘regard’ in the original French text, where the placing of this term between quote marks in the original text itself indicates its significance. Within phenomenology, this ‘regard-to’ is a fundamental reflective act, which, when directed to something, can be understood in terms of consciousness grasping or seizing upon it. When it comes to mental processes, their existence is, then, guaranteed by that ‘regard’. However, although physical objects are likewise brought within the purview of consciousness by the ‘regard’, their existence is not, of course, guaranteed by it (note that phenomenology does not amount to a form of solipsism).
+
+So, when it comes to the measurement apparatus, operated by the physicist in the ‘natural attitude’, we can neglect the effect on it of this ‘regard-to’. And we can further justify our ‘right’ to do so by appeal to what is now known as quantum decoherence. Although there were indications of the core principle behind this as early as 1929, the framework was clearly set out in the early 1970s. The basic idea is that, when a system interacts with the measurement apparatus, the coherence associated with the superposition appears to be lost among the many more physical degrees of freedom offered by the apparatus compared with that of the system. As a result, even though this process does not, in itself, lead to a definite state, as the superposition is still present, the behaviour of the measurement apparatus may be regarded as classical to all intents and purposes. The ‘scrutiny’ or ‘regard’ of the observer can be ignored (unlike the case when we do consider the transition to a definite state) and a collective scientific perception achieved.
+
+In a lecture given in 1925, shortly before the first papers on the new quantum mechanics appeared, Husserl made it clear that phenomenology needed to be brought down from the abstract heights of philosophical theorising and expressed in concrete terms, stating:
+
+The task that now arises is how to make [the] correlation between constituting subjectivity and constituted objectivity intelligible, not just to prattle about it in empty generality but to clarify it in terms of all the categorial forms of worldliness, in accordance with the universal structures of the world itself.
+A little more than 10 years later, in The Crisis of European Sciences and Transcendental Philosophy (1936), his final, magisterial, incomplete work, Husserl decried the way in which the mathematisation of ‘material nature’ had led to its conceptualisation as distinct from consciousness. In order for this split to be healed, he argued, there needed to be a fundamental shift back to ‘the universe of the subjective’ via the adoption of the phenomenological stance. Only then can the results of science in general, and physics in particular, be properly grasped and understood.
+
+Merleau-Ponty argued that the observer should not be placed beyond the reach of the wave function
+
+Unfortunately, Husserl died the year before London and Bauer’s ‘little book’ was published, but if he had read it he might have appreciated how they had, in effect, responded to both of his concerns. By couching the relationship between observer and system within a phenomenological framework, they clarified the correlation between constituting subjectivity and constituted objectivity in terms of that specific ‘categorial [form] of worldliness’ represented by quantum mechanics. Furthermore, London and Bauer showed that, by virtue of embodying that correlative relationship between ourselves and the world, quantum mechanics, conceived of phenomenologically, bridges the psychophysical divide and restores within physics, and indeed science as a whole, ‘the universe of the subjective’.
+
+This restoration of the phenomenological nature of London and Bauer’s text – something that was entirely overlooked in the debate between Putnam and Shimony, on one side, and Margenau and Wigner, on the other – is therefore important firstly for illustrating how that particular philosophical movement was entwined with the development of quantum physics, and secondly for situating this ‘little book’ at an early stage in the evolution of a philosophical approach to that theory that has been largely ignored within the philosophy of physics, at least until recently.
+
+This is not to say that other writers in the phenomenological tradition failed to bring quantum mechanics within their philosophical purview. Gurwitsch and Patrick Heelan also emphasised the phenomenological role of human consciousness in the measurement process, again citing London and Bauer. Maurice Merleau-Ponty, one of the most prominent phenomenological thinkers, similarly engaged with quantum theory while in Paris, and likewise argued that the observer should not be placed beyond the reach of the wave function, but must be included in the description of reality offered by physics. He went on to have a significant influence on subsequent writers, including Michel Bitbol who, together with his collaborators, has developed a form of eco-phenomenology that allies the phenomenological stance with an approach to quantum mechanics known as QBism. Initially developed by the physicist Christopher Fuchs, this similarly adopts a first-person approach that takes the concepts of agent and experience as fundamental, and understands the wave function as representing not the state of the system, but that of that agent when it comes to their possible future experiences.
+
+Recent developments such as these have converged in a series of conferences, in turn resulting in two landmark collections, both edited and with useful introductions by Harald Wiltsche and Philipp Berghofer: Phenomenological Approaches to Physics (2020), which also covers phenomenological approaches to the theory of relativity, and Phenomenology and QBism (2024).
+
+Within the phenomenological framework, then, one of the central problems of quantum mechanics is resolved or, perhaps better, dissolved, through a subtle but crucial shift to understanding it as a theory of knowledge by virtue of embodying our correlative participation in the world. Whether or not you fully agree with such a philosophical stance, it not only adds a hugely stimulating and potentially fruitful dimension to our understanding of one of the most fundamental constituents of modern physics, but also throws new light on the often-overlooked significance of philosophical reflection in these developments.
+However, London was not just a brilliant physicist. He was also keenly interested in philosophy from a young age. As a student at the University of Munich, he came to the attention of Alexander Pfänder, professor of philosophy and righthand man of Edmund Husserl, the founder of phenomenology. Indeed, London’s thesis on the nature of scientific theories was published in the leading phenomenological journal of the time, the Jahrbuch für Philosophie und Phänomenologische Forschung (the ‘Yearbook for Philosophy and Phenomenological Research’), which was edited by Pfänder himself. And this was no mere youthful fixation; London maintained his interest in phenomenology throughout his career. While in Paris, he had long discussions about physics and philosophy with his friend Aron Gurwitsch, who, like London, had an academic background in both subjects and went on to help establish phenomenology in the United States.
+That debate, as historically important as it was for the further development of the foundations of quantum mechanics, also contained a significant philosophical element that was completely overlooked for many years, and that not only offers an entirely novel response to Putnam and Shimony’s concern, but also opens the door to a fundamentally different understanding of quantum physics. What they didn’t notice was the phenomenological angle.
+More broadly: although quantum mechanics reached its final form in the 1920s, physicists spent much of the remainder of the twentieth century figuring out what unitary dynamics, state spaces, and quantum states are needed to describe this or that system. You can't just solve this problem once: optical physicists had to do it for light, atomic physicists for atoms, particle physicists have been doing it for the entire pantheon of particles described in the standard model of particle physics. Still, although there's much more to learn about the application of these two postulates, already they give us a remarkably constraining framework for thinking about what the world is and how it can change.
+A point we've glossed over is the use of the term isolated in the first postulate. In particular, the first postulate tells us that every physical system has a state space, but inserts the qualifier isolated when saying which physical systems have a state vector. By isolated we mean a system that's not interacting with any other system. Of course, most physical systems aren't isolated. An atom will interact with its surroundings (for instance, it may be hit by a photon, or perhaps be affected by the charge of a nearby electron). A human being isn't an isolated physical system either – we're constantly being bombarded by light, cosmic rays, and all sorts of other things.
+
+In general such non-isolated systems don't have their own quantum state! In fact, we saw an example in the earlier essay. 
