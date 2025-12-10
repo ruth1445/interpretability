@@ -598,7 +598,88 @@ with the Unruh temperature, ¯ h/TH = 2πc/a, is the time it takes for the veloc
 order c when the acceleration is a.
 Two derivations of the Unruh eﬀect will now be given, both of which are valid for arbitrary interacting
 scalar fields in spacetime of any dimension. (The generalization to fields of nonzero spin is straightforward.For a Schwarzschild black hole, κ = 1/2Rs = 1/4GM , so the Hawking temperature is TH = ¯ h/8πGM ,
-and the corresponding wavelength is λH = 2π/ω = 8π2Rs. A larger black hole is therefore cooler. Recall
+and the corresponding wavelength is λH = 2π/ω = 8π2Rs. A larger black hole is therefore cooler.
+Notice the subtle shift from the Newtonian perspective. The postulate is not that particles move in straight
+lines, but rather that there exist spacetime frames with respect to which particles move in straight lines.
+Implicit in the assumption of the existence of globally inertial frames is the assumption that the geometry of
+spacetime is flat, the geometry of Euclid, where parallel lines remain parallel to infinity. In general relativity,
+this postulate is replaced by the weaker postulate that local (not global) inertial frames exist. A locally
+inertial frame is one which is inertial in a “small neighbourhood” of a spacetime point. In general relativity,
+spacetime can be curved. Statement: “The laws of physics are the same in any inertial frame,
+regardless of position or velocity.”
+Physically, this means that there is no absolute spacetime, no absolute frame of reference with respect to
+which position and velocity are defined. Only relative positions and velocities between objects are meaningful.
+Mathematically, the principle of special relativity requires that the equations of special relativity be
+Lorentz covariant.
+It is to be noted that the principle of special relativity does not imply the constancy of the speed of light,
+although the postulates are consistent with each other. Moreover the constancy of the speed of light does
+not imply the Principle of Special Relativity, although for Einstein the former appears to have been the
+inspiration for the latter. In general, a Lorentz transformation consists of a spatial rotation about some
+spatial axis, combined with a Lorentz boost by some velocity in some direction.
+Only space along the direction of motion gets skewed with time. Distances perpendicular to the direction
+of motion remain unchanged. Why must this be so? Consider two hoops which have the same size when at
+rest relative to each other. Now set the hoops moving towards each other. Which hoop passes inside the
+other? Neither! For suppose Vermilion thinks Cerulean’s hoop passed inside hers; by symmetry, Cerulean
+must think Vermilion’s hoop passed inside his; but both cannot be true; the only possibility is that the hoops
+remain the same size in directions perpendicular to the direction of motion.
+If you have understood all this, then you have understood the crux of special relativity, and you can
+now go away and figure out all the mathematics of Lorentz transformations. The mathematical problem is:
+what is the relation between the spacetime coordinates {𝑡,𝑥,𝑦,𝑧}and {𝑡′,𝑥′,𝑦′,𝑧′}of a spacetime interval,
+a 4-vector, in Vermilion’s versus Cerulean’s frames, if Cerulean is moving relative to Vermilion at velocity 𝑣
+in, say, the 𝑥 direction? The solution follows from requiring
+1. that both observers consider themselves to be at the centre of the lightcone, as illustrated by Figure 1.4,
+and
+2. that distances perpendicular to the direction of motion remain unchanged, as illustrated by Figure 1.5.
+An alternative version of the second condition is that a Lorentz transformation at velocity 𝑣 followed by a
+Lorentz transformation at velocity −𝑣 should yield the unit transformation.
+Note that the postulate of the existence of globally inertial frames implies that Lorentz transformations
+are linear, that straight lines (4-vectors) in one inertial spacetime frame transform into straight lines in other
+inertial frames.
+You will solve this problem in the next section but two, §1.6. As a prelude, the next two sections, §1.4 and
+§1.5 discuss simultaneity and time dilation. How can simultaneity, the notion of events occurring at the same time at different places, be defined opera-
+tionally?
+One way is illustrated in the sequences of spacetime diagrams in Figure 1.6. Vermilion surrounds herself
+with a set of mirrors, equidistant from Vermilion. She sends out a flash of light, which reflects off the mirrors
+back to Vermilion. How does Vermilion know that the mirrors are all the same distance from her? Because the
+reflected flash from the mirrors arrives back to Vermilion all at the same instant. Vermilion asserts that the
+light flash must have hit all the mirrors simultaneously. Vermilion also asserts that the instant when the light
+hit the mirrors must have been the instant, as registered by her wristwatch, precisely half way between the
+moment she emitted the flash and the moment she received it back again. If it takes, say, 2 seconds between
+flash and receipt, then Vermilion concludes that the mirrors are 1 lightsecond away from her. The spatial
+hyperplane passing through these events is a hypersurface of simultaneity. More generally, from Vermilion’s
+perspective, each horizontal hyperplane in the spacetime diagram is a hypersurface of simultaneity. Vermilion and Cerulean construct identical clocks, Figure 1.8, consisting of a light beam which bounces off a
+mirror. Tick, the light beam hits the mirror, tock, the beam returns to its owner. As long as Vermilion and
+Cerulean remain at rest relative to each other, both agree that each other’s clock tick-tocks at the same rate
+as their own.
+But now suppose Cerulean goes off at velocity 𝑣 relative to Vermilion, in a direction perpendicular to the
+direction of the mirror. A far as Cerulean is concerned, his clock tick-tocks at the same rate as before, a tick
+at the mirror, a tock on return. But from Vermilion’s point of view, although the distance between Cerulean
+and his mirror at any instant remains the same as before, the light has farther to go. And since the speed
+of light is constant, Vermilion thinks it takes longer for Cerulean’s clock to tick-tock than her own. Thus
+Vermilion thinks Cerulean’s clock runs slow relative to her own.
+Cerulean defines surfaces of simultaneity using the same operational setup: he encompasses himself with
+mirrors, arranging them so that a flash of light returns from them to him all at the same instant. But whereas
+Cerulean concludes that his mirrors are all equidistant from him and that the light bounces off them all at the
+same instant, Vermilion thinks otherwise. From Vermilion’s point of view, the light bounces off Cerulean’s
+mirrors at different times and moreover at different distances from Cerulean, as illustrated in Figure 1.7.
+Only so can the speed of light be constant, as Vermilion sees it, and yet the light return to Cerulean all at
+the same instant.
+Of course from Cerulean’s point of view all is fine: he thinks his mirrors are equidistant from him
+An example of the application of the principle of special relativity is the construction of the energy-
+momentum 4-vector of a particle, which should have the same form in any inertial frame 
+3. The speed of light is constant. Statement: “The speed of light 𝑐 is a universal constant, the same in
+any inertial frame.”
+This postulate is the nub of special relativity. The immediate challenge of this Chapter, §1.3, is to confront
+its paradoxical implications, and to resolve them.
+Measuring speed requires being able to measure intervals of both space and time: speed is distance travelled
+divided by time elapsed. Inertial frames constitute a special class of spacetime coordinate systems; it is with
+respect to distance and time intervals in these special frames that the speed of light is asserted to be constant.
+In general relativity, arbitrarily weird coordinate systems are allowed, and light need move neither in
+straight lines nor at constant velocity with respect to bizarre coordinates (why should it, if the labelling
+of space and time is totally arbitrary?). However, general relativity asserts the existence of locally inertial
+frames, and the speed of light is a universal constant in those frames.
+In 1983, the General Conference on Weights and Measures officially
+Recall
 that in the case of the flat space Unruh eﬀect, the redshifting to infinity completely depletes the acceleration
 radiation, since the norm of the boost Killing field diverges at infinity.
 Two remarks should be made here regarding the state dependence of the above argument. First, the
@@ -846,3 +927,89 @@ nature of the ensemble, unless explicit mention is called for.
 To actually compute Z would seem to require an understanding the Hilbert space of quantum gravity,
 something which we still lack. Gibbons and Hawking sidestepped this diﬃculty by passing to a path integral
 representation for Z whose semiclassical approximation could be plausibly evaluated. 
+After a slow start, you cover ground at an ever increasing rate, crossing 50 billion lightyears, the distance
+to the edge of the currently observable Universe, in just over 25 years of your own time.
+Does this mean you go faster than the speed of light? No. From the point of view of a person at rest
+on Earth, you never go faster than the speed of light. From your own point of view, distances along your
+direction of motion are Lorentz-contracted, so distances that are vast from Earth’s point of view appear
+much shorter to you. Fast as the Universe rushes by, it never goes faster than the speed of light.
+This rosy picture of being able to flit around the Universe has drawbacks. Firstly, it would take a huge
+amount of energy to keep you accelerating at 𝑔. Secondly, you would use up a huge amount of Earth time
+travelling around at relativistic speeds. If you took a trip to the edge of the Universe, then by the time
+you got back not only would all your friends and relations be dead, but the Earth would probably be gone,
+swallowed by the Sun in its red giant phase, the Sun would have exhausted its fuel and shrivelled into a
+cold white dwarf star, and the Solar System, having orbited the Galaxy a thousand times, would be lost
+somewhere in its milky ways.
+Technical point. The Universe is expanding, so the distance to the edge of the currently observable Universe
+is increasing. Thus it would actually take longer than indicated in the table to reach the edge of the currently
+observable Universe. Moreover if the Universe is accelerating, as evidence from the Hubble diagram of Type Ia
+Supernovae indicates, then you will never be able to reach the edge of the currently observable Universe,
+however fast you go. The distortion of a scene when you move through it at near the speed of light can be calculated most directly
+from the Lorentz transformation of the energy-momentum 4-vectors of the photons that you see. The result
+is what I call the “Rules of 4-dimensional perspective.”
+Figure 1.19 illustrates the rules of 4-dimensional perspective, also called “special relativistic beaming,”
+which describe how a scene appears when you move through it at near light speed.
+On the left, you are at rest relative to the scene. Imagine painting the scene on a celestial sphere around
+you. The arrows represent the directions of light rays (photons) from the scene on the celestial sphere to you
+at the center.
+On the right, you are moving to the right through the scene, at 0.8 times the speed of light. The celestial
+sphere is stretched along the direction of your motion by the Lorentz gamma-factor 𝛾 = 1/√1−0.82 = 5/3
+into a celestial ellipsoid. You, the observer, are not at the centre of the ellipsoid, but rather at one of its foci
+(the left one, if you are moving to the right). The focus of the celestial ellipsoid, where you the observer are, is
+displaced from centre by 𝛾𝑣= 4/3. The scene appears relativistically aberrated, which is to say concentrated
+ahead of you, and expanded behind you.
+The lengths of the arrows are proportional to the energies, or frequencies, of the photons that you see. Special relativity was unsatisfactory almost from the outset. Einstein had conceived special relativity by
+abolishing the aether. Yet for something that had no absolute substance, the spacetime of special relativity
+had strikingly absolute properties: in special relativity, two particles on parallel trajectories would remain
+parallel for ever, just as in Euclidean geometry.
+Moreover whereas special relativity neatly accommodated the electromagnetic force, which propagated
+at the speed of light, it did not accommodate the other force known at the beginning of the 20th century,
+gravity. Plainly Newton’s theory of gravity could not be correct, since it posited instantaneous transmission
+of the gravitational force, whereas special relativity seemed to preclude anything from moving faster than
+light, Exercise 1.23. You might think that gravity, an inverse square law like electromagnetism, might satisfy
+a similar set of equations, but this is not so. Whereas an electromagnetic wave carries no electric charge, and
+therefore does not interact with itself, any wave of gravity must carry energy, and therefore must interact
+with itself. This proves to be a considerable complication.
+A partial solution, the principle of equivalence of gravity and acceleration, occurred to Einstein while
+working on an invited review on special relativity (Einstein, 1907). Einstein realised that “if a person falls
+freely, he will not feel his own weight,” an idea that Einstein would later refer to as “the happiest thought of
+my life.” The principle of equivalence meant that gravity could be reinterpreted as a curvature of spacetime. It is not always possible to cover a manifold with a single chart, that is, with a coordinate system such
+that every point of spacetime has a unique coordinate. A simple example of a 2-dimensional manifold that
+cannot be covered with a single chart is the 2-sphere 𝑆2, the 2-dimensional surface of a 3-dimensional sphere,
+as illustrated in Figure 2.2. Inevitably, lines of constant coordinate must cross somewhere on the 2-sphere.
+At least two charts are required to cover a 2-sphere.
+When more than one chart is necessary, neighbouring charts are required to overlap, in order that the
+structure of the manifold be consistent across the overlap. General relativity postulates that the mapping
+between the coordinates of overlapping charts be at least doubly differentiable. A manifold subject to this
+property is called differentiable.
+In practice one often uses coordinate systems that misbehave at some points, but in an innocuous fashion. The weak principle of equivalence states that: “Gravitating mass equals inertial mass.” General relativity
+satisfies the weak principle of equivalence, but then so also does Newtonian gravity.
+Einstein’s principle of equivalence is actually two separate statements: “The laws of physics in a
+gravitating frame are equivalent to those in an accelerating frame,” and “The laws of physics in a non-
+accelerating, or free-fall, frame are locally those of special relativity.”
+Einstein’s principle of equivalence implies that it is possible to remove the effects of gravity locally by going
+into a non-accelerating, or free-fall, frame. The structure of spacetime in a non-accelerating, or free-fall, frame
+is locally inertial, with the local structure of Minkowski space. By locally inertial is meant that at each point
+of spacetime it is possible to choose coordinates such that (a) the metric at that point is Minkowski, and (b)
+the first derivatives of the metric are all zero1. In other words, Einstein’s principle of equivalence asserts the
+existence of locally inertial frames. The general expression (2.114) for the commutator of the covariant derivative reveals the meaning of the
+torsion and Riemann tensors. The torsion and Riemann tensors describe respectively the displacement and the
+Lorentz transformation experienced by an object when parallel-transported around a curve. Displacements
+and Lorentz transformations together constitute the Poincaré group, the complete group of symmetries of
+flat spacetime.
+How can an object detect a displacement when parallel-transported around a curve? If you go around
+a curve back to the same coordinate in spacetime where you began, won’t you necessarily be at the same
+position? This is a question that goes to heart of the meaning of spacetime. To answer the question, you
+have to consider how fundamental particles are able to detect position, orientation, and velocity. Classically,
+particles may be structureless points, but quantum mechanically, particles possess frequency, wavelength,
+spin, and (in the relativistic theory) boost, and presumably it is these properties that allow particles to
+“measure” the properties of the spacetime in which they live. For example, a Dirac spinor (relativistic spin- 1
+2
+particle) Lorentz transforms under the fundamental (spin- 1
+2 ) representation of the Lorentz group, and is
+thus endowed with precisely the properties that allow it to “measure” boost and rotation, §14.10. The Dirac
+wave equation shows that a Dirac spinor propagating through spacetime varies as ∼𝑒𝑖𝑝𝜇𝑥𝜇, whose phase
+encodes the displacement of the Dirac spinor. Thus a Dirac spinor could potentially detect a displacement
+through a change in its phase when parallel-transported around a curve back to the same point in spacetime.
+Since a change in phase is indistinguishable from a spatial rotation about the spin axis of the Dirac spinor,
+operationally torsion rotates particles, whence the name torsion.
