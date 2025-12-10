@@ -640,7 +640,7 @@ time, of a stationary zero angular momentum particle just outside the horizon. T
 per unit mass that must be applied at infinity in order to hold the particle on its path. For a nonrotating
 neutral black hole the surface gravity is given by 1/4M , so a larger black hole has a smaller surface gravity.
 This happens to be identical to the Newtonian surface gravity of a spherical mass M with radius equal to
-the Schwarzschild radius 2M.
+the Schwarzschild radius 2M. 
 2.1.2 Zeroth Law
 Although κ is defined locally on the horizon, it turns out that it is always constant over the horizon of a
 stationary black hole. This constancy is reminiscent of the Zeroth Law of thermodynamics which states that
@@ -1252,7 +1252,29 @@ Of course, this means there is still much more to learn, beyond the scope of thi
 
 Where do the recipes for things like the state space of an atom (or the electromagnetic field) come from? The unglamorous answer is that figuring those things out for the first time was incredibly hard. As in: Nobel prize hard, or even multiple Nobel prize hard. People made lots of guesses, tried lots of different things, trying to figure out states and state spaces (and all the other things), constructed lots of bad theories, and lots of good-but-not-good-enough theories along the way. And, eventually, they came up with some great recipes. Most of the time today we can use one of those recipes off-the-shelf. You go pick up a book about atomic physics, say, and it'll just tell you: use such-and-such a state space, and away you go. But in the background is thousands of instances of trial-and-error by often-frustrated physicists.
 The first postulate of quantum mechanics told us how we describe states. What about how states change, that is, the dynamics of a quantum system? That's where the second postulate comes in. In the earlier essay we saw that quantum gates are described by unitary matrices acting on the state space of a quantum system. The second postulate tells us that something very similar is true for any isolated quantum system:
-
+“Quantum mechanics” is the description of the behavior of matter and light in all its details and, in particular, of the happenings on an atomic scale. Things on a very small scale behave like nothing that you have any direct experience about. They do not behave like waves, they do not behave like particles, they do not behave like clouds, or billiard balls, or weights on springs, or like anything that you have ever seen.
+Newton thought that light was made up of particles, but then it was discovered that it behaves like a wave. Later, however (in the beginning of the twentieth century), it was found that light did indeed sometimes behave like a particle. Historically, the electron, for example, was thought to behave like a particle, and then it was found that in many respects it behaved like a wave. So it really behaves like neither. Now we have given up. We say: “It is like neither.”
+There is one lucky break, however—electrons behave just like light. The quantum behavior of atomic objects (electrons, protons, neutrons, photons, and so on) is the same for all, they are all “particle waves,” or whatever you want to call them. So what we learn about the properties of electrons (which we shall use for our examples) will apply also to all “particles,” including photons of light.
+The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th century, which gave some indications about how small things do behave, produced an increasing confusion which was finally resolved in 1926 and 1927 by Schrödinger, Heisenberg, and Born. They finally obtained a consistent description of the behavior of matter on a small scale. We take up the main features of that description in this chapter.
+Because atomic behavior is so unlike ordinary experience, it is very difficult to get used to, and it appears peculiar and mysterious to everyone—both to the novice and to the experienced physicist. Even the experts do not understand it the way they would like to, and it is perfectly reasonable that they should not, because all of direct, human experience and of human intuition applies to large objects. We know how large objects will act, but things on a small scale just do not act that way. So we have to learn about them in a sort of abstract or imaginative fashion and not by connection with our direct experience.
+In this chapter we shall tackle immediately the basic element of the mysterious behavior in its most strange form. We choose to examine a phenomenon which is impossible, absolutely impossible, to explain in any classical way, and which has in it the heart of quantum mechanics. In reality, it contains the only mystery. We cannot make the mystery go away by “explaining” how it works. We will just tell you how it works. In telling you how it works we will have told you about the basic peculiarities of all quantum mechanics. To try to understand the quantum behavior of electrons, we shall compare and contrast their behavior, in a particular experimental setup, with the more familiar behavior of particles like bullets, and with the behavior of waves like water waves. We consider first the behavior of bullets in the experimental setup shown diagrammatically in Fig. 1–1. We have a machine gun that shoots a stream of bullets. It is not a very good gun, in that it sprays the bullets (randomly) over a fairly large angular spread, as indicated in the figure. In front of the gun we have a wall (made of armor plate) that has in it two holes just about big enough to let a bullet through. Beyond the wall is a backstop (say a thick wall of wood) which will “absorb” the bullets when they hit it. In front of the backstop we have an object which we shall call a “detector” of bullets. It might be a box containing sand. Any bullet that enters the detector will be stopped and accumulated. When we wish, we can empty the box and count the number of bullets that have been caught. The detector can be moved back and forth (in what we will call the x-direction). With this apparatus, we can find out experimentally the answer to the question: “What is the probability that a bullet which passes through the holes in the wall will arrive at the backstop at the distance x from the center?” First, you should realize that we should talk about probability, because we cannot say definitely where any particular bullet will go. A bullet which happens to hit one of the holes may bounce off the edges of the hole, and may end up anywhere at all. By “probability” we mean the chance that the bullet will arrive at the detector, which we can measure by counting the number which arrive at the detector in a certain time and then taking the ratio of this number to the total number that hit the backstop during that time. Or, if we assume that the gun always shoots at the same rate during the measurements, the probability we want is just proportional to the number that reach the detector in some standard time interval.
+For our present purposes we would like to imagine a somewhat idealized experiment in which the bullets are not real bullets, but are indestructible bullets—they cannot break in half. In our experiment we find that bullets always arrive in lumps, and when we find something in the detector, it is always one whole bullet. If the rate at which the machine gun fires is made very low, we find that at any given moment either nothing arrives, or one and only one—exactly one—bullet arrives at the backstop. Also, the size of the lump certainly does not depend on the rate of firing of the gun. We shall say: “Bullets always arrive in identical lumps.” What we measure with our detector is the probability of arrival of a lump. And we measure the probability as a function of x. The result of such measurements with this apparatus (we have not yet done the experiment, so we are really imagining the result) are plotted in the graph drawn in part (c) of Fig. 1–1. In the graph we plot the probability to the right and x vertically, so that the x-scale fits the diagram of the apparatus. We call the probability P12 because the bullets may have come either through hole 1 or through hole 2. You will not be surprised that P12 is large near the middle of the graph but gets small if x is very large. You may wonder, however, why P12 has its maximum value at x=0. We can understand this fact if we do our experiment again after covering up hole 2, and once more while covering up hole 1. When hole 2 is covered, bullets can pass only through hole 1, and we get the curve marked P1 in part (b) of the figure. As you would expect, the maximum of P1 occurs at the value of x which is on a straight line with the gun and hole 1. When hole 1 is closed, we get the symmetric curve P2 drawn in the figure. Now we wish to consider an experiment with water waves. The apparatus is shown diagrammatically in Fig. 1–2. We have a shallow trough of water. A small object labeled the “wave source” is jiggled up and down by a motor and makes circular waves. To the right of the source we have again a wall with two holes, and beyond that is a second wall, which, to keep things simple, is an “absorber,” so that there is no reflection of the waves that arrive there. This can be done by building a gradual sand “beach.” In front of the beach we place a detector which can be moved back and forth in the x-direction, as before. The detector is now a device which measures the “intensity” of the wave motion. You can imagine a gadget which measures the height of the wave motion, but whose scale is calibrated in proportion to the square of the actual height, so that the reading is proportional to the intensity of the wave. Our detector reads, then, in proportion to the energy being carried by the wave—or rather, the rate at which energy is carried to the detector.
+With our wave apparatus, the first thing to notice is that the intensity can have any size. If the source just moves a very small amount, then there is just a little bit of wave motion at the detector. When there is more motion at the source, there is more intensity at the detector. The intensity of the wave can have any value at all. We would not say that there was any “lumpiness” in the wave intensity. We have already worked out how such patterns can come about when we studied the interference of electric waves in Volume I. In this case we would observe that the original wave is diffracted at the holes, and new circular waves spread out from each hole. If we cover one hole at a time and measure the intensity distribution at the absorber we find the rather simple intensity curves shown in part (b) of the figure. I1 is the intensity of the wave from hole 1 (which we find by measuring when hole 2 is blocked off) and I2 is the intensity of the wave from hole 2 (seen when hole 1 is blocked).
+The intensity I12 observed when both holes are open is certainly not the sum of I1 and I2. We say that there is “interference” of the two waves. At some places (where the curve I12 has its maxima) the waves are “in phase” and the wave peaks add together to give a large amplitude and, therefore, a large intensity. We say that the two waves are “interfering constructively” at such places. There will be such constructive interference wherever the distance from the detector to one hole is a whole number of wavelengths larger (or shorter) than the distance from the detector to the other hole. Now we imagine a similar experiment with electrons. It is shown diagrammatically in Fig. 1–3. We make an electron gun which consists of a tungsten wire heated by an electric current and surrounded by a metal box with a hole in it. If the wire is at a negative voltage with respect to the box, electrons emitted by the wire will be accelerated toward the walls and some will pass through the hole. All the electrons which come out of the gun will have (nearly) the same energy. In front of the gun is again a wall (just a thin metal plate) with two holes in it. Beyond the wall is another plate which will serve as a “backstop.” In front of the backstop we place a movable detector. The detector might be a geiger counter or, perhaps better, an electron multiplier, which is connected to a loudspeaker. How can such an interference come about? Perhaps we should say: “Well, that means, presumably, that it is not true that the lumps go either through hole 1 or hole 2, because if they did, the probabilities should add. Perhaps they go in a more complicated way. They split in half and …” But no! They cannot, they always arrive in lumps … “Well, perhaps some of them go through 1, and then they go around through 2, and then around a few more times, or by some other complicated path … then by closing hole 2, we changed the chance that an electron that started out through hole 1 would finally get to the backstop …” But notice! There are some points at which very few electrons arrive when both holes are open, but which receive many electrons if we close one hole, so closing one hole increased the number from the other. Notice, however, that at the center of the pattern, P12 is more than twice as large as P1+P2. It is as though closing one hole decreased the number of electrons which come through the other hole. It seems hard to explain both effects by proposing that the electrons travel in complicated paths.
+It is all quite mysterious. And the more you look at it the more mysterious it seems. Many ideas have been concocted to try to explain the curve for P12 in terms of individual electrons going around in complicated ways through the holes. None of them has succeeded. None of them can get the right curve for P12 in terms of P1 and P2.
+Yet, surprisingly enough, the mathematics for relating P1 and P2 to P12 is extremely simple. For P12 is just like the curve I12 of Fig. 1–2, and that was simple. What is going on at the backstop can be described by two complex numbers that we can call ϕ1 and ϕ2 (they are functions of x, of course). The absolute square of ϕ1 gives the effect with only hole 1 open. That is, P1=|ϕ1|2. The effect with only hole 2 open is given by ϕ2 in the same way. That is, P2=|ϕ2|2. And the combined effect of the two holes is just P12=|ϕ1+ϕ2|2. The mathematics is the same as that we had for the water waves! (It is hard to see how one could get such a simple result from a complicated game of electrons going back and forth through the plate on some strange trajectory. We shall now try the following experiment. To our electron apparatus we add a very strong light source, placed behind the wall and between the two holes, as shown in Fig. 1–4. We know that electric charges scatter light. So when an electron passes, however it does pass, on its way to the detector, it will scatter some light to our eye, and we can see where the electron goes. If, for instance, an electron were to take the path via hole 2 that is sketched in Fig. 1–4, we should see a flash of light coming from the vicinity of the place marked A in the figure. If an electron passes through hole 1, we would expect to see a flash from the vicinity of the upper hole. If it should happen that we get light from both places at the same time, because the electron divides in half … Let us just do the experiment!
+Here is what we see: every time that we hear a “click” from our electron detector (at the backstop), we also see a flash of light either near hole 1 or near hole 2, but never both at once! And we observe the same result no matter where we put the detector. From this observation we conclude that when we look at the electrons we find that the electrons go either through one hole or the other. Experimentally, Proposition A is necessarily true.
+What, then, is wrong with our argument against Proposition A? Why isn’t P12 just equal to P1+P2? Back to experiment! Let us keep track of the electrons and find out what they are doing. For each position (x-location) of the detector we will count the electrons that arrive and also keep track of which hole they went through, by watching for the flashes. We can keep track of things this way: whenever we hear a “click” we will put a count in Column 1 if we see the flash near hole 1, and if we see the flash near hole 2, we will record a count in Column 2. Every electron which arrives is recorded in one of two classes: those which come through 1 and those which come through 2. From the number recorded in Column 1 we get the probability P′1 that an electron will arrive at the detector via hole 1; and from the number recorded in Column 2 we get P′2, the probability that an electron will arrive at the detector via hole 2. Is there not some way we can see the electrons without disturbing them? We learned in an earlier chapter that the momentum carried by a “photon” is inversely proportional to its wavelength (p=h/λ). Certainly the jolt given to the electron when the photon is scattered toward our eye depends on the momentum that photon carries. Aha! If we want to disturb the electrons only slightly we should not have lowered the intensity of the light, we should have lowered its frequency (the same as increasing its wavelength). Let us use light of a redder color. We could even use infrared light, or radiowaves (like radar), and “see” where the electron went with the help of some equipment that can “see” light of these longer wavelengths. If we use “gentler” light perhaps we can avoid disturbing the electrons so much.
+Let us try the experiment with longer waves. We shall keep repeating our experiment, each time with light of a longer wavelength. At first, nothing seems to change. The results are the same. Then a terrible thing happens. You remember that when we discussed the microscope we pointed out that, due to the wave nature of the light, there is a limitation on how close two spots can be and still be seen as two separate spots. This distance is of the order of the wavelength of light. So now, when we make the wavelength longer than the distance between our holes, we see a big fuzzy flash when the light is scattered by the electrons. We can no longer tell which hole the electron went through! We just know it went somewhere! And it is just with light of this color that we find that the jolts given to the electron are small enough so that P′12 begins to look like P12—that we begin to get some interference effect. And it is only for wavelengths much longer than the separation of the two holes (when we have no chance at all of telling where the electron went) that the disturbance due to the light gets sufficiently small that we again get the curve P12 shown in Fig. 1–3.
+In our experiment we find that it is impossible to arrange the light in such a way that one can tell which hole the electron went through, and at the same time not disturb the pattern. It was suggested by Heisenberg that the then new laws of nature could only be consistent if there were some basic limitation on our experimental capabilities not previously recognized. He proposed, as a general principle, his uncertainty principle, which we can state in terms of our experiment as follows: “It is impossible to design an apparatus to determine which hole the electron passes through, that will not at the same time disturb the electrons enough to destroy the interference pattern.” If an apparatus is capable of determining which hole the electron goes through, it cannot be so delicate that it does not disturb the pattern in an essential way. No one has ever found (or even thought of) a way around the uncertainty principle. So we must assume that it describes a basic characteristic of nature.
+The complete theory of quantum mechanics which we now use to describe atoms and, in fact, all matter, depends on the correctness of the uncertainty principle. Since quantum mechanics is such a successful theory, our belief in the uncertainty principle is reinforced. But if a way to “beat” the uncertainty principle were ever discovered, quantum mechanics would give inconsistent results and would have to be discarded as a valid theory of nature.
+“Well,” you say, “what about Proposition A? Is it true, or is it not true, that the electron either goes through hole 1 or it goes through hole 2?” The only answer that can be given is that we have found from experiment that there is a certain special way that we have to think in order that we do not get into inconsistencies. What we must say (to avoid making wrong predictions) is the following. If one looks at the holes or, more accurately, if one has a piece of apparatus which is capable of determining whether the electrons go through hole 1 or hole 2, then one can say that it goes either through hole 1 or hole 2. But, when one does not try to tell which way the electron goes, when there is nothing in the experiment to disturb the electrons, then one may not say that an electron goes either through hole 1 or hole 2. If one does say that, and starts to make any deductions from the statement, he will make errors in the analysis. This is the logical tightrope on which we must walk if we wish to describe nature successfully. This is the way Heisenberg stated the uncertainty principle originally: If you make the measurement on any object, and you can determine the x-component of its momentum with an uncertainty Δp, you cannot, at the same time, know its x-position more accurately than Δx≥ℏ/2Δp, where ℏ is a definite fixed number given by nature. It is called the “reduced Planck constant,” and is approximately 1.05×10−34 joule-seconds. The uncertainties in the position and momentum of a particle at any instant must have their product greater than or equal to half the reduced Planck constant. This is a special case of the uncertainty principle that was stated above more generally. The more general statement was that one cannot design equipment in any way to determine which of two alternatives is taken, without, at the same time, destroying the pattern of interference. Now in order to do this it is necessary to know what the momentum of the screen is, before the electron goes through. So when we measure the momentum after the electron goes by, we can figure out how much the plate’s momentum has changed. But remember, according to the uncertainty principle we cannot at the same time know the position of the plate with an arbitrary accuracy. But if we do not know exactly where the plate is, we cannot say precisely where the two holes are. They will be in a different place for every electron that goes through. This means that the center of our interference pattern will have a different location for each electron. The wiggles of the interference pattern will be smeared out. We shall show quantitatively in the next chapter that if we determine the momentum of the plate sufficiently accurately to determine from the recoil measurement which hole was used, then the uncertainty in the x-position of the plate will, according to the uncertainty principle, be enough to shift the pattern observed at the detector up and down in the x-direction about the distance from a maximum to its nearest minimum. Such a random shift is just enough to smear out the pattern so that no interference is observed.
+The uncertainty principle “protects” quantum mechanics. Heisenberg recognized that if it were possible to measure the momentum and the position simultaneously with a greater accuracy, the quantum mechanics would collapse. So he proposed that it must be impossible. Then people sat down and tried to figure out ways of doing it, and nobody could figure out a way to measure the position and the momentum of anything—a screen, an electron, a billiard ball, anything—with any greater accuracy. Quantum mechanics maintains its perilous but still correct existence.
+Let us show for one particular case that the kind of relation given by Heisenberg must be true in order to keep from getting into trouble. We imagine a modification of the experiment of Fig. 1–3, in which the wall with the holes consists of a plate mounted on rollers so that it can move freely up and down (in the x-direction), as shown in Fig. 1–6. By watching the motion of the plate carefully we can try to tell which hole an electron goes through. Imagine what happens when the detector is placed at x=0. We would expect that an electron which passes through hole 1 must be deflected downward by the plate to reach the detector. Since the vertical component of the electron momentum is changed, the plate must recoil with an equal momentum in the opposite direction. The plate will get an upward kick. If the electron goes through the lower hole, the plate should feel a downward kick. It is clear that for every position of the detector, the momentum received by the plate will have a different value for a traversal via hole 1 than for a traversal via hole 2. So! Without disturbing the electrons at all, but just by watching the plate, we can tell which path the electron used.
+We should say right away that you should not try to set up this experiment (as you could have done with the two we have already described). This experiment has never been done in just this way. The trouble is that the apparatus would have to be made on an impossibly small scale to show the effects we are interested in. We are doing a “thought experiment,” which we have chosen because it is easy to think about. We know the results that would be obtained because there are many experiments that have been done, in which the scale and the proportions have been chosen to show the effects we shall describe.
+The first thing we notice with our electron experiment is that we hear sharp “clicks” from the detector (that is, from the loudspeaker). And all “clicks” are the same. There are no “half-clicks.”
+At those places where the two waves arrive at the detector with a phase difference of π (where they are “out of phase”) the resulting wave motion at the detector will be the difference of the two amplitudes. The waves “interfere destructively,” and we get a low value for the wave intensity. We expect such low values wherever the distance between hole 1 and the detector is different from the distance between hole 2 and the detector by an odd number of half-wavelengths. The low values of I12 in Fig. 1–2 correspond to the places where the two waves interfere destructively.
+Now let us measure the wave intensity for various values of x (keeping the wave source operating always in the same way). We get the interesting-looking curve marked I12 in part (c) of the figure.P2 is the probability distribution for bullets that pass through hole 2. Comparing parts (b) and (c) of Fig. 1–1, we find the important result that
 Postulate 2: The evolution of an isolated quantum system is described by a unitary matrix acting on the state space of the system. That is, the state 
 ∣
 ψ
@@ -1399,5 +1421,594 @@ However, London was not just a brilliant physicist. He was also keenly intereste
 That debate, as historically important as it was for the further development of the foundations of quantum mechanics, also contained a significant philosophical element that was completely overlooked for many years, and that not only offers an entirely novel response to Putnam and Shimony’s concern, but also opens the door to a fundamentally different understanding of quantum physics. What they didn’t notice was the phenomenological angle.
 More broadly: although quantum mechanics reached its final form in the 1920s, physicists spent much of the remainder of the twentieth century figuring out what unitary dynamics, state spaces, and quantum states are needed to describe this or that system. You can't just solve this problem once: optical physicists had to do it for light, atomic physicists for atoms, particle physicists have been doing it for the entire pantheon of particles described in the standard model of particle physics. Still, although there's much more to learn about the application of these two postulates, already they give us a remarkably constraining framework for thinking about what the world is and how it can change.
 A point we've glossed over is the use of the term isolated in the first postulate. In particular, the first postulate tells us that every physical system has a state space, but inserts the qualifier isolated when saying which physical systems have a state vector. By isolated we mean a system that's not interacting with any other system. Of course, most physical systems aren't isolated. An atom will interact with its surroundings (for instance, it may be hit by a photon, or perhaps be affected by the charge of a nearby electron). A human being isn't an isolated physical system either – we're constantly being bombarded by light, cosmic rays, and all sorts of other things.
-
+Isaac Newton believed that light is composed of particles, and he had good reason
+to think so. All wave motion exibits interference and diﬀraction eﬀects, which are
+the signature of any phenomenon involving waves. Newton looked for these eﬀects
+by passing light through small holes, but no diﬀraction eﬀects were observed. He
+concluded that light is a stream of particles.
+One of Newton’s contemporaries, Christian Huygens, was an advocate of the wave
+theory of light. Huygens pointed out that the refraction of light could be explained
+if light moved at diﬀerent velocities in diﬀerent media, and that Newton’s inability
+to find diﬀractive eﬀects could be due simply to the insensitivity of his experiments.
+Interference eﬀects are most apparent when wavelengths are comparable to, or larger
+than, the size of the holes. If the wavelength of light were very small compared to the
+size of the holes used by Newton, interference eﬀects would be very hard to observe.
+Huygens turned out to be right. More sensitive optical experiments by Young
+(1801) and Fresnel demonstrated the interference and diﬀraction of light, and mea-
+surements by Foucault (1850) showed that the speed of light in water was diﬀerent
+from the speed of light in air, as required to explain refraction. Then Maxwell, in
+1860, by unifying and extending the laws of electricity and magnetism, demonstrated
+that electric and magnetic fields would be able to propagate through space as waves,
+traveling with a velocity v = 1/√µ0ϵ0, which turned out to equal, within experimen-
+tal error, the known velocity of light. Experimental confirmation of the existence of
+electromagnetic waves followed shortly after, and by the 1880s the view that light is
+a wave motion of the electromagnetic field was universally accepted.
+It is a little ironic that following this great triumph of the wave theory of light,
+evidence began to accumulate that light is, after all, a stream of particles (or, at least,
+light has particle properties which somehow coexist with its wave properties). The
+first hint of this behavior came from a study of black-body radiation undertaken by
+Max Planck, which marks the historical beginning of quantum theory.
+Any object, at any finite temperature, emits electromagnetic radiation at all pos-
+sible wavelengths. The emission mechanism is simple: atoms are composed of nega-
+tively charged electrons and positively charged nuclei, and upon collision with other
+atoms these charges oscillate in some way. According to Maxwell’s theory, oscillating
+charges emit (and can also absorb) electromagnetic radiation. So it is no mystery
+that if we have a metallic box whose sides are kept at some constant temperature
+T , the interior of the box will be filled with electromagnetic radiation, which is con-
+stantly being emitted and reabsorbed by the atoms which compose the sides of the
+box. There was, however, some mystery in the energy distribution of this radiation
+as a function of frequency. Since there can only be an integer number of photons n at any given frequency, each
+of energy hf, the energy of the field at that frequency can only be nhf. Planck’s
+restriction on energies is thereby explained in a very natural, appealing way.
+Except for one little thing. ”Frequency” is a concept which pertains to waves;
+yet Einstein’s suggestion is that light is composed of particles. The notion that
+the energy of each ”particle” is proportional to the frequency of the electromagnetic
+”wave”, which in turn is composed of such ”particles”, seems like an inconsistent mix
+of quite diﬀerent concepts. However, inconsistent or not, evidence in support of the
+existence of photons continued to accumulate, as in the case of the Compton eﬀect.
+2.3 The Compton Eﬀect
+Consider an electromagnetic wave incident on an electron at rest. According to clas-
+sical electromagnetism, the charged electron will begin to oscillate at the frequency of
+the incident wave, and will therefore radiate further electromagnetic waves at exactly
+the same frequency as the incident wave. Experiments involving X-rays incident on
+free electrons show that this is not the case; the X-rays radiated by the electrons are
+a frequencies lower than that of the incident X-rays. Compton explained this eﬀect
+in terms of the scattering by electrons of individual photons.
+According to special relativity, the relation between energy, momentum, and mass
+is given by
+E= p2c2 + m2c4 (2.14)
+For particles at rest (p= 0), this is just Einstein’s celebrated formula E= mc2
+.
+For a particle moving at the speed of light, such as a photon, the rest mass m = 0;
+otherwise the momentum would be infinite, since momentum p is related to velocity
+v via the relativistic expression
+p=
+mv
+(2.15)
+1−
+v2
+c2
+Then if, for a photon, m = 0 and E= hf, and given the relation for waves that
+v = λf, we derive a relation between photon momentum and wavelength
+E
+p=
+=
+c
+hf
+c
+=
+h
+λ (2.16)
+where λ is the wavelength of the electromagnetic wave; in this case X-rays.
+Now suppose that a photon of the incident X-ray, moving along the z-axis, strikes
+an electron at rest. The photon is scattered at an angle θ relative to the z-axis,
+while the electron is scattered at an angle φ, as shown in Fig. [2.4]. If⃗
+p1 denotes the
+momentum of the incident photon,⃗
+p2 denotes the momentum of the scattered photon,
+and⃗
+pe is the momentum of the scattered electron, then conservation of momentum
+tells us that
 In general such non-isolated systems don't have their own quantum state! In fact, we saw an example in the earlier essay. 
+Of course, it could be that the relation (2.28) is simply a practi-
+cal limit on measurement; a particle might have a definite position and momentum
+despite our inability to measure those quantities simultaneously. But the diﬃculty
+could also be much more profound: if a physical state is simply the mathematical
+representation of the outcome of an accurate measurement process (a view which
+was advocated in Fig. [1.5] of Lecture 1) and if accurate numbers (x, p) are never
+an outcome of any measurement, then perhaps we are mistaken in thinking that a
+physical state corresponds to definite values of (x, p). In other words, the origin of
+the uncertainty could be due to trying to fit a square peg (the true physical state,
+whatever that may be) into a round hole (the set (x, p)). At the very least, if x and
+p cannot be measured simultaneously, then there is certainly no experimental proof
+that the classical state is the true physical state. This view is obviously a very radical
+option; for the moment we only raise it as a possibility, and turn to the mystery of
+the stability of the atom.
+2.5 The Bohr Atom
+Atoms have radii on the order of 10−10 m, and have masses on the order of 10−26 kg.
+In 1911, Ernest Rutherford studied the internal structure of atoms by bombarding
+gold foil with α-particles from radioactive Cesium. By studying the scattering of
+the α-particles by the gold atoms (a topic we will turn to at the end of the course),
+Rutherford found that almost all the mass of the atom is concentrated in a positively
+charged nucleus, of radius on the order of 10−15 m, i.e. 100,000 times smaller than
+the radius of the atom itself. The nucleus is surrounded by much lighter, negatively
+charged electrons, which collectively account for less than 1/2000th of the total mass
+of the atom. Atomic structure was pictured as analogous to the solar system, with the
+nucleus playing the role of the sun, orbited by much lighter electrons (the ”planets”),
+bound in their orbits by Coulomb attraction to the nucleus.
+However, orbital motion is a form of accellerated motion, and electrons are charged
+particles. According to electromagnetic theory, an accellerating charged particle ra-
+diates electromagnetic waves. As electrons move in their orbits, they should be con-
+stantly radiating energy in the form of electromagnetic waves, and as the electrons
+lose energy, they should spiral into the nucleus; a process which would take only a
+fraction (about 10−10) of a second. By this reasoning, atoms should be about the size
+of nuclei, but in fact they are roughly 100,000 times larger. So what accounts for the
+stability of the electron orbits; why don’t electrons spiral into the nucleus?
+Another mystery of atomic structure was the existence of spectral lines. If a gas
+is placed in a discharge tube, with a suﬃciently large voltage diﬀerence maintained
+at opposite ends of the tube, the gas glows. But, unlike thermal radiation (which
+occurs due to random collisions among atoms) the light emitted from the discharge
+tube is not spread diﬀusely over a broad range of frequencies, but is composed instead
+of discrete, very definite wavelengths. Matter in the solid state consists of atoms in a regular (”crystalline”) array of
+some kind, and the atomic structure of solids is determined by X-ray diﬀraction. X-
+rays, being a form of wave motion, reflect oﬀ the atoms in the array, and interfere to
+form a pattern which can be calculated from the principles of physical optics, given a
+knowlege of the structure of the array, and the wavelength of the X-rays. The inverse
+problem, finding the structure of the array given the X-ray interference pattern, is
+the subject of X-ray crystallography.
+In 1927 Davisson and Germer, in an eﬀort to check De Broglie’s hypothesis that
+electrons are associated with wave motion, directed a beam of electrons at the surface
+of crystalline nickel. The electrons were reflected at various angles, and it was found
+that the intensity of the reflected electrons, as a function of reflection angle, was
+identical to the interference pattern that would be formed if the beam were instead
+composed of X-rays. Assuming that the electron beam was indeed some sort of
+wave, the wavelength could be determined from the intensity pattern of the reflected
+electrons. The wavelength λ was found to equal, within experimental error, the
+de Broglie prediction λ= h/p, where p is the electron momentum, determined by
+accellerating the incident beam of electrons across a known potential V. Apart from
+brilliantly confirming the existence of ”de Broglie waves”, this is an experiment with
+extraordinary and profound implications. To discuss these implications, it is useful
+to consider an experimental setup less complicated than that used by Davisson and
+Germer, in which the electrons are directed at an inpenetrable barrier containing two,
+very narrow, slits. First, however, we need an expression for the wavefunction of de
+Broglie waves. When a conclusion (eq. (3.35) in this case) turns out to be false, and the reasoning
+which led to the conclusion is correct, then there must be something wrong with
+the premises. The premises in this case are that the electrons in the beam travel
+independently of one another, and that each electron in the beam passed through
+either slit A or slit B. More generally, we have assumed that the electron, as a
+”pointlike particle”, follows a trajectory which takes it through one of the two slits
+on its way to the screen.
+It is easy to check whether the interference eﬀect is due to some collective inter-
+action between electrons in the beam. We can use a beam of such low intensity that
+the electrons go through the barrier one by one. It takes a little longer to accumulate
+the data needed to compute PA(y), PB (y), and P (y), but the results are ultimately
+the same. So this is not the explanation.
+Then perhaps we should stop thinking of the electron as a point-like object, and
+start thinking of it as literally a de Broglie wave? A wave, after all, can pass through
+both slits; that is the origin of interference. The problem with this idea is that de
+Broglie waves expand. At slits A and B, the wave is localized just in the narrow
+region of the open slits, but as the wave propagates towards the screen it expands,
+typically spanning (in a real electron diﬀraction experiment) a region on the order
+of 10 cm across. Then one would detect ”parts” of an electron. Likewise, a wave of such
+dimensions should leave a diﬀuse glow on a photographic plate, or a thick cylindrical
+track through a cloud chamber. None of this is ever observed. No matter how big
+the de Broglie wave of a single electron becomes (as big as a baseball, as big as a
+house...), only a single ”click” of a geiger counter is heard, only a sharp ”dot” on a
+photographic plate is recorded. An electron is not, literally, a wave. As far as can be
+determined from measurements of electron position, electrons are discrete, point-like
+objects.
+If electrons are pointlike objects, then one could imagine (with the help of a pow-
+erful microscope) actually observing the barrier as the electrons reach it, to determine
+if they go through slit A, or slit B, or somehow through both. If one would perform
+such an experiment,2 the result is that each electron is indeed observed to pass either
+through slit A or slit B (never both), but then the interference pattern is wiped out!
+Instead, one finds the uniform distribution of eq. (3.35). Thus if an electron is forced
+(essentially by observation) to go through one or the other of the two slits, the inter-
+ference eﬀect is lost. Interference is regained only if the electron is not constrained to
+a trajectory which has passed, with certainty, through one or the other slit.
+We are left with the uncomfortable conclusion that electrons are pointlike objects
+which do not follow definite trajectories through space. This sounds like a paradox:
+how then can electrons get from one point to another? It is actually not a paradox,
+but it does require a considerable readjustment of our concept of the physical state
+of electrons (not to mention atoms, molecules, and everything else that makes up the
+physical Universe). This will be the subject of the next lecture. If in fact we could determine the position and momentum to an accuracy greater
+than (6.25), then the particle would be left in a physical state with ∆x∆p <¯ h/2. But
+according to eq. (6.24) there are no such physical states. Therefore, measurements of
+that kind are impossible.
+The Uncertainty Principle is an unavoidable consequence of quantum theory, and
+if one could design a measurement process which would be more accurate than the
+bound (6.25), then quantum theory would be wrong. We have already discussed one
+attempt to measure x and p simultaneously, in the example of the Heisenberg mi-
+croscope. In that case it was found that the photon composition of light, combined
+with the Rayleigh criterion of resolution, results in ∆x∆p ≈¯ h, which is in agree-
+ment with the Uncertainty Principle. There have been other ingenious proposals for
+measurements which would violate the Uncertainty Principle, especially due to Al-
+bert Einstein in his discussions with Niels Bohr.1 A careful study of these proposals
+always reveals a flaw. In much the same way that the existence of perpetual motion
+machines is ruled out by the Second Law of Thermodynamics, the existence of an
+apparatus which would give a precise determination of position and momentum is in
+conflict with the nature of physical states in quantum mechanics.
+However, the example of Heisenberg’s microscope often leads to a misunderstand-
+ing that the Uncertainty Principle is simply saying that ”the observation disturbs
+what is being observed.” It is true that an observation usually changes the physical
+state of the observed system. But it is not true that this is full content of the Un-
+certainty principle. If position-momentum uncertainty were only a matter of light
+disturbing the observed particle, then we would be free to imagine that a particle
+really has a definite position and definite momentum at every moment in time, but
+that the physical properties of light prevent their accurate simultaneous determina-
+tion. This interpretation is wrong, because if a particle had a definite position and
+momentum at every moment of time, then the particle would follow a definite tra-
+jectory. We have already seen that the assumption that particles follow trajectories
+is inconsistent with electron interference. The Heisenberg principle is best under-
+stood, not as a slogan ”the observation disturbs what is observed,” but rather as a
+consequence of the nature of physical states in quantum mechanics, which cannot be
+simultaneously eigenstates of position and momentum. Despite the stationarity, this energy eigenstate is obviously just the limit of a non-
+stationary situation, in which an incoming wavepacket is scattered backwards by an
+infinite potential. During the (long) interval in which the incoming wavepacket (with
+∆p very small) reflects from the end of the tube, the wavefunction near the end of the
+tube looks very much like the energy eigenstate (8.10). In fact, in the ∆p → 0 limit,
+we can easily identify the part of the eigenstate that corresponds to the incoming
+wavepacket (φinc) and the part which corresponds to the scattered wavepacket (φref ).
+This is a general feature of unbound states: an unbound stationary state can be
+viewed as the limit of a dynamical situation, in which an incoming wavepacket of
+a very precise momentum is scattered by a potential. Part of the unbound state is
+identified as the incoming wave, other parts represent the scattered waves.
+As a second example, consider a particle wavepacket incident on the potential well
+of Fig. [8.1]. The incoming wavepacket is shown in Fig. [8.10a]. Upon encountering
+the potential, the wavepacket splits into a reflected wavepacket, moving backwards
+towards x = −∞, and a transmitted wavepacket which has passed through the well
+and is moving on towards x = +∞, as shown in Fig. [8.10c].1 At some intermediate
+time, the incoming and reflected wavepackets overlap, and as we take ∆p → 0 for the
+incoming wave, the incoming and reflected waves overlap over a very large region. We live in a world which is almost, but not quite, symmetric. The Earth is round,
+nearly, and moves in an orbit around the Sun which is circular, almost. Our galaxy
+looks roughly like a spiral. Human beings and most animals have a left-right symme-
+try; the left-hand side looks the same as the right-hand side, more or less. Starfish
+have a pentagonal symmetry, table salt has a cubic symmetry, and in general Nature
+abounds in geometrical shapes of various kinds.
+The symmetry which is apparent in large structures (animals, planets, galaxies...)
+is even more evident at the very small scales that are the domain of quantum physics.
+Symmetries appear in the arrangement of atoms in solids, in the arrangement of
+electrons in atoms, and in the structure of the nucleus. Symmetry principles are
+especially important for understanding the variety and behavior of the elementary
+particles, out of which all larger structures are built. Stars die. Their long lives are interesting and complex, occasionally culminating
+in fantastic explosions (supernovas) that can briefly outshine entire galaxies. The
+details are the subject matter of some other course. For us, it is suﬃcient to know
+that every ”living” star balances its immense gravitational force, which tends to crush
+all the atoms of the star inward to a single point, with an equally enormous outward
+pressure, due to the heat produced by nuclear fusion. Eventually, any star will exhaust
+its nuclear fuel, and then the gravitational force, unopposed, crushes the atoms of the
+star to a fantastic density. In the course of collapse, for stars greater than about one
+solar mass, the atomic electrons are absorbed by protons in the nuclei, via the process
+e− + p → n + ν (16.1)
+and the massless neutrinos ν, due to their weak interaction with all other matter,
+escape into space. At this stage, all of the particles composing the star are neutrons,
+the density of the star approximates that of atomic nuclei, and the dead star is known
+as a ”neutron star.” For stars with masses less than about four solar masses, that is
+the end of the story: the cold dead star remains as a neutron star until the end of
+time. But this brings up the question: what force can there possibly be, within the
+cold neutron star, that is capable of opposing the mighty gravitational force, which
+would otherwise crush all the matter of the star to a single point?
+It seems incredible that all this astrophysical drama should have anything at all
+to do with the apparently more mundane question of why some materials conduct
+electricity, and some don’t. Nevertheless, the physics of dead stars, and that of quite
+ordinary solids, are related in certain unexpected ways. Both neutron stars, and the
+electrons in cold metals, are examples of what are known as degenerate F ermi
+gases. We begin by taking up the question of how is it possible for certain solids to
+conduct electricity. A crystalline solid is a regular array of atoms, and, at first sight, conduction of
+electricity is a mystery: if electrons are bound to atoms, how is possible for them to
+move through the solid under the influence of a small electric field? The answer is
+that in a crystal, not all of the electrons are actually bound to the atoms; in fact,
+some of the electrons in the metal behave more like a gas of free particles, albeit with
+some peculiar characteristics which are due to the exclusion principle.
+To understand how electrons in a crystal can act as a gas, it is useful to solve for
+the electron energy eigenstates in a highly idealized model of a solid, known as the
+Kronig-Penny model, which makes the following simplifications:
+S1. The solid is one-dimensional, rather than three-dimensional. The N atoms are
+spaced a distance a from one another. In order that there are no special eﬀects
+at the boundaries, we consider a solid has no boundary at all, by arranging the
+atoms in a circle as shown in Fig. [16.1].
+S2. Instead of a Coulomb potential, the potential of the n-th atom is represented
+by a delta-function attractive potential well
+Vn(x) =−gδ(x− xn) (16.2)
+where xn is the position of the n-th atom.
+S3. Interactions between electrons in the 1-dimensional solid are ignored.
+Obviously, these are pretty drastic simplifications. The important feature of this
+model, which it shares with realistic solids, is that the electrons are moving in a
+periodic potential. For purposes of understanding the existence of conductivity, it
+is the periodicity of the potential, not its precise shape (or even its dimensionality)
+which is the crucial feature.
+Arranging the atoms in a circle, as in Fig. [16.1], means that the position variable
+is periodic, like an angle. Just as θ + 2π is the same angle as θ, so the position x + L
+is the same position as x, where
+L= N a (16.3)
+is the length of the solid. Let the position of the n-th particle be xn = na, n =
+0, 1, ..., N− 1, the potential then has the form. Thus there can a maximum of two
+electrons (spin up and spin down) at any allowed energy in an energy band.
+At the lowest possible temperature (T= 0 K), the electrons’ configuration is the
+lowest possible energy consistent with the Exclusion Principle. A perfect Insulator
+is a crystal in which the electrons completely fill one or more energy bands, and there
+is a gap in energy from the most energetic electron to the next unoccupied energy
+level. In a Conductor, the highest energy band containing electrons is only partially
+filled.
+In an applied electric field the electrons in a crystal will tend to accellerate, and
+increase their energy. But...they can only increase their energy if there are (nearby)
+higher energy states available, for electrons to occupy. If there are no nearby higher
+energy states, as in an insulator, no current will flow (unless the applied field is so
+enormous that electrons can ”jump” across the energy gap). In a conductor, there
+are an enormous number of nearby energy states for electrons to move into. Electrons
+are therefore free to accellerate, and a current flows through the material.
+The actual physics of conduction, in a real solid, is of course far more complex
+than this little calculation would indicate. Still, the Kronig-Penny model does a
+remarkable job of isolating the essential eﬀect, namely, the formation of separated
+energy bands, which is due to the periodicity of the potential.
+16.2 The Free Electron Gas
+In the Kronig-Penney model, the electron wavefunctions have a free-particle form in
+the interval between the atoms; there is just a discontinuity in slope at precisely the
+position of the atoms. In passing to the three-dimensional case, we’ll simplify the
+situation just a bit more, by ignoring even the discontinuity in slope. The electron
+wavefunctions are then entirely of the free particle form, with only some boundary
+conditions that need to be imposed at the surface of the solid. Tossing away the
+atomic potential means losing the energy gaps; there is only one ”band,” whose
+energies are determined entirely by the boundary conditions. For some purposes
+(such as thermodynamics of solids, or computing the bulk modulus), this is not such
+a terrible approximation.
+We consider the case of N electrons in a cubical solid of length L on a side. Since
+the electrons are constrained to stay within the solid, but we are otherwise ignoring
+atomic potentials and inter-electron forces, the problem maps directly into a gas of
+non-interacting electrons in a cubical box. According to the principles of quantum mechanics, physical states are normalized
+vectors in Hilbert space, and the sum of two vectors is another vector. If that vector
+is normalized, it is a physical state too. So the wavefunction (22.3) is, from this point
+of view, entirely kosher: it is a physically allowed state of the two-particle system. But
+then if we ask: what is the state of particle 1, when the two-particle system is in state
+(22.3), we discover that we can’t answer the question! Particle 1 is not in state ψA,
+nor is it in state ψC ; neither is it in a linear combination such as cψA(x1) + dψC (x1).
+The fact is, the state of particle 1 has become entangled with that of particle 2; it is
+impossible to specify the state of either particle separately, even if the two particles
+are non-interacting, and very far apart.
+The fact that the quantum states of composite systems can be inseparable (or
+entangled) in this way was first noticed by Einstein, Podolsky, and Rosen (”EPR”)
+in 1933. The consequences of this entanglement are truly mind-bending, even by the
+generous mind-bending standards of quantum mechanics.
+22.1 The EPR Paradox
+Einstein, Podolsky and Rosen were of the opinion that quantum mechanics is in some
+way incomplete, because it leads to (what they considered to be) a paradox in certain
+circumstances. To illustrate their point, we consider the following experiment (Fig.
+22.1). Every time a button is pushed, two spin 1/2 particles are ejected, in opposite
+directions, each particle eventually passing through a detector which measures the
+spin of the particle along a given axis. The detectors can be rotated, so that the spin
+along any axis, in particular along the x- and z-axes, can be measured. After many
+trials, the following result is reported:
+A. Both detectors are set to measure spin along the z-axis. Whenever the spin of the
+particle on the left is found to be spin up, and this occurs 50% of the time, the
+spin of the particle on the right is found to be spin down. Likewise, whenever
+the particle on the left is found to be spin down, which is the other 50% of the
+time, the particle on the right is found to be spin up.
+This means that by measuring the z-component of the spin of the particle on the
+left, we can determine the z-component of the spin of the particle on the right, without
+actually interacting with the particle on the right. Suppose, in a particular run, that
+the particle which moves to the left (which we’ll now call ”L”) is found to be spin-
+up. With observable O2 and state Ψ chosen in this way, then by following the standard
+rules of quantum theory we can compute the probabilities for finding outcomes GG,
+RR, RG, and GR, for switch settings 12, 21, 22, and 11. These probabilities are
+shown in Fig. 22.3 They are in complete agreement with the asserted results (A), (B)
+and (C) above.
+In this way, Bell’s Theorem is proven. There are physical states in quantum
+mechanics which lead to predictions that can never be reproduced by a local hidden
+variables theory. These physical states are always of the ”entangled” form, in which
+it is impossible to deduce the state of either particle separately.
+Of course, the example constructed here, although suﬃcient to prove theorem,
+is rather special. Bell’s theorem, in more generality, states that if the measured
+values of various observables violate certain inequalities, then those results cannot be
+explained by any local hidden variables theory. This brings us to an experimental
+question: Maybe quantum mechanics is wrong! Can we actually observe, in the
+laboratory, results which violate the Bell inequalities (i.e. cannot be explained by
+local hidden variable theories)? The relevant experiments were performed by Aspect and his collaborators in the
+1970s. The two particles were two photons produced by the decay of Positronium
+(an electron-positron bound state). All of the quantum-mechanical predictions were
+confirmed. The mysterious non-local behavior of quantum theory, in which a mea-
+surement of particle 1 somehow causes the distant particle 2 to jump into a state of
+definite spin, cannot be explained by a local hidden variables theory. Defined in this way, the states {ϕn(x2)} do not have to be orthogonal, they do not
+even have to be diﬀerent states. If all the {ϕn(x2)} are the same state, then Ψ(x1, x2)
+is separable. If at least some of the {ϕn(x2)} are diﬀerent, then Ψ(x1, x2) is entangled.
+Now we make the measurement of observable A on particle 1, and one of the
+eigenvalues, λ= λk say, is obtained. This means that particle 1 has jumped into
+the state φk(x1). But, if the intial state is entangled, it also means that particle 2
+has jumped into state ϕk(x2), which it was not in before. In other words, the entire
+two-particle state Ψ(x1, x2) has ”jumped” into state φk(x1)ϕk(x2), even if particles
+1 and 2 are far apart, and a measurement is performed only on particle 1. This
+certainly seems like a non-local influence, and Bell’s Theorem prevents the ”cheap”
+explanation that particle 2 was really in state ϕk(x2) (perhaps supplemented by some
+”hidden” variables) all along.
+Its natural to suppose that if a measurement at detector 1 causes something to
+happen to the distant particle 2, then this eﬀect could be used to send messages, in-
+stantaneously, between the observer at detector 1 and the observer at detector 2. But
+if instantaneous (or in general, faster than light) communication were possible, then
+according to special relativity it should also be possible to send messages backwards
+in time. This would have some interesting practical applications. A typical scenario
+is as follows:
+The four accomplices had planned it for years, after coming into pos-
+session of two pairs of super-secret - and highly illegal - quantum radios.
+Now for the payoﬀ. John, the ringleader, stands at the betting window of
+a major racetrack, while his wife, Mary, waits impatiently on the planet
+Mars. The third participant, Rajiv, is piloting a rocketship which is head-
+ing towards Earth at a very substantial fraction of the speed of light. His
+partner, F atima, is on another rocketship, moving parallel to Rajiv and
+at equal speed towards Mars. The objective of all these preparations is
+for John to learn the name of the winning horse at the Kentucky Derby,
+before the race is actually run.
+The worldlines of all four participants are indicated on a spacetime diagram shown
+in Fig. 22.4. At point A in Fig. 22.4, the race has just ended.
+”Niels Bohr”, a long shot paying 200 to 1, has come in first. As Rajiv’s
+rocket streaks overhead, John signals the name of the winning horse to
+him. Rajiv then uses his quantum radio to send this information instan-
+taneously to F atima. When Rajiv signals the name of the winning horse to F atima, she re-
+ceives this information at spacetime point B’, just as her rocket is passing
+Mars. F atima relays the important information to Mary, and then Mary
+contacts John, again by quantum radio, and transfers the message instan-
+taneously (in the John-Mary rest frame) to Earth. The message reaches
+John at spacetime point B, several minutes before the race is to begin.
+John places a very large bet on ”Niels Bohr” to win, and ...
+Lets leave the story there. Could entangled states be used to send instantaneous
+messages in this way, even in principle? To answer this question, we again consider the
+apparatus shown in Fig. 22.2. John is at detector 1. Mary is at detector 2, but has an
+arsenal of laboratory equipment available to her, and can measure any observable she
+likes. Is there some observation which she could perform on the right-hand particles,
+which would tell her
+I. whether John has turned on his detector; or
+II. if John’s detector is on, whether the switch is on setting 1 or setting 2? Entangled states are the norm, not the exception, in quantum mechanics. Generally
+speaking, when any two systems come into interaction, the resulting state of the
+combined system will be entangled. In this technical sense of quantum inseparability,
+the poet was right: no man is an island. No electron is an island either.
+As we have seen, the existence of entangled states means that a measurement
+of one system can cause the second system, perhaps very distant from the first, to
+jump into one or another quantum state. It is time to return to the EPR criticism:
+”Isn’t this situation paradoxical? Doesn’t it imply that something must be wrong
+with quantum theory?”
+Now first of all, as pointed out by Niels Bohr in his response to EPR, this situation
+is not really a paradox. The non-locality pointed out by EPR is certainly very, very
+strange. But quantum non-locality is not actually a paradox in the sense of being a
+logical contradiction.
+”Well then, doesn’t this non-local behavior violate theory of Relativity?” Accord-
+ing to relativity theory, after all, no signal can propagate faster than the speed of
+light, so how can the state of particle 2 change instantaneously, in the laboratory
+reference frame, upon measurement of particle 1? Here we must be careful - the
+relativistic prohibition is against information propagating faster than the speed of
+light. If such propagation were possible, it would also be possible to send messages
+backwards in time, which would raise many other (authentic!) paradoxes. we have just seen that the observer at detector 2 can never, by simply observing one
+of the particles, conclude anything about the settings of detector 1. Non-locality is
+not a violation of relativity in the sense of information transfer.
+At this point, it is worth noting is that non-locality is not really unique to entan-
+gled states; some kind of non-local eﬀect occurs in almost any measurement. Con-
+sider, for example a single particle, whose wavepacket ψ(x) is distributed uniformly
+in a large, dark room, filled with particle detectors. At a given time t= 0 the detec-
+tors are suddenly all switched on and, just as suddenly, the position of the particle
+is measured. This means that the wavepacket of the particle, which was spread all
+over the room at t < 0, suddenly collapses to a narrow gaussian in the region of one
+of the detectors at t= 0. This is known as the ”collapse of the wavefunction”, and it
+also seems to be a form of non-local behavior. If we think of the particle wavepacket
+as some sort of fluid, by what mechanism does it instantaneously collapse?
+Now, in volume 1 of these notes I have urged you to avoid thinking of the wavefunc-
+tion as representing some sort of material fluid. There are just too many diﬃculties
+inherent in that kind of picture. Rather, one should think of Hilbert Space, rather
+than ordinary space, as being the arena of dynamics, where the state (vector) of a
+system evolves continuously, according to the Schrodinger equation, by rotation. This
+change of arena alleviates a lot of the problems associated with non-locality. On the
+other hand, I also said that a measurement causes the state to ”jump,” probabilisti-
+cally, into one of a number of eigenstates of the quantity being measured.
+Its time to face up to the real problem, the hard problem: By what process does
+a measurement cause a state to suddenly jump to one of a set of states? Can this
+behavior itself be explained quantum mechanically? This very puzzling issue has not
+been settled to this day. It is known as the Problem of Measurement. The simplest answer was given by von Neumann, who urges us to follow the chain
+of events into the brain of the observer. The detector is in a superposition of ”red
+light/green light” states, and it emits photons in a superposition of the corresponding
+frequencies. The photons reach the retina of the observer, and certain neurons are
+left in a superposition of excited/un-excited states. The message from the retina
+travels to the cerebral cortex; very large collections of neurons are now in quantum
+superpositions, and the brain remains in such a superposition until, at some point, a
+sensation occurs. At the instant of conscious perception, the observer, the detector,
+and even the particle, jump into one or the other of the ”up/down, red/green” states.
+What von Neumann is suggesting is that human consciousness causes the wave-
+function to ”collapse,” with a certain probablity, into one or another of the possible
+neural states; the collapse of the wavefunction occurs due to the awareness of the
+observer. It follows, since the Schrodinger equation can never cause a wavefunction
+to collapse (i.e. cause a pure state to go to a mixture), that the mental function
+described as ”awareness” or ”conciousness” cannot be described by the Schrodinger
+equation; it is not a physical process in the usual sense.
+The notion that there is something special about conciousness, and that it cannot
+be explained by the dynamical laws that govern all other physical processes, is anath-
+ema to most scientists. It is reminiscent of vitalism; a theory which held that one
+must look beyond the usual laws of physics and chemistry to explain the processes
+which occur in living organisms. This theory was, of course, long ago discredited by
+spectacular advances in molecular biology.
+Still, von Neumann’s idea should not be rejected out of hand. Philosophers have
+argued for centuries about the so-called mind/body problem, and there exist sophisti-
+cated arguments to the eﬀect that, e.g., a computer following a complicated algorithm
+to simulate some aspect of human behavior can never actually ”understand” what it
+is doing.1 In the absence of any well-established ”Theory of Consciousness,” it is not
+entirely obvious that awareness can be explained entirely in terms of the dynamics
+of molecules obeying the Schrodinger equation. von Neumann argues that mental
+processes simply cannot be explained in this way, due to the absence of superimposed
+mental states. His argument, although obviously radical, cannot be immediately
+dismissed. Rather, the wavefunction is a compact
+representation of the observer’s information about the observables of a given object,
+and merely describes the possible outcome of a series of measurements. Put another
+way, the wavefunction does not refer to ”physical reality” per se, in the absence of an
+observer; it serves only to predict and correllate measurements. If there is no observer,
+then no meaning can be attached to a quantum-mechanical wavefunction. From this
+point of view, the ”collapse” of the wavefunction does not describe a new physical
+process; it is just a change in the information available to the observer, obtained by
+measurement.
+The main criticism that can be leveled at Bohr’s interpretation is that it becomes
+meaningless to speak of the physical state of an object in the absence of an observer.
+How, then, can we describe quantum-mechanical processes that may have occured
+in nature prior to the evolution of human beings, or events which, for one reason
+or another, may have escaped human scrutiny? In classical physics, every object in
+the Universe has a physical state, a definite position and momentum, regardless of
+whether or not human beings are around to measure that state. Not so for quantum
+mechanics, at least in the Bohr interpretation. It is impossible, in this view, to
+imagine that any object is in any definite quantum state, without at least an implicit
+reference to the Observer.
+The fact that human observers are somehow an essential feature of the quantum-
+mechanical description of nature is, for some, a very troubling aspect of Bohr’s view.
+In general, the Copenhagen interpretation has something of the flavor of logical pos-
+itivism, a philosophy which holds that the purpose of science is to correllate mea-
+surements, rather than describe some ”objective” reality. ”Objective reality,” in the
+positivist view, is a meaningless concept, and science should be formulated entirely
+in terms of quantities which can be measured directly. This view, in the hands of
+Mach and others, had considerable influence on physics in the early 20th century, and
+certainly the Copenhagen interpretation show traces of this influence.
+It is a little distressing to think that science is not about Nature, but only about
+correllating measurements. Still, the consistency of the Copenhagen interpretation,
+and its ability to evade puzzles connected with the apparent non-local ”collapse” of
+entangled wavefunctions, should not be underestimated. To the extent that there is
+an ”oﬃcial” interpretation of quantum theory, it would be the Copenhagen view. In classical physics the Euler-Lagrange equations are derived from the condition that
+the action S[x(t)] should be stationary. These second order equations are equiva-
+lent to the first order Hamilton equations of motion, which are obtained by taking
+appropriate derivatives of the Hamiltonian function H[q, p]. Now the Hamiltonian
+is a quantity that we have encountered frequently in these pages. But what about
+the action? It would be surprising if something so fundamental to classical physics
+had no part at all to play in quantum theory. In fact, the action has the central
+role in an alternative approach to quantum mechanics known as the ”path-integral
+formulation.”
+Lets start with the concept of a propagator. Given the wavefunction ψ(x, t) at
+time t, the wavefunction at any later time t + T can be expressed as
+ψ(x, t + T ) = dy GT (x, y)ψ(y, t) (24.1)
+where GT (x, y) is known as the propagator, and of course it depends on the Hamilto-
+nian of theory. In fact, given a time-independent Hamiltonian with eigenstates
+Hφn(x) = Enφn(x) (24.2)
+its easy to see that
+GT (x, y) =
+φn(x)φ∗
+n(y)e−iEnT (24.3)
+n
+Richard Feynman, in 1948, discovered a very beautiful expression for the propagator
+in terms of an integral over all paths that the particle can follow, from point y at
+time t, to point x at time t + T , with an integrand
+eiS[x(t)]/¯ h (24.4)
+As we will see, his expression can be taken as a new way of quantizing a mechanical
+system, equivalent to the ”canonical” approach based on exchanging observables for
+operators. Having derived the path-integral from the Schrodinger equation, one can of course
+go in the other direction, i.e. derive the Schrodinger equation starting from the
+concept of an integration over paths. We have seen that path-integrals with gaussian
+integrands can be evaluated exactly; integrands with non-gaussian terms can often
+be evaluated approximately by a perturbation technique. We have also seen that
+path-integrals lead to the usual form of the momentum operator. Logically, the path-
+integral approach is an alternative to canonical quantization based on commutators;
+either method can be used to quantize a classical theory. Why then, have we spent the whole year following the Schrodinger equation ap-
+proach? Why not begin with path-integral, and solve bound-state and scattering
+problems by that method? In fact, such an approach to teaching non-relativistic
+quantum mechanics can be and has been followed, by Feynman himself. The results
+are enshrined in a textbook by Feynman and Hibbs. However, no other elementary
+textbook, and not many instructors, have followed Feynman’s example. The reason
+is simply that, in non-relativistic quantum mechanics, the path-integral is a rather
+cumbersome procedure for solving problems, as compared to the Schrodinger equa-
+tion.
+In relativistic quantum field theory, however, the situation is diﬀerent: for very
+many problems it is the path-integral technique which is easier to use, and better
+adapted than operator methods to the thorny technicalities that are encountered. As
+a bonus, the path-integral formulation is naturally suited to various non-perturbative
+approximation methods, such as the Monte Carlo procedure, in cases where pertur-
+bation theory cannot be applied. Finally, there are interesting and deep connections
+between quantum field theory, based on the Feynam path integral, and statistical
+mechanics, based on the analysis of a partition function. But this is a long story, to
+be taught in another, more advanced, course.
