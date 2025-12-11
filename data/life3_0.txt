@@ -5287,3 +5287,2341 @@ its surface-to-volume ratio. For consistency, every group should use units of cm
 should only find the area of one side of the leaf. The area can be found by tracing the area of 
 the leaf on graph paper and counting squares. The volume can be found by weighing the leaf 
 and assuming that its density is 1 g/cm? (the density of water). What implications do your results have for the plants’ abilities to survive in different environments? 
+The idea is that each of the algebra symbols with an arrow writ- 
+ten on top, called a vector, is actually an abbreviation for three 
+different numbers, the x, y, and z components. The three compo- 
+nents are referred to as the components of the vector, e.g., Fi, is the 
+x component of the vector F’. The notation with an arrow on top 
+is good for handwritten equations, but is unattractive in a printed 
+book, so books use boldface, F, to represent vectors. After this 
+point, I’ll use boldface for vectors throughout this book. 
+
+
+Quantities can be classified as vectors or scalars. In a phrase like 
+“a to the northeast,” it makes sense to fill in the blank with 
+“force” or “velocity,” which are vectors, but not with “mass” or 
+“time,” which are scalars. Any nonzero vector has both a direction 
+and an amount. The amount is called its magnitude. The notation 
+for the magnitude of a vector A is |AJ, like the absolute value sign 
+used with scalars. 
+
+
+Often, as in example (b), we wish to use the vector notation to 
+represent adding up all the x components to get a total x component, 
+etc. The plus sign is used between two vectors to indicate this type 
+of component-by-component addition. Of course, vectors are really 
+triplets of numbers, not numbers, so this is not the same as the use 
+of the plus sign with individual numbers. But since we don’t want to 
+have to invent new words and symbols for this operation on vectors, 
+we use the same old plus sign, and the same old addition-related 
+words like “add,” “sum,” and “total.” Combining vectors this way 
+is called vector addition. 
+
+
+Similarly, the minus sign in example (a) was used to indicate 
+negating each of the vector’s three components individually. The 
+equals sign is used to mean that all three components of the vector 
+on the left side of an equation are the same as the corresponding 
+components on the right. 
+
+
+Example (c) shows how we abuse the division symbol in a similar 
+manner. When we write the vector Av divided by the scalar At, 
+we mean the new vector formed by dividing each one of the velocity 
+components by At. 
+
+
+It’s not hard to imagine a variety of operations that would com- 
+bine vectors with vectors or vectors with scalars, but only four of 
+them are required in order to express Newton’s laws: 
+
+
+Chapter 7 Vectors 
+
+
+operation definition 
+
+vector + vector Add component by component to 
+make a new set of three numbers. 
+
+vector — vector Subtract component by component 
+to make a new set of three numbers. 
+
+
+vector - scalar Multiply each component of the vec- 
+tor by the scalar. 
+vector /scalar Divide each component of the vector 
+
+
+by the scalar. 
+
+
+As an example of an operation that is not useful for physics, there 
+just aren’t any useful physics applications for dividing a vector by 
+another vector component by component. In optional section 7.5, 
+we discuss in more detail the fundamental reasons why some vector 
+operations are useful and others useless. 
+
+
+We can do algebra with vectors, or with a mixture of vectors 
+and scalars in the same equation. Basically all the normal rules of 
+algebra apply, but if you’re not sure if a certain step is valid, you 
+should simply translate it into three component-based equations and 
+see if it works. 
+
+
+Order of addition example 1 
+> If we are adding two force vectors, F + G, is it valid to assume 
+as in ordinary algebra that F + Gis the same as G+ F? 
+
+
+> To tell if this algebra rule also applies to vectors, we simply 
+translate the vector notation into ordinary algebra notation. In 
+terms of ordinary numbers, the components of the vector F + G 
+would be Fy + Gy, Fy + Gy, and Fz + Gz, which are certainly the 
+same three numbers as Gy + Fy, Gy + Fy, and Gz+ Fz. Yes, F+G 
+is the same as G+F. 
+
+
+It is useful to define a symbol r for the vector whose components 
+are x, y, and z, and a symbol Ar made out of Az, Ay, and Az. 
+
+
+Although this may all seem a little formidable, keep in mind that 
+it amounts to nothing more than a way of abbreviating equations! 
+Also, to keep things from getting too confusing the remainder of this 
+chapter focuses mainly on the Ar vector, which is relatively easy to 
+visualize. 
+
+
+self-check A 
+
+Translate the equations vy = Ax/At, v, = Ay/At, and vz = Az/At for 
+motion with constant velocity into a single equation in vector notation. 
+> Answer, p. 566 
+
+
+Section 7.1 
+
+
+Vector notation 
+
+
+205 
+
+
+nl 
+
+
+x component 
+(positive) 
+
+
+y 
+y component 
+(negative) 
+x 
+
+
+b/The x and y components 
+of a vector can be thought of as 
+the shadows it casts onto the x 
+and y axes. 
+
+
+Q 
+
+
+c / Self-check B. 
+
+
+
+
+
+d/A_ playing card returns to 
+its original state when rotated by 
+180 degrees. 
+
+
+Drawing vectors as arrows 
+
+
+A vector in two dimensions can be easily visualized by drawing 
+an arrow whose length represents its magnitude and whose direction 
+represents its direction. The « component of a vector can then be 
+visualized as the length of the shadow it would cast in a beam of 
+light projected onto the x axis, and similarly for the y component. 
+Shadows with arrowheads pointing back against the direction of the 
+positive axis correspond to negative components. 
+
+
+In this type of diagram, the negative of a vector is the vector 
+with the same magnitude but in the opposite direction. Multiplying 
+a vector by a scalar is represented by lengthening the arrow by that 
+factor, and similarly for division. 
+
+
+self-check B 
+
+Given vector Q represented by an arrow in figure c, draw arrows repre- 
+senting the vectors 1.5Q and —Q. > Answer, p. 
+566 
+
+
+This leads to a way of defining vectors and scalars that reflects 
+how physicists think in general about these things: 
+
+
+definition of vectors and scalars 
+A general type of measurement (force, velocity, ...) is a vector if it 
+can be drawn as an arrow so that rotating the paper produces the 
+same result as rotating the actual quantity. A type of quantity that 
+never changes at all under rotation is a scalar. 
+
+
+For example, a force reverses itself under a 180-degree rotation, 
+but a mass doesn’t. We could have defined a vector as something 
+that had both a magnitude and a direction, but that would have left 
+out zero vectors, which don’t have a direction. A zero vector is a 
+legitimate vector, because it behaves the same way under rotations 
+as a zero-length arrow, which is simply a dot. 
+
+
+A remark for those who enjoy brain-teasers: not everything is 
+a vector or a scalar. An American football is distorted compared 
+to a sphere, and we can measure the orientation and amount of 
+that distortion quantitatively. The distortion is not a vector, since 
+a 180-degree rotation brings it back to its original state. Something 
+similar happens with playing cards, figure d. For some subatomic 
+particles, such as electrons, 360 degrees isn’t even enough; a 720- 
+degree rotation is needed to put them back the way they were! 
+
+
+Discussion questions 
+
+
+A You drive to your friend’s house. How does the magnitude of your Ar 
+vector compare with the distance you've added to the car’s odometer? 
+
+
+206 Chapter 7 Vectors 
+
+
+7.2 Calculations with magnitude and direction 
+
+
+If you ask someone where Las Vegas is compared to Los Angeles, 
+they are unlikely to say that the Ax is 290 km and the Ay is 230 
+km, in a coordinate system where the positive x axis is east and the 
+y axis points north. They will probably say instead that it’s 370 
+km to the northeast. If they were being precise, they might give the 
+direction as 38° counterclockwise from east. In two dimensions, we 
+can always specify a vector’s direction like this, using a single angle. 
+A magnitude plus an angle suffice to specify everything about the 
+vector. The following two examples show how we use trigonometry 
+and the Pythagorean theorem to go back and forth between the x—y 
+and magnitude-angle descriptions of vectors. 
+
+
+Finding magnitude and angle from components example 2 
+> Given that the Ar vector from LA to Las Vegas has Ax = 290 km 
+and Ay = 230 km, how would we find the magnitude and direction 
+of Ar? 
+
+
+> We find the magnitude of Ar from the Pythagorean theorem: 
+
+
+|Ar| = ,/Ax2 + Ay? 
+
+
+= 370 km 
+
+
+
+
+
+We know all three sides of the triangle, so the angle @ can be 
+found using any of the inverse trig functions. For example, we 
+know the opposite and adjacent sides, so 
+
+
+_1 AY 
+1 —— 
+8 = tan ea 
+= 38°. 
+Finding components from magnitude and angle example 3 
+
+
+> Given that the straight-line distance from Los Angeles to Las 
+Vegas is 370 km, and that the angle 0 in the figure is 38°, how 
+can the x and y components of the Ar vector be found? 
+
+
+> The sine and cosine of 0 relate the given information to the 
+information we wish to find: 
+
+
+AX 
+
+cos 8 = —_— 
+|Ar| 
+
+; Ay 
+sin@ = —— 
+|Ar| 
+
+
+Solving for the unknowns gives 
+
+
+Ax = |Ar| cos 8 
+
+= 290 km and 
+Ay = |Ar|sin@ 
+
+= 230 km. 
+
+
+
+
+
+“YS ax 
+
+
+Los 
+Angeles 
+
+
+Las V egas 
+
+
+
+
+
+
+
+
+e / Examples 2 and 3. 
+
+
+Section 7.2 Calculations with magnitude and direction 
+
+
+207 
+
+
+Los 
+Angeles 
+
+
+
+
+
+Ax 
+(negative) 
+
+
+f / Example 4. 
+
+
+208 
+
+
+San Diego 
+
+
+The following example shows the correct handling of the plus 
+and minus signs, which is usually the main cause of mistakes. 
+
+
+Negative components example 4 
+> San Diego is 120 km east and 150 km south of Los Angeles. An 
+airplane pilot is setting course from San Diego to Los Angeles. At 
+what angle should she set her course, measured counterclock- 
+wise from east, as shown in the figure? 
+
+
+> If we make the traditional choice of coordinate axes, with x 
+pointing to the right and y pointing up on the map, then her Ax is 
+negative, because her final x value is less than her initial x value. 
+Her Ay is positive, so we have 
+
+
+Ax = —120 km 
+Ay = 150 km. 
+
+
+If we work by analogy with example 2, we get 
+
+
+_1 Ay 
+
+7 (SY 
+
+8 =tan Ax 
+= tan~'(—1.25) 
+= —51°. 
+
+
+According to the usual way of defining angles in trigonometry, 
+a negative result means an angle that lies clockwise from the x 
+axis, which would have her heading for the Baja California. What 
+went wrong? The answer is that when you ask your calculator to 
+take the arctangent of a number, there are always two valid pos- 
+sibilities differing by 180°. That is, there are two possible angles 
+whose tangents equal -1.25: 
+
+
+tan 129° = —1.25 
+tan —51° = —1.25 
+
+
+You calculator doesn’t Know which is the correct one, so it just 
+picks one. In this case, the one it picked was the wrong one, and 
+it was up to you to add 180°to it to find the right answer. 
+
+
+Chapter 7 Vectors 
+
+
+
+
+
+‘A shortcut example 5 
+> A split second after nine o’clock, the hour hand on a clock dial 
+has moved clockwise past the nine-o’clock position by some im- 
+perceptibly small angle @. Let positive x be to the right and posi- 
+tive y up. If the hand, with length 2, is represented by a Ar vector g / Example 5. 
+going from the dial’s center to the tip of the hand, find this vector’s 
+
+AX. 
+
+
+
+
+
+> The following shortcut is the easiest way to work out examples 
+like these, in which a vector’s direction is known relative to one 
+of the axes. We can tell that Ar will have a large, negative x 
+component and a small, positive y. Since Ax < 0, there are 
+really only two logical possibilities: either Ax = —£cos >, or Ax = 
+—fsind. Because ¢ is small, cos ¢ is large and sind is small. 
+We conclude that Ax = —fcos . 
+
+
+A typical application of this technique to force vectors is given in 
+example 6 on p. 226. 
+
+
+Discussion question 
+
+
+A _ Inexample 4, we dealt with components that were negative. Does it 
+make sense to classify vectors as positive and negative? 
+
+
+Section 7.2 Calculations with magnitude and direction 209 
+
+
+Las Vegas 
+
+
+
+
+
+
+
+
+oY 
+Los 
+Angeles 
+San Diego 
+h/ Example 6. 
+
+
+A+B 
+A 
+A 
+
+al 7A 
+
+B 
+i/ Vectors can be added graph- 
+ically by placing them tip to tail, 
+and then drawing a vector from 
+
+
+the tail of the first vector to the tip 
+of the second vector. 
+
+
+7.3. Techniques for adding vectors 
+
+
+Vector addition is one of the three essential mathematical skills, 
+summarized on pp.545-546, that you need for success in this course. 
+
+
+Addition of vectors given their components 
+
+
+The easiest type of vector addition is when you are in possession 
+of the components, and want to find the components of their sum. 
+
+
+Adding components example 6 
+> Given the Ax and Ay values from the previous examples, find 
+the Ax and Ay from San Diego to Las Vegas. 
+
+
+> 
+
+
+AXtotal = AX1 + Axo 
+= —120 km+ 290 km 
+= 170 km 
+
+
+AYtotal = AY1 + Aye 
+= 150 km + 230 km 
+= 380 
+
+
+Note how the signs of the x components take care of the west- 
+ward and eastward motions, which partially cancel. 
+
+
+Addition of vectors given their magnitudes and directions 
+
+
+In this case, you must first translate the magnitudes and di- 
+rections into components, and the add the components. In our San 
+Diego-Los Angeles-Las Vegas example, we can simply string together 
+the preceding examples; this is done on p. 546. 
+
+
+Graphical addition of vectors 
+
+
+Often the easiest way to add vectors is by making a scale drawing 
+on a piece of paper. This is known as graphical addition, as opposed 
+to the analytic techniques discussed previously. (It has nothing to 
+do with x — y graphs or graph paper. “Graphical” here simply 
+means drawing. It comes from the Greek verb “grapho,” to write, 
+like related English words including “graphic.” ) 
+
+
+210 Chapter 7 Vectors 
+
+
+LA to Vegas, graphically example 7 
+> Given the magnitudes and angles of the Ar vectors from San 
+Diego to Los Angeles and from Los Angeles to Las Vegas, find 
+the magnitude and angle of the Ar vector from San Diego to Las 
+Vegas. 
+
+
+> Using a protractor and a ruler, we make a careful scale draw- 
+ing, as shown in figure j. The protractor can be conveniently 
+aligned with the blue rules on the notebook paper. A scale of 
+1 mm -> 2 km was chosen for this solution because it was as big 
+as possible (for accuracy) without being so big that the drawing 
+wouldn't fit on the page. With a ruler, we measure the distance 
+from San Diego to Las Vegas to be 206 mm, which corresponds 
+to 412 km. With a protractor, we measure the angle 0 to be 65°. A If you’re doing graphical addition of vectors, does it matter which 
+vector you start with and which vector you start from the other vector’s 
+tip? 
+
+B If you add a vector with magnitude 1 to a vector of magnitude 2, 
+what magnitudes are possible for the vector sum? 
+
+
+Cc Which of these examples of vector addition are correct, and which 
+are incorrect? 
+
+
+7.4 x Unit vector notation 
+
+
+When we want to specify a vector by its components, it can be cum- 
+bersome to have to write the algebra symbol for each component: 
+
+
+Az = 290 km, Ay = 230 km 
+A more compact notation is to write 
+Ar = (290 km)x + (230 km)y, 
+
+
+where the vectors x, y, and Z, called the unit vectors, are defined 
+as the vectors that have magnitude equal to 1 and directions lying 
+along the x, y, and z axes. In speech, they are referred to as “x-hat” 
+and so on. 
+
+
+A slightly different, and harder to remember, version of this 
+notation is unfortunately more prevalent. In this version, the unit 
+vectors are called i, j, and k: 
+
+
+Ar = (290 km)i + (230 km)j. 
+
+
+Chapter 7 Vectors 
+
+
+7.5 x Rotational invariance 
+
+
+Let’s take a closer look at why certain vector operations are use- 
+ful and others are not. Consider the operation of multiplying two 
+vectors component by component to produce a third vector: 
+
+
+Ry — P,Q 
+Ry = PyQy 
+R, = PQ: 
+
+
+As a simple example, we choose vectors P and Q to have length 
+1, and make them perpendicular to each other, as shown in figure 
+k/1. If we compute the result of our new vector operation using the 
+coordinate system in k/2, we find: 
+
+
+Ry =0 
+Res 
+R,=0. 
+
+
+The x component is zero because P, = 0, the y component is zero 
+because @, = 0, and the z component is of course zero because 
+both vectors are in the x — y plane. However, if we carry out the 
+same operations in coordinate system k/3, rotated 45 degrees with 
+respect to the previous one, we find 
+
+
+Ry, = 1/2 
+Ry =—1/2 
+Ry= 0. 
+
+
+The operation’s result depends on what coordinate system we use, 
+and since the two versions of R. have different lengths (one being zero 
+and the other nonzero), they don’t just represent the same answer 
+expressed in two different coordinate systems. Such an operation 
+will never be useful in physics, because experiments show physics 
+works the same regardless of which way we orient the laboratory 
+building! The useful vector operations, such as addition and scalar 
+multiplication, are rotationally invariant, i.e., come out the same 
+regardless of the orientation of the coordinate system. 
+
+
+Calibrating an electronic compass example 8 
+Some smart phones and GPS units contain electronic compasses 
+that can sense the direction of the earth’s magnetic field vector, 
+notated B. Because all vectors work according to the same rules, 
+you don’t need to know anything special about magnetism in or- 
+der to understand this example. Unlike a traditional compass that 
+uses a magnetized needle on a bearing, an electronic compass 
+has no moving parts. It contains two sensors oriented perpendic- 
+ular to one another, and each sensor is only sensitive to the com- 
+ponent of the earth’s field that lies along its own axis. Because a 
+
+
+/ 
+
+
+3 
+k / Component-by-component 
+multiplication of the vectors in 1 
+
+
+would produce different vectors 
+in coordinate systems 2 and 3. 
+
+
+Section 7.5 x Rotational invariance 213 
+
+
+214 
+
+
+Chapter 7 Vectors 
+
+
+choice of coordinates is arbitrary, we can take one of these sen- 
+sors as defining the x axis and the other the y. Given the two 
+components B, and By, the device’s computer chip can compute 
+the angle of magnetic north relative to its sensors, tan~'(By/B,). 
+
+
+All compasses are vulnerable to errors because of nearby mag- 
+netic materials, and in particular it may happen that some part 
+of the compass’s own housing becomes magnetized. In an elec- 
+tronic compass, rotational invariance provides a convenient way 
+of calibrating away such effects by having the user rotate the de- 
+vice in a horizontal circle. 
+
+
+Suppose that when the compass is oriented in a certain way, it 
+measures B, = 1.00 and By = 0.00 (in certain units). We then 
+expect that when it is rotated 90 degrees clockwise, the sensors 
+will detect B, = 0.00 and By = 1.00. 
+
+
+But imagine instead that we get By = 0.20 and By = 0.80. This 
+would violate rotational invariance, since rotating the coordinate 
+system is supposed to give a different description of the same 
+vector. The magnitude appears to have changed from 1.00 to 
+V0.202 + 0.802 = 0.82, and a vector can’t change its magnitude 
+just because you rotate it. The compass’s computer chip figures 
+out that some effect, possibly a slight magnetization of its hous- 
+ing, must be adding an erroneous 0.2 units to all the By readings, 
+because subtracting this amount from all the B, values gives vec- 
+tors that have the same magnitude, satisfying rotational invari- 
+ance. 
+
+
+Summary 
+Selected vocabulary 
+
+
+vector. ...... a quantity that has both an amount (magni- 
+tude) and a direction in space 
+
+magnitude .... the “amount” associated with a vector 
+
+scalar ....... a quantity that has no direction in space, only 
+an amount 
+
+Notation 
+
+RS erinaiis ek Sa a vector with components A;, A,, and A, 
+
+A ssravigube aide ie tt handwritten notation for a vector 
+
+AE) i oe wate the magnitude of vector A 
+
+1 siege A the vector whose components are x, y, and z 
+
+PNT oo hastens the vector whose components are Ax, Ay, and 
+Az 
+
+Ky Vew ae Saks (optional topic) unit vectors; the vectors with 
+magnitude 1 lying along the x, y, and z axes 
+
+Ty fg ioe ted Ak a harder to remember notation for the unit 
+vectors 
+
+
+Other terminology and notation 
+displacement vec- a name for the symbol Ar 
+
+
+TOPS Se eee 
+speed ....... the magnitude of the velocity vector, i.e., the 
+velocity stripped of any information about its 
+direction 
+Summary 
+
+
+A vector is a quantity that has both a magnitude (amount) and 
+a direction in space, as opposed to a scalar, which has no direction. 
+The vector notation amounts simply to an abbreviation for writing 
+the vector’s three components. 
+
+
+In two dimensions, a vector can be represented either by its two 
+components or by its magnitude and direction. The two ways of 
+describing a vector can be related by trigonometry. 
+
+
+The two main operations on vectors are addition of a vector to 
+a vector, and multiplication of a vector by a scalar. 
+
+
+Vector addition means adding the components of two vectors 
+to form the components of a new vector. In graphical terms, this 
+corresponds to drawing the vectors as two arrows laid tip-to-tail and 
+drawing the sum vector from the tail of the first vector to the tip 
+of the second one. Vector subtraction is performed by negating the 
+vector to be subtracted and then adding. 
+
+
+Multiplying a vector by a scalar means multiplying each of its 
+components by the scalar to create a new vector. Division by a 
+scalar is defined similarly. 
+
+
+Summary 
+
+
+215 
+
+
+Problems 
+Key 
+
+
+Vv A computerized answer check is available online. 
+J A problem that requires calculus. 
+x A difficult problem. 
+
+
+1 The figure shows vectors A and B. Graphically calculate 
+the following, as in figure i on p. 210, self-check C on p. 211, and 
+
+
+A self-check B on p. 206. 
+A+B, A—B, B— A, —2B, A — 2B 
+<e—___ : 
+No numbers are involved. 
+B 
+Problem 1. 
+
+
+2 Phnom Penh is 470 km east and 250 km south of Bangkok. 
+Hanoi is 60 km east and 1030 km north of Phnom Penh. 
+
+(a) Choose a coordinate system, and translate these data into Ax 
+and Ay values with the proper plus and minus signs. 
+
+(b) Find the components of the Ar vector pointing from Bangkok 
+to Hanoi. Vv 
+
+
+3 If you walk 35 km at an angle 25° counterclockwise from east, 
+and then 22 km at 230° counterclockwise from east, find the distance 
+and direction from your starting point to your destination. v 
+
+
+4 A machinist is drilling holes in a piece of aluminum according 
+to the plan shown in the figure. She starts with the top hole, then 
+moves to the one on the left, and then to the one on the right. Since 
+this is a high-precision job, she finishes by moving in the direction 
+and at the angle that should take her back to the top hole, and 
+checks that she ends up in the same place. What are the distance 
+Problem 4. and direction from the right-hand hole to the top one? v 
+
+
+
+
+
+216 Chapter 7 Vectors 
+
+
+5 Suppose someone proposes a new operation in which a vector 
+A and a scalar B are added together to make a new vector C like 
+this: 
+
+
+C,=Az+B 
+Cy=Ay+B 
+C,=A,+B 
+
+
+
+
+
+Prove that this operation won’t be useful in physics, because it’s 
+not rotationally invariant. 
+
+
+Problems 
+
+
+217 
+
+
+218 Chapter 7 Vectors 
+
+
+a: 2 6. 2. 6 eb | 
+| | 
+
+
+i2 13 14 15 36 17 15 ip ae 
+| @ 
+
+
+
+
+
+yu E MORSE IN Motion. 
+/ / 
+
+
+MUYBRIDGE 
+
+
+Chapter 8 
+Vectors and Motion 
+
+
+In 1872, capitalist and former California governor Leland Stanford 
+asked photographer Eadweard Muybridge if he would work for him 
+on a project to settle a $25,000 bet (a princely sum at that time). 
+Stanford’s friends were convinced that a trotting horse always had 
+at least one foot on the ground, but Stanford claimed that there was 
+a moment during each cycle of the motion when all four feet were 
+in the air. The human eye was simply not fast enough to settle the 
+question. In 1878, Muybridge finally succeeded in producing what 
+amounted to a motion picture of the horse, showing conclusively 
+that all four feet did leave the ground at one point. (Muybridge was 
+a colorful figure in San Francisco history, and his acquittal for the 
+murder of his wife’s lover was considered the trial of the century in 
+California. ) 
+
+
+The losers of the bet had probably been influenced by Aris- 
+totelian reasoning, for instance the expectation that a leaping horse 
+would lose horizontal velocity while in the air with no force to push 
+it forward, so that it would be more efficient for the horse to run 
+without leaping. But even for students who have converted whole- 
+
+
+a 
+
+
+219 
+
+
+
+
+
+a/The racing greyhound’s 
+velocity vector is in the direction 
+of its motion, i.e., tangent to its 
+curved path. 
+
+
+
+
+
+
+
+
+y 
+
+
+b/ Example 1. 
+
+
+heartedly to Newtonianism, the relationship between force and ac- 
+celeration leads to some conceptual difficulties, the main one being 
+a problem with the true but seemingly absurd statement that an 
+object can have an acceleration vector whose direction is not the 
+same as the direction of motion. The horse, for instance, has nearly 
+constant horizontal velocity, so its a, is zero. But as anyone can tell 
+you who has ridden a galloping horse, the horse accelerates up and 
+down. The horse’s acceleration vector therefore changes back and 
+forth between the up and down directions, but is never in the same 
+direction as the horse’s motion. In this chapter, we will examine 
+more carefully the properties of the velocity, acceleration, and force 
+vectors. No new principles are introduced, but an attempt is made 
+to tie things together and show examples of the power of the vector 
+formulation of Newton’s laws. 
+
+
+8.1 The velocity vector 
+For motion with constant velocity, the velocity vector is 
+v = Ar/At. 
+
+
+The Ar vector points in the direction of the motion, and dividing 
+it by the scalar At only changes its length, not its direction, so the 
+velocity vector points in the same direction as the motion. When the 
+velocity is not constant, i.e., when the x —t, y—t, and z—t graphs 
+are not all linear, we use the slope-of-the-tangent-line approach to 
+define the components v;, vy, and vz, from which we assemble the 
+velocity vector. Even when the velocity vector is not constant, it 
+still points along the direction of motion. 
+
+
+[only for constant velocity] 
+
+
+Vector addition is the correct way to generalize the one-dimensional 
+concept of adding velocities in relative motion, as shown in the fol- 
+lowing example: 
+
+
+
+
+
+‘Velocity vectors in relative motion example 1 
+> You wish to cross a river and arrive at a dock that is directly 
+across from you, but the river’s current will tend to carry you 
+downstream. To compensate, you must steer the boat at an an- 
+gle. Find the angle 0, given the magnitude, |Vy,|, of the water’s 
+velocity relative to the land, and the maximum speed, |Vgy, of 
+which the boat is capable relative to the water. 
+
+
+> The boat’s velocity relative to the land equals the vector sum of 
+its velocity with respect to the water and the water’s velocity with 
+respect to the land, 
+
+
+VeL = Veaw + Vw. 
+If the boat is to travel straight across the river, i.e., along the y 
+
+
+axis, then we need to have Vg,,x = 0. This x component equals 
+the sum of the x components of the other two vectors, 
+
+
+VeL,x = VBw,x + VWLxs 
+
+
+220 Chapter 8 Vectors and Motion 
+
+
+or 
+
+
+O= —|Vew| sin 0 + \Vw_l- 
+
+
+Solving for 8, we find sin 8 = |Vwz|/|Vgw|, so 
+
+
+
+
+
+a Seine Vw 
+lVew| 
+> Solved problem: Annie Oakley page 234, problem 8 
+Discussion questions 
+A Is it possible for an airplane to maintain a constant velocity vector 
+
+
+but not a constant |v|? How about the opposite — a constant |v| but not a 
+constant velocity vector? Explain. 
+
+
+B New York and Rome are at about the same latitude, so the earth’s 
+rotation carries them both around nearly the same circle. Do the two cities 
+have the same velocity vector (relative to the center of the earth)? If not, 
+is there any way for two cities to have the same velocity vector? 
+
+
+
+
+
+The acceleration vector 
+
+
+When the acceleration is constant, we can define the acceleration 
+vector as 
+
+
+a= Av/At, [only for constant acceleration] 
+which can be written in terms of initial and final velocities as 
+a= (vy — vy) /At. [only for constant acceleration] 
+
+
+Otherwise, we can use the type of graphical definition described in 
+section 8.1 for the velocity vector. 
+
+
+Now there are two ways in which we could have a nonzero accel- 
+eration. Either the magnitude or the direction of the velocity vector 
+could change. This can be visualized with arrow diagrams as shown 
+in figures c and d. Both the magnitude and direction can change 
+simultaneously, as when a car accelerates while turning. Only when 
+the magnitude of the velocity changes while its direction stays con- 
+stant do we have a Av vector and an acceleration vector along the 
+same line as the motion. 
+
+
+self-check A 
+
+(1) In figure c, is the object speeding up, or slowing down? (2) What 
+would the diagram look like if v; was the same as v;? (3) Describe how 
+the Av vector is different depending on whether an object is speeding 
+up or slowing down. > Answer, p. 566 
+
+
+
+
+
+c/A_ change 
+
+
+in the magni- 
+
+
+tude of the velocity vector implies 
+
+
+an acceleration. 
+
+
+
+
+
+d/A_ change 
+of the velocity 
+
+
+in the direction 
+vector also pro- 
+
+
+duces a nonzero Av vector, and 
+thus a nonzero. acceleration 
+
+
+vector, Av/At. 
+
+
+Section 8.2 The acceleration vector 
+
+
+221 
+
+
+The acceleration vector points in the direction that an accelerom- 
+eter would point, as in figure e. 
+
+
+e/The car has just swerved to 
+the right. The air freshener hang- 
+ing from the rear-view mirror acts 
+as an accelerometer, showing 
+that the acceleration vector is to 
+the right. 
+
+
+
+
+
+self-check B 
+In projectile motion, what direction does the acceleration vector have? 
+> Answer, p. 566 
+
+
+velocity acceleration force 
+
+
+
+
+
+
+
+
+™ < + 
+\ . . 
+| = « 
+< < 
+x < « 
+| = + 
+< 
+A +] = 
+f / Example 2. 
+‘Rappelling example 2 
+
+
+In figure f, the rappeller’s velocity has long periods of gradual 
+change interspersed with short periods of rapid change. These 
+correspond to periods of small acceleration and force, and peri- 
+ods of large acceleration and force. 
+
+
+222 Chapter 8 Vectors and Motion 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Av points down —— ee Av points up 
+
+
+g / Example 3. 
+
+
+
+
+
+‘The galloping horse example 3 
+Figure g on page 223 shows outlines traced from the first, third, 
+fifth, seventh, and ninth frames in Muybridge’s series of pho- 
+tographs of the galloping horse. The estimated location of the 
+horse’s center of mass is shown with a circle, which bobs above 
+and below the horizontal dashed line. 
+
+
+If we don’t care about calculating velocities and accelerations in 
+any particular system of units, then we can pretend that the time 
+between frames is one unit. The horse’s velocity vector as it 
+moves from one point to the next can then be found simply by 
+drawing an arrow to connect one position of the center of mass to 
+the next. This produces a series of velocity vectors which alter- 
+nate between pointing above and below horizontal. 
+
+
+The Av vector is the vector which we would have to add onto one 
+velocity vector in order to get the next velocity vector in the series. 
+The Av vector alternates between pointing down (around the time 
+when the horse is in the air, B) and up (around the time when the 
+horse has two feet on the ground, D). 
+
+
+Section 8.2 The acceleration vector 
+
+
+
+
+
+
+
+
+223 
+
+
+
+
+
+
+
+
+h/ Example 4. 
+
+
+224 
+
+
+Discussion questions 
+
+
+A When acar accelerates, why does a bob hanging from the rearview 
+mirror swing toward the back of the car? Is it because a force throws it 
+backward? If so, what force? Similarly, describe what happens in the 
+other cases described above. 
+
+
+B Superman is guiding a crippled spaceship into port. The ship’s 
+engines are not working. If Superman suddenly changes the direction of 
+his force on the ship, does the ship’s velocity vector change suddenly? Its 
+acceleration vector? Its direction of motion? 
+
+
+
+
+
+The force vector and simple machines 
+
+
+Force is relatively easy to intuit as a vector. The force vector points 
+in the direction in which it is trying to accelerate the object it is 
+acting on. 
+
+
+Since force vectors are so much easier to visualize than accel- 
+eration vectors, it is often helpful to first find the direction of the 
+(total) force vector acting on an object, and then use that to find 
+the direction of the acceleration vector. Newton’s second law tells 
+us that the two must be in the same direction. 
+
+
+A component of a force vector example 4 
+Figure h, redrawn from a classic 1920 textbook, shows a boy 
+pulling another child on a sled. His force has both a horizontal 
+component and a vertical one, but only the horizontal one accel- 
+erates the sled. (The vertical component just partially cancels the 
+force of gravity, causing a decrease in the normal force between 
+the runners and the snow.) There are two triangles in the figure. 
+One triangle’s hypotenuse is the rope, and the other's is the mag- 
+nitude of the force. These triangles are similar, so their internal 
+angles are all the same, but they are not the same triangle. One 
+is a distance triangle, with sides measured in meters, the other 
+a force triangle, with sides in newtons. In both cases, the hori- 
+zontal leg is 93% as long as the hypotenuse. It does not make 
+sense, however, to compare the sizes of the triangles — the force 
+triangle is not smaller in any meaningful sense. 
+
+
+Chapter 8 Vectors and Motion 
+
+
+Pushing a block up a ramp example 5 
+> Figure i shows a block being pushed up a frictionless ramp at 
+constant speed by an externally applied force Fy4. How much 
+force is required, in terms of the block’s mass, m, and the angle 
+of the ramp, 0? 
+
+
+> We analyze the forces on the block and introduce notation for 
+the other forces besides F,: 
+
+
+
+
+
+force acting on block 3rd-law partner 
+
+ramp’s normal force on block, | block’s normal force on ramp, 
+Fy, a v 
+external object's force on | block’s force on external ob- 
+block (type irrelevant), Fa « | ject (type irrelevant), y 
+planet earth’s gravitational | block’s gravitational force on 
+force on block, Fy | earth, + 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Because the block is being pushed up at constant speed, it has 
+zero acceleration, and the total force on it must be zero. From 
+figure j, we find 
+
+
+|F | = |Fy| sind 
+= mgsin0. 
+
+
+Since the sine is always less than one, the applied force is always 
+less than mg, |.e., pushing the block up the ramp is easier than 
+lifting it straight up. This is presumably the principle on which the 
+pyramids were constructed: the ancient Egyptians would have 
+had a hard time applying the forces of enough slaves to equal the 
+full weight of the huge blocks of stone. 
+
+
+Essentially the same analysis applies to several other simple ma- 
+chines, such as the wedge and the screw. 
+
+
+Fa 
+
+
+Bais 
+
+
+i/The applied force F4 pushes 
+the block up the frictionless ramp. 
+
+
+j/lf the block is to move at 
+constant velocity, Newton’s first 
+law says that the three force 
+vectors acting on it must add 
+up to zero. To perform vector 
+addition, we put the vectors tip 
+to tail, and in this case we are 
+adding three vectors, so each 
+one’s tail goes against the tip of 
+the previous one. Since they are 
+supposed to add up to zero, the 
+third vector’s tip must come back 
+to touch the tail of the first vector. 
+They form a triangle, and since 
+the applied force is perpendicular 
+to the normal force, it is a right 
+triangle. 
+
+
+Section 8.3. The force vector and simple machines 225 
+
+
+k / Example 6 and problem 18 on 
+p. 237. 
+
+
+
+
+
+|/ Example 7. 
+
+
+
+
+
+
+
+
+A layback example 6 
+The figure shows a rock climber using a technique called a lay- 
+back. He can make the normal forces Fry; and Fy large, which 
+has the side-effect of increasing the frictional forces Fe, and Fro, 
+so that he doesn’t slip down due to the gravitational (weight) force 
+Fy. The purpose of the problem is not to analyze all of this in de- 
+tail, but simply to practice finding the components of the forces 
+based on their magnitudes. To keep the notation simple, let's 
+write Fry; for |Fyi|, etc. The crack overhangs by a small, positive 
+angle 8 + 9°. 
+
+
+In this example, we determine the x component of Fyy;. The other 
+nine components are left as an exercise to the reader (problem 
+18, p. 237). 
+
+
+The easiest method is the one demonstrated in example 5 on 
+p. 209. Casting vector F,y;’s shadow on the ground, we can tell 
+that it would point to the left, so its x component is negative. The 
+only two possibilities for its x component are therefore —Fyy; cos 0 
+or —Fyyi sin@. We expect this force to have a large x component 
+and a much smaller y. Since 0 is small, cos 9 ~ 1, while sin@ is 
+small. Therefore the x component must be — Fy cos 8. 
+
+
+
+
+
+‘Pushing a broom example 7 
+> Figure | shows a man pushing a broom at an angle 0 relative to 
+the horizontal. The mass m of the broom is concentrated at the 
+brush. If the magnitude of the broom’s acceleration is a, find the 
+force F,, that the man must make on the handle. 
+
+
+> First we analyze all the forces on the brush. 
+
+
+226 Chapter 8 Vectors and Motion 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+force acting on brush 3rd-law partner 
+
+handle’s normal force brush’s normal force 
+
+on brush, Fy, S| on handle, KR 
+earth’s gravitational force brush’s gravitational force 
+
+on brush, mg, { | on earth, ‘i 
+floor’s normal force brush’s normal force 
+
+on brush, Fy, + | on floor, L 
+floor’s kinetic friction force brush’s kinetic friction force 
+on brush, Fx, < | on floor, > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Newton's second law is: 
+
+Fx +mgQ+ Fy + F; 
+
+aaa m 
+
+where the addition is vector addition. If we actually want to carry 
+out the vector addition of the forces, we have to do either graph- 
+ical addition (as in example 5) or analytic addition. Let’s do an- 
+alytic addition, which means finding all the components of the 
+forces, adding the x’s, and adding the y's. 
+
+
+
+
+
+BI) 
+
+
+Most of the forces have components that are trivial to express in 
+terms of their magnitudes, the exception being Fy, whose com- 
+ponents we can determine using the technique demonstrated in 
+example 5 on p. 209 and example 6 on p. 226. Using the coordi- 
+nate system shown in the figure, the results are: 
+
+
+Fuy = Fy cos 8 Fry = —F,,sin0 
+
+
+mgx =0 mgy = —mg 
+Fx =0 Fry = Fu 
+Fry = —Fr Fry =0 
+
+
+Note that we don’t yet know the magnitudes Fy, Fry, and Fx. 
+That’s all right. First we need to set up Newton’s laws, and then 
+we can worry about solving the equations. 
+
+
+Newton's second law in the x direction gives: 
+
+
+[1] 
+
+
+ee Fy,cos 0 — Fx 
+_ m 
+
+
+The acceleration in the vertical direction is zero, so Newton’s sec- 
+ond law in the y direction tells us that 
+
+
+[2] 0 =—Fysin@ —mg+ Fn. 
+
+
+Finally, we have the relationship between kinetic friction and the 
+normal force, 
+
+
+[3] Fx = ux Fy. 
+
+
+Equations [1]-[3] are three equations, which we can use to de- 
+termine the three unknowns, Fy, Fy, and Fx. Straightforward 
+
+
+algebra gives 
+A+ UG 
+Fy =m 
+a (ssf ons) 
+
+
+Section 8.3 The force vector and simple machines 227 
+
+
+
+
+
+Discussion question A. 
+
+
+~ 
+
+
+Discussion question B. 
+
+
+> Solved problem: A cargo plane page 234, problem 9 
+> Solved problem: The angle of repose page 235, problem 11 
+
+
+> Solved problem: A wagon page 234, problem 10 
+Discussion questions 
+
+
+A __ The figure shows a block being pressed diagonally upward against a 
+wall, causing it to slide up the wall. Analyze the forces involved, including 
+their directions. 
+
+
+B_ The figure shows a roller coaster car rolling down and then up under 
+the influence of gravity. Sketch the car’s velocity vectors and acceleration 
+vectors. Pick an interesting point in the motion and sketch a set of force 
+vectors acting on the car whose vector sum could have resulted in the 
+right acceleration vector. 
+
+
+
+
+
+J Calculus with vectors 
+
+
+Using the unit vector notation introduced in section 7.4, the defini- 
+tions of the velocity and acceleration components given in chapter 
+6 can be translated into calculus notation as 
+
+
+yu its ees dz, 
+~ at™ " at 
+
+
+
+
+
+and 
+
+
+dv; A dvy A dv, A 
+a= x Z. 
+di" a’ ad 
+To make the notation less cumbersome, we generalize the concept 
+of the derivative to include derivatives of vectors, so that we can 
+
+
+abbreviate the above equations as 
+
+
+
+
+
+dr 
+vat 
+
+and 
+dv 
+
+
+In words, to take the derivative of a vector, you take the derivatives 
+of its components and make a new vector out of those. This defini- 
+tion means that the derivative of a vector function has the familiar 
+properties 
+
+
+def) af 
+di. dt 
+
+
+
+
+
+[c is a constant] 
+
+
+and 
+df+g) df dg 
+
+
+dt dt dt’ 
+The integral of a vector is likewise defined as integrating component 
+
+
+by component. 
+
+
+
+
+
+228 Chapter 8 Vectors and Motion 
+
+
+The second derivative of a vector example 8 
+> Two objects have positions as functions of time given by the 
+equations 
+
+
+ry = 32x + ty 
+and 
+ro = 3t*X% + ty. 
+Find both objects’ accelerations using calculus. Could either an- 
+swer have been found without calculus? 
+> Taking the first derivative of each component, we find 
+Vi= 6X + y 
+Vo = 120% +y, 
+and taking the derivatives again gives acceleration, 
+a; = 6X 
+ap = 36f°X. 
+The first object’s acceleration could have been found without cal- 
+culus, simply by comparing the x and y coordinates with the 
+constant-acceleration equation Ax = VoAt + sad. The second 
+equation, however, isn’t just a second-order polynomial in t, so 
+
+
+the acceleration isn’t constant, and we really did need calculus to 
+find the corresponding acceleration. 
+
+
+The integral of a vector example 9 
+> Starting from rest, a flying saucer of mass m is observed to 
+vary its propulsion with mathematical precision according to the 
+equation 
+F = bt*?x% + ct'®’y. 
+
+(The aliens inform us that the numbers 42 and 137 have a special 
+religious significance for them.) Find the saucer’s velocity as a 
+function of time. 
+
+
+> From the given force, we can easily find the acceleration 
+
+
+a= — 
+m 
+
+
+Dao, C a 
+= © 2g 4 = f1379, 
+m m 
+
+
+The velocity vector v is the integral with respect to time of the 
+acceleration, 
+
+
+v= [ade 
+= / (Pets <r'srg) dt, 
+m m 
+
+
+Section 8.4 —_[{ Calculus with vectors 
+
+
+229 
+
+
+230 
+
+
+and integrating component by component gives 
+
+
+= (| Frat) x4 (f Sr°rat) 9 
+m m 
+
+
+439 CC 4138y 
+Eagan gic) Ge eee 
+4am’ ** 738m! 
+
+
+where we have omitted the constants of integration, since the 
+saucer was starting from rest. 
+
+
+A fire-extinguisher stunt on ice example 10 
+> Prof. Puerile smuggles a fire extinguisher into a skating rink. 
+Climbing out onto the ice without any skates on, he sits down and 
+pushes off from the wall with his feet, acquiring an initial velocity 
+Voy. At tf = 0, he then discharges the fire extinguisher at a 45- 
+degree angle so that it applies a force to him that is backward 
+and to the left, i.e., along the negative y axis and the positive x 
+axis. The fire extinguisher’s force is strong at first, but then dies 
+down according to the equation |F| = b — ct, where b and c are 
+constants. Find the professor’s velocity as a function of time. 
+
+
+> Measured counterclockwise from the x axis, the angle of the 
+force vector becomes 315°. Breaking the force down into x and 
+y components, we have 
+Fy = |F| cos 315° 
+= (b— ct) 
+Fy = |F|sin315° 
+= (—b+ct). 
+In unit vector notation, this is 
+F =(b—ct)X+(—b+ct)y. 
+
+
+Newton’s second law gives 
+
+
+
+
+
+a=F/m 
+b-—ct, —b+ect. 
+= X+ 
+J/2m J/2m 
+
+
+To find the velocity vector as a function of time, we need to inte- 
+grate the acceleration vector with respect to time, 
+
+
+v= [adt 
+= [ (Aare a) at 
+7 J/2m J/2m 
+
+
+2 aq | Ween + (b+ ct) y] dt 
+
+
+
+
+
+Chapter 8 Vectors and Motion 
+
+
+A vector function can be integrated component by component, so 
+this can be broken down into two integrals, 
+
+
+A 
+
+
+x y 
+v = —— /(b-ct)dt + [Co+ena 
+v2m [ v2m ( ) 
+bia Sor =pbt+ der 
+= {7 2°" st constant #1) x+ {= 2"" + constant #2 | y 
+JV2m J2m 
+Here the physical significance of the two constants of integration 
+is that they give the initial velocity. Constant #1 is therefore zero, 
+and constant #2 must equal Vo. The final result is 
+
+
+ey ae 5ct? PO feels set? es 
+= |) —— —— | xt [| + 
+
+
+
+
+
+Section 8.4 —_[{ Calculus with vectors 
+
+
+231 
+
+
+Summary 
+
+
+The velocity vector points in the direction of the object’s motion. 
+Relative motion can be described by vector addition of velocities. 
+
+
+The acceleration vector need not point in the same direction as 
+the object’s motion. We use the word “acceleration” to describe any 
+change in an object’s velocity vector, which can be either a change 
+in its magnitude or a change in its direction. 
+
+
+An important application of the vector addition of forces is the 
+use of Newton’s first law to analyze mechanical systems. 
+
+
+232 Chapter 8 Vectors and Motion 
+
+
+Problems 
+Key 
+
+
+VA computerized answer check is available online. 
+{A problem that requires calculus. 
+x A difficult problem. 
+
+
+north ‘ 
+‘ 
+* direction of motion 
+m of glacier relative 
+‘\ y 
+sooo sto continent, 1.1x10 Tmls 
+ss nes ‘ 
+See a ‘ 
+= ‘ 
+direction of motion a 
+of fossil relative to Mi 
+glacier, 2.3x10 -7 mis A 
+Problem 1. 
+1 As shown in the diagram, a dinosaur fossil is slowly moving 
+
+
+down the slope of a glacier under the influence of wind, rain and 
+gravity. At the same time, the glacier is moving relative to the 
+continent underneath. The dashed lines represent the directions but 
+not the magnitudes of the velocities. Pick a scale, and use graphical 
+addition of vectors to find the magnitude and the direction of the 
+fossil’s velocity relative to the continent. You will need a ruler and 
+protractor. Vv 
+
+
+2 Is it possible for a helicopter to have an acceleration due east 
+and a velocity due west? If so, what would be going on? If not, why 
+not? 
+
+
+3 A bird is initially flying horizontally east at 21.1 m/s, but one 
+second later it has changed direction so that it is flying horizontally 
+and 7° north of east, at the same speed. What are the magnitude 
+and direction of its acceleration vector during that one second time 
+interval? (Assume its acceleration was roughly constant.) Vv 
+
+
+
+
+
+Problem 4. 
+
+
+4 A person of mass M stands in the middle of a tightrope, 
+which is fixed at the ends to two buildings separated by a horizontal 
+distance L. The rope sags in the middle, stretching and lengthening 
+the rope slightly. 
+
+
+Problems 
+
+
+233 
+
+
+(a) If the tightrope walker wants the rope to sag vertically by no 
+more than a height h, find the minimum tension, T’, that the rope 
+must be able to withstand without breaking, in terms of h, g, M, 
+and L. Vv 
+(b) Based on your equation, explain why it is not possible to get 
+h = 0, and give a physical interpretation. 
+
+
+5 Your hand presses a block of mass m against a wall with a 
+force Fy acting at an angle 0, as shown in the figure. Find the 
+minimum and maximum possible values of |Fy| that can keep the 
+block stationary, in terms of m, g, 0, and ps, the coefficient of static 
+friction between the block and the wall. Check both your answers 
+in the case of 9 = 90°, and interpret the case where the maximum 
+Problem 5. force is infinite. Vox 
+
+
+
+
+
+6 A skier of mass m is coasting down a slope inclined at an angle 
+? compared to horizontal. Assume for simplicity that the treatment 
+of kinetic friction given in chapter 5 is appropriate here, although a 
+soft and wet surface actually behaves a little differently. The coeffi- 
+cient of kinetic friction acting between the skis and the snow is pz, 
+and in addition the skier experiences an air friction force of magni- 
+tude bv”, where b is a constant. 
+
+(a) Find the maximum speed that the skier will attain, in terms of 
+the variables m, g, 0, 4x, and b. v 
+(b) For angles below a certain minimum angle 0,,;,, the equation 
+gives a result that is not mathematically meaningful. Find an equa- 
+tion for Omin, and give a physical explanation of what is happening 
+for 8 < Omin- 
+
+
+7 A gun is aimed horizontally to the west. The gun is fired, and 
+the bullet leaves the muzzle at t = 0. The bullet’s position vector 
+as a function of time is r = bx + cty + dt?z, where b, c, and d are 
+positive constants. 
+
+(a) What units would b, c, and d need to have for the equation to 
+make sense? 
+
+(b) Find the bullet’s velocity and acceleration as functions of time. 
+(c) Give physical interpretations of b, c, d, X, y, and @. if 
+
+
+Fthrust Fiitt 
+
+
+
+
+
+Problem 9. 
+
+
+8 Annie Oakley, riding north on horseback at 30 mi/hr, shoots 
+| her rifle, aiming horizontally and to the northeast. The muzzle speed 
+of the rifle is 140 mi/hr. When the bullet hits a defenseless fuzzy 
+animal, what is its speed of impact? Neglect air resistance, and 
+ignore the vertical motion of the bullet. > Solution, p. 554 
+
+
+9 A cargo plane has taken off from a tiny airstrip in the Andes, 
+and is climbing at constant speed, at an angle of 0 = 17° with 
+respect to horizontal. Its engines supply a thrust of Fihrust = 200 
+KN, and the lift from its wings is Fi, = 654 kN. Assume that air 
+Problem 10. resistance (drag) is negligible, so the only forces acting are thrust, 
+lift, and weight. What is its mass, in kg? > Solution, p. 554 
+
+
+234 Chapter 8 Vectors and Motion 
+
+
+10 A wagon is being pulled at constant speed up a slope 6 by a 
+rope that makes an angle ¢ with the vertical. 
+
+(a) Assuming negligible friction, show that the tension in the rope 
+is given by the equation 
+
+
+sin 6 
+ee 
+rT sinfo+¢) 
+
+
+where Fi is the weight force acting on the wagon. 
+(b) Interpret this equation in the special cases of ¢ = 0 and ¢ = 
+180° — 0. > Solution, p. 555 
+
+
+11 The angle of repose is the maximum slope on which an object 
+will not slide. On airless, geologically inert bodies like the moon or 
+an asteroid, the only thing that determines whether dust or rubble 
+will stay on a slope is whether the slope is less steep than the angle 
+of repose. (See figure n, p. 272.) 
+
+(a) Find an equation for the angle of repose, deciding for yourself 
+what are the relevant variables. 
+
+(b) On an asteroid, where g can be thousands of times lower than 
+on Earth, would rubble be able to lie at a steeper angle of repose? 
+
+> Solution, p. 555 
+
+
+12 The figure shows an experiment in which a cart is released 
+from rest at A, and accelerates down the slope through a distance 
+x until it passes through a sensor’s light beam. The point of the 
+experiment is to determine the cart’s acceleration. At B, a card- 
+board vane mounted on the cart enters the light beam, blocking the 
+light beam, and starts an electronic timer running. At C, the vane 
+emerges from the beam, and the timer stops. 
+
+(a) Find the final velocity of the cart in terms of the width w of 
+the vane and the time t, for which the sensor’s light beam was 
+
+
+blocked. Vv 
+(b) Find the magnitude of the cart’s acceleration in terms of the 
+measurable quantities x, ty, and w. Vv 
+
+
+(c) Analyze the forces in which the cart participates, using a table in 
+the format introduced in section 5.3. Assume friction is negligible. 
+(d) Find a theoretical value for the acceleration of the cart, which 
+could be compared with the experimentally observed value extracted 
+in part b. Express the theoretical value in terms of the angle 0 of 
+the slope, and the strength g of the gravitational field. Vv 
+
+
+13 The figure shows a boy hanging in three positions: (1) with 
+his arms straight up, (2) with his arms at 45 degrees, and (3) with 
+his arms at 60 degrees with respect to the vertical. Compare the 
+tension in his arms in the three cases. 
+
+
+sensor 
+
+
+WwW 
+
+
+Bec 
+
+
+Problem 12. 
+
+
+
+
+
+
+
+
+Problem 13 (Millikan and Gale, 
+1920). 
+
+
+Problems 235 
+
+
+
+
+
+Problem 15. 
+
+
+
+
+
+to climber 
+Problem 16. 
+a 
+Problem 17. 
+
+
+14 Driving down a hill inclined at an angle @ with respect to 
+horizontal, you slam on the brakes to keep from hitting a deer. Your 
+antilock brakes kick in, and you don’t skid. 
+
+(a) Analyze the forces. (Ignore rolling resistance and air friction.) 
+(b) Find the car’s maximum possible deceleration, a (expressed as 
+a positive number), in terms of g, 0, and the relevant coefficient of 
+friction. Vv 
+(c) Explain physically why the car’s mass has no effect on your 
+answer. 
+
+(d) Discuss the mathematical behavior and physical interpretation 
+of your result for negative values of 0. 
+
+(ce) Do the same for very large positive values of 0. 
+
+
+15 The figure shows the path followed by Hurricane Irene in 
+2005 as it moved north. The dots show the location of the center 
+of the storm at six-hour intervals, with lighter dots at the time 
+when the storm reached its greatest intensity. Find the time when 
+the storm’s center had a velocity vector to the northeast and an 
+acceleration vector to the southeast. Explain. 
+
+
+16 For safety, mountain climbers often wear a climbing harness 
+and tie in to other climbers on a rope team or to anchors such as 
+pitons or snow anchors. When using anchors, the climber usually 
+wants to tie in to more than one, both for extra strength and for 
+redundancy in case one fails. The figure shows such an arrangement, 
+with the climber hanging from a pair of anchors forming a symmetric 
+“Y” at an angle 0. The metal piece at the center is called a carabiner. 
+The usual advice is to make @ < 90°; for large values of 0, the stress 
+placed on the anchors can be many times greater than the actual 
+load L, so that two anchors are actually less safe than one. 
+
+(a) Find the force S at each anchor in terms of L and 0. v 
+(b) Verify that your answer makes sense in the case of 0 = 0. 
+
+(c) Interpret your answer in the case of 6 = 180°. 
+
+(d) What is the smallest value of 0 for which S equals or exceeds 
+L, so that for larger angles a failure of at least one anchor is more 
+likely than it would have been with a single anchor? v 
+
+
+17 (a) The person with mass m hangs from the rope, hauling the 
+box of mass M up a slope inclined at an angle 6. There is friction 
+between the box and the slope, described by the usual coefficients 
+of friction. The pulley, however, is frictionless. Find the magnitude 
+of the box’s acceleration. Vv 
+(b) Show that the units of your answer make sense. 
+
+(c) Check the physical behavior of your answer in the special cases 
+of M = 0 and 6 = —90°. 
+
+
+236 Chapter 8 Vectors and Motion 
+
+
+18 Complete example 6 on p. 226 by expressing the remaining 
+nine x and y components of the forces in terms of the five magnitudes 
+and the small, positive angle 0 = 9° by which the crack overhangs. 
+
+
+v 
+
+
+19 Problem 16 discussed a possible correct way of setting up 
+a redundant anchor for mountaineering. The figure for this prob- 
+lem shows an incorrect way of doing it, by arranging the rope in 
+a triangle (which we'll take to be isoceles). One of the bad things 
+about the triangular arrangement is that it requires more force from 
+the anchors, making them more likely to fail. (a) Using the same 
+notation as in problem 16, find S in terms of L and 6. Vv to climber 
+(b) Verify that your answer makes sense in the case of 6 = 0, and 
+
+
+
+
+
+compare with the correct setup. Problem 19. 
+20 A telephone wire of mass m is strung between two poles, 
+making an angle @ with the horizontal at each end. (a) Find the 
+tension at the center. Vv 
+
+
+(b) Which is greater, the tension at the center or at the ends? 
+
+
+21 The figure shows an arcade game called skee ball that is 
+similar to bowling. The player rolls the ball down a horizontal alley. 
+The ball then rides up a curved lip and is launched at an initial 
+speed u, at an angle a@ above horizontal. Suppose we want the ball Problem 20. 
+to go into a hole that is at horizontal distance @ and height h, as 
+
+shown in the figure. 
+
+
+
+
+
+
+
+
+
+
+
+(a) Find the initial speed u that is required, in terms of the other 
+variables and g. Vv 
+(b) Check that your answer to part a has units that make sense. 
+(c) Check that your answer to part a depends on g in a way that 
+makes sense. This means that you should first determine on physical 
+grounds whether increasing g should increase u, or decrease it. Then 
+see whether your answer to part a has this mathematical behavior. 
+(d) Do the same for the dependence on h. 
+
+(e) Interpret your equation in the case where a = 90°. 
+
+(f) Interpret your equation in the case where tana = h/é. 
+
+(g) Find wu numerically if h = 70 cm, ¢ = 60 cm, and a= 65°. V 
+
+
+Problem 21. 
+
+
+
+
+
+Problems 237 
+
+
+
+
+
+Problem 23. 
+
+
+
+
+
+Problem 24. 
+
+
+Problem 25. 
+
+
+22 A plane flies toward a city directly north and a distance D 
+away. The wind speed is u, and the plane’s speed with respect to 
+the wind is v. 
+
+(a) If the wind is blowing from the west (towards the east), what 
+direction should the plane head (what angle west of north)? v 
+(b) How long does it take the plane to get to the city? Vv 
+(c) Check that your answer to part b has units that make sense. 
+(d) Comment on the behavior of your answer in the case where 
+U= Uv. [problem by B. Shotwell] 
+
+
+23 A force F is applied to a box of mass M at an angle 0 below 
+the horizontal (see figure). The coefficient of static friction between 
+the box and the floor is ys, and the coefficient of kinetic friction 
+between the two surfaces is Ux. 
+
+(a) What is the magnitude of the normal force on the box from the 
+floor? Vv 
+(b) What is the minimum value of F' to get the box to start moving 
+from rest? v 
+(c) What is the value of F' so that the box will move with constant 
+velocity (assuming it is already moving)? Vv 
+(d) If 6 is greater than some critical angle 0.it, it is impossible to 
+have the scenario described in part c. What is Ocrit? 
+
+V [problem by B. Shotwell] 
+
+
+24 (a) A mass M is at rest on a fixed, frictionless ramp inclined 
+at angle 6 with respect to the horizontal. The mass is connected 
+to the force probe, as shown. What is the reading on the force 
+
+
+probe? Vv 
+(b) Check that your answer to part a makes sense in the special 
+cases 6 = 0 and 6 = 90°. [problem by B. Shotwell] 
+
+
+25 The figure shows a rock climber wedged into a dihedral or 
+“open book” consisting of two vertical walls of rock at an angle 6 rel- 
+ative to one another. This position can be maintained without any 
+ledges or holds, simply by pressing the feet against the walls. The 
+left hand is being used just for a little bit of balance. (a) Find the 
+minimum coefficient of friction between the rubber climbing shoes 
+and the rock. (b) Interpret the behavior of your expression at ex- 
+treme values of 6. (c) Steven Won has done tabletop experiments 
+using climbing shoes on the rough back side of a granite slab from 
+a kitchen countertop, and has estimated yw, = 1.17. Find the corre- 
+sponding maximum value of 0. > Solution, p. 556 
+
+
+26 You throw a rock horizontally from the edge of the roof of 
+a building of height h with speed vg. What is the (positive) angle 
+between the final velocity vector and the horizontal when the rock 
+hits the ground? V [problem by B. Shotwell] 
+
+
+238 Chapter 8 Vectors and Motion 
+
+
+27 The figure shows a block acted on by two external forces, c pal tS) 
+each of magnitude F’. One of the forces is horizontal, but the other —_> 
+
+is applied at a downward angle @. Gravity is negligible compared to 
+
+these forces. The block rests on a surface with friction described by 
+
+a coefficient of friction ws. (a) Find the minimum value of js that Problem 27. 
+
+is required if the block is to remain at rest. v 
+
+(b) Show that this expression has the correct limit as 0 approaches 
+
+Zero. 
+
+
+J 
+
+
+Problems 239 
+
+
+Exercise 8: Vectors and motion 
+
+
+Each diagram on page ?? shows the motion of an object in an x — y plane. Each dot is one 
+location of the object at one moment in time. The time interval from one dot to the next is 
+always the same, so you can think of the vector that connects one dot to the next as a v vector, 
+and subtract to find Av vectors. 
+
+
+1. Suppose the object in diagram 1 is moving from the top left to the bottom right. Deduce 
+whatever you can about the force acting on it. Does the force always have the same magnitude? 
+The same direction? 
+
+
+Invent a physical situation that this diagram could represent. 
+
+
+What if you reinterpret the diagram by reversing the object’s direction of motion? Redo the 
+construction of one of the Av vectors and see what happens. 
+
+
+2. What can you deduce about the force that is acting in diagram 2? 
+Invent a physical situation that diagram 2 could represent. 
+3. What can you deduce about the force that is acting in diagram 3? 
+
+
+Invent a physical situation. 
