@@ -2012,3 +2012,3278 @@ bation theory cannot be applied. Finally, there are interesting and deep connect
 between quantum field theory, based on the Feynam path integral, and statistical
 mechanics, based on the analysis of a partition function. But this is a long story, to
 be taught in another, more advanced, course.
+Introduction and Review 
+
+
+that are not visible to the eye, including radio waves, microwaves, 
+x-rays, and gamma rays. These are the “colors” of light that do not 
+happen to fall within the narrow violet-to-red range of the rainbow 
+that we can see. 
+
+
+self-check B 
+
+At the turn of the 20th century, a strange new phenomenon was discov- 
+ered in vacuum tubes: mysterious rays of unknown origin and nature. 
+These rays are the same as the ones that shoot from the back of your 
+TV’s picture tube and hit the front to make the picture. Physicists in 
+1895 didn’t have the faintest idea what the rays were, so they simply 
+named them “cathode rays,” after the name for the electrical contact 
+from which they sprang. A fierce debate raged, complete with national- 
+istic overtones, over whether the rays were a form of light or of matter. 
+What would they have had to do in order to settle the issue? > 
+Answer, p. 563 
+
+
+Many physical phenomena are not themselves light or matter, 
+but are properties of light or matter or interactions between light 
+and matter. For instance, motion is a property of all light and some 
+matter, but it is not itself light or matter. The pressure that keeps 
+a bicycle tire blown up is an interaction between the air and the 
+tire. Pressure is not a form of matter in and of itself. It is as 
+much a property of the tire as of the air. Analogously, sisterhood 
+and employment are relationships among people but are not people 
+themselves. 
+
+
+Some things that appear weightless actually do have weight, and 
+so qualify as matter. Air has weight, and is thus a form of matter 
+even though a cubic inch of air weighs less than a grain of sand. A 
+helium balloon has weight, but is kept from falling by the force of the 
+surrounding more dense air, which pushes up on it. Astronauts in 
+orbit around the Earth have weight, and are falling along a curved 
+arc, but they are moving so fast that the curved arc of their fall 
+is broad enough to carry them all the way around the Earth in a 
+circle. They perceive themselves as being weightless because their 
+space capsule is falling along with them, and the floor therefore does 
+not push up on their feet. 
+
+
+Optional Topic: Modern Changes in the Definition of Light and 
+Matter 
+
+Einstein predicted as a consequence of his theory of relativity that light 
+would after all be affected by gravity, although the effect would be ex- 
+tremely weak under normal conditions. His prediction was borne out 
+by observations of the bending of light rays from stars as they passed 
+close to the sun on their way to the Earth. Einstein’s theory also implied 
+the existence of black holes, stars so massive and compact that their 
+intense gravity would not even allow light to escape. (These days there 
+is strong evidence that black holes exist.) 
+
+
+Einstein’s interpretation was that light doesn’t really have mass, but 
+that energy is affected by gravity just like mass is. The energy in a light 
+
+
+Section 0.2 
+
+
+
+
+
+c/ This telescope picture shows 
+two images of the same distant 
+object, an exotic, very luminous 
+object called a quasar. This is 
+interpreted as evidence that a 
+massive, dark object, possibly 
+a black hole, happens to be 
+between us and it. Light rays that 
+would otherwise have missed the 
+earth on either side have been 
+bent by the dark object’s gravity 
+so that they reach us. The actual 
+direction to the quasar is presum- 
+ably in the center of the image, 
+but the light along that central line 
+doesn’t get to us because it is 
+absorbed by the dark object. The 
+quasar is known by its catalog 
+number, MG1131+0456, or more 
+informally as Einstein’s Ring. 
+
+
+What is physics? 19 
+
+
+molecule 
+
+
+neutrons 
+lave eo) melo) ars) 
+
+
+
+
+
+? 
+20 Chapter 0 
+d / Reductionism. 
+
+
+beam is equivalent to a certain amount of mass, given by the famous 
+equation E = mc?, where c is the speed of light. Because the speed 
+of light is such a big number, a large amount of energy is equivalent to 
+only a very small amount of mass, so the gravitational force on a light 
+ray can be ignored for most practical purposes. 
+
+
+There is however a more satisfactory and fundamental distinction 
+between light and matter, which should be understandable to you if you 
+have had a chemistry course. In chemistry, one learns that electrons 
+obey the Pauli exclusion principle, which forbids more than one electron 
+from occupying the same orbital if they have the same spin. The Pauli 
+exclusion principle is obeyed by the subatomic particles of which matter 
+is composed, but disobeyed by the particles, called photons, of which a 
+beam of light is made. 
+
+
+Einstein’s theory of relativity is discussed more fully in book 6 of this 
+series. 
+
+
+The boundary between physics and the other sciences is not 
+always clear. For instance, chemists study atoms and molecules, 
+which are what matter is built from, and there are some scientists 
+who would be equally willing to call themselves physical chemists 
+or chemical physicists. It might seem that the distinction between 
+physics and biology would be clearer, since physics seems to deal 
+with inanimate objects. In fact, almost all physicists would agree 
+that the basic laws of physics that apply to molecules in a test tube 
+work equally well for the combination of molecules that constitutes 
+a bacterium. (Some might believe that something more happens in 
+the minds of humans, or even those of cats and dogs.) What differ- 
+entiates physics from biology is that many of the scientific theories 
+that describe living things, while ultimately resulting from the fun- 
+damental laws of physics, cannot be rigorously derived from physical 
+principles. 
+
+
+Isolated systems and reductionism 
+
+
+To avoid having to study everything at once, scientists isolate the 
+things they are trying to study. For instance, a physicist who wants 
+to study the motion of a rotating gyroscope would probably prefer 
+that it be isolated from vibrations and air currents. Even in biology, 
+where field work is indispensable for understanding how living things 
+relate to their entire environment, it is interesting to note the vital 
+historical role played by Darwin’s study of the Galapagos Islands, 
+which were conveniently isolated from the rest of the world. Any 
+part of the universe that is considered apart from the rest can be 
+called a “system.” 
+
+
+Physics has had some of its greatest successes by carrying this 
+process of isolation to extremes, subdividing the universe into smaller 
+and smaller parts. Matter can be divided into atoms, and the be- 
+havior of individual atoms can be studied. Atoms can be split apart 
+
+
+Introduction and Review 
+
+
+into their constituent neutrons, protons and electrons. Protons and 
+neutrons appear to be made out of even smaller particles called 
+quarks, and there have even been some claims of experimental ev- 
+idence that quarks have smaller parts inside them. This method 
+of splitting things into smaller and smaller parts and studying how 
+those parts influence each other is called reductionism. The hope is 
+that the seemingly complex rules governing the larger units can be 
+better understood in terms of simpler rules governing the smaller 
+units. To appreciate what reductionism has done for science, it is 
+only necessary to examine a 19th-century chemistry textbook. At 
+that time, the existence of atoms was still doubted by some, elec- 
+trons were not even suspected to exist, and almost nothing was 
+understood of what basic rules governed the way atoms interacted 
+with each other in chemical reactions. Students had to memorize 
+long lists of chemicals and their reactions, and there was no way to 
+understand any of it systematically. Today, the student only needs 
+to remember a small set of rules about how atoms interact, for in- 
+stance that atoms of one element cannot be converted into another 
+via chemical reactions, or that atoms from the right side of the pe- 
+riodic table tend to form strong bonds with atoms from the left 
+side. 
+
+
+Discussion questions 
+
+
+A I’ve suggested replacing the ordinary dictionary definition of light 
+with a more technical, more precise one that involves weightlessness. It’s 
+still possible, though, that the stuff a lightbulb makes, ordinarily called 
+“light,” does have some small amount of weight. Suggest an experiment 
+to attempt to measure whether it does. 
+
+
+B_ _Heat is weightless (i.e., an object becomes no heavier when heated), 
+and can travel across an empty room from the fireplace to your skin, 
+where it influences you by heating you. Should heat therefore be con- 
+sidered a form of light by our definition? Why or why not? 
+
+
+C Similarly, should sound be considered a form of light? 
+
+
+0.3 How to learn physics 
+
+
+For as knowledges are now delivered, there is a kind of con- 
+tract of error between the deliverer and the receiver; for he 
+that delivereth knowledge desireth to deliver it in such a form 
+as may be best believed, and not as may be best examined; 
+and he that receiveth knowledge desireth rather present sat- 
+isfaction than expectant inquiry. 
+
+
+Francis Bacon 
+
+
+Many students approach a science course with the idea that they 
+can succeed by memorizing the formulas, so that when a problem 
+
+
+Section 0.3 How to learn physics 
+
+
+21 
+
+
+22 
+
+
+Chapter 0 
+
+
+is assigned on the homework or an exam, they will be able to plug 
+numbers in to the formula and get a numerical result on their cal- 
+culator. Wrong! That’s not what learning science is about! There 
+is a big difference between memorizing formulas and understanding 
+concepts. To start with, different formulas may apply in different 
+situations. One equation might represent a definition, which is al- 
+ways true. Another might be a very specific equation for the speed 
+of an object sliding down an inclined plane, which would not be true 
+if the object was a rock drifting down to the bottom of the ocean. 
+If you don’t work to understand physics on a conceptual level, you 
+won’t know which formulas can be used when. 
+
+
+Most students taking college science courses for the first time 
+also have very little experience with interpreting the meaning of an 
+equation. Consider the equation w = A/h relating the width of a 
+rectangle to its height and area. A student who has not developed 
+skill at interpretation might view this as yet another equation to 
+memorize and plug in to when needed. A slightly more savvy stu- 
+dent might realize that it is simply the familiar formula A = wh 
+in a different form. When asked whether a rectangle would have 
+a greater or smaller width than another with the same area but 
+a smaller height, the unsophisticated student might be at a loss, 
+not having any numbers to plug in on a calculator. The more ex- 
+perienced student would know how to reason about an equation 
+involving division — if h is smaller, and A stays the same, then w 
+must be bigger. Often, students fail to recognize a sequence of equa- 
+tions as a derivation leading to a final result, so they think all the 
+intermediate steps are equally important formulas that they should 
+memorize. 
+
+
+When learning any subject at all, it is important to become as 
+actively involved as possible, rather than trying to read through 
+all the information quickly without thinking about it. It is a good 
+idea to read and think about the questions posed at the end of each 
+section of these notes as you encounter them, so that you know you 
+have understood what you were reading. 
+
+
+Many students’ difficulties in physics boil down mainly to diffi- 
+culties with math. Suppose you feel confident that you have enough 
+mathematical preparation to succeed in this course, but you are 
+having trouble with a few specific things. In some areas, the brief 
+review given in this chapter may be sufficient, but in other areas 
+it probably will not. Once you identify the areas of math in which 
+you are having problems, get help in those areas. Don’t limp along 
+through the whole course with a vague feeling of dread about some- 
+thing like scientific notation. The problem will not go away if you 
+ignore it. The same applies to essential mathematical skills that you 
+are learning in this course for the first time, such as vector addition. 
+
+
+Sometimes students tell me they keep trying to understand a 
+
+
+Introduction and Review 
+
+
+certain topic in the book, and it just doesn’t make sense. The worst 
+thing you can possibly do in that situation is to keep on staring 
+at the same page. Every textbook explains certain things badly — 
+even mine! — so the best thing to do in this situation is to look 
+at a different book. Instead of college textbooks aimed at the same 
+mathematical level as the course you’re taking, you may in some 
+cases find that high school books or books at a lower math level 
+give clearer explanations. 
+
+
+Finally, when reviewing for an exam, don’t simply read back 
+over the text and your lecture notes. Instead, try to use an active 
+method of reviewing, for instance by discussing some of the discus- 
+sion questions with another student, or doing homework problems 
+you hadn’t done the first time. 
+
+
+0.4 Self-evaluation 
+
+
+The introductory part of a book like this is hard to write, because 
+every student arrives at this starting point with a different prepara- 
+tion. One student may have grown up outside the U.S. and so may 
+be completely comfortable with the metric system, but may have 
+had an algebra course in which the instructor passed too quickly 
+over scientific notation. Another student may have already taken 
+calculus, but may have never learned the metric system. The fol- 
+lowing self-evaluation is a checklist to help you figure out what you 
+need to study to be prepared for the rest of the course. 
+
+
+
+
+
+If you disagree with this state- | you should study this section: 
+ment... 
+
+
+
+
+
+I am familiar with the basic metric | section 0.5 Basic of the Metric Sys- 
+units of meters, kilograms, and sec- | tem 
+
+onds, and the most common metric 
+prefixes: milli- (m), kilo- (k), and 
+
+
+
+
+
+centi- (c). 
+I know about the newton, a unit of | section 0.6 The newton, the Metric 
+force Unit of Force 
+
+
+
+
+
+I am familiar with these less com- | section 0.7 Less Common Metric 
+mon metric prefixes: mega- (M), | Prefixes 
+micro- (4), and nano- (n). 
+
+
+
+
+
+I am comfortable with scientific no- | section 0.8 Scientific Notation 
+tation. 
+
+
+
+
+
+I can confidently do metric conver- | section 0.9 Conversions 
+sions. 
+
+
+
+
+
+I understand the purpose and use of | section 0.10 Significant Figures 
+significant figures. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+It wouldn’t hurt you to skim the sections you think you already 
+know about, and to do the self-checks in those sections. 
+
+
+Section 0.4 Self-evaluation 
+
+
+0.5 Basics of the metric system 
+
+
+The metric system 
+
+
+Every country in the world besides the U.S. uses a system of 
+units known in English as the “metric system.?” This system is 
+entirely decimal, thanks to the same eminently logical people who 
+brought about the French Revolution. In deference to France, the 
+system’s official name is the Systeme International, or SI, meaning 
+International System. The system uses a single, consistent set of 
+Greek and Latin prefixes that modify the basic units. Each prefix 
+stands for a power of ten, and has an abbreviation that can be 
+combined with the symbol for the unit. For instance, the meter is 
+a unit of distance. The prefix kilo- stands for 10°, so a kilometer, 1 
+km, is a thousand meters. 
+
+
+The basic units of the SI are the meter for distance, the second 
+for time, and the kilogram (not the gram) for mass. 
+
+
+The following are the most common metric prefixes. You should 
+memorize them. 
+
+
+prefix meaning example 
+kilo k 103 60 kg =a person’s mass 
+centi- c 107? 28cm = height of a piece of paper 
+milli- m 107? lms = time for one vibration of a guitar 
+
+
+string playing the note D 
+
+
+The prefix centi-, meaning 10~?, is only used in the centimeter; 
+a hundredth of a gram would not be written as 1 cg but as 10 mg. 
+The centi- prefix can be easily remembered because a cent is 10~? 
+
+
+66) 
+
+
+dollars. The official SI abbreviation for seconds is “s” (not “sec”) 
+
+
+66 
+
+
+and grams are “g” (not “gm”). 
+
+
+The second 
+
+
+When I stated briefly above that the second was a unit of time, it 
+may not have occurred to you that this was not much of a definition. 
+We can make a dictionary-style definition of a term like “time,” or 
+give a general description like Isaac Newton’s: “Absolute, true, and 
+mathematical time, of itself, and from its own nature, flows equably 
+without relation to anything external...” Newton’s characterization 
+sounds impressive, but physicists today would consider it useless as 
+a definition of time. Today, the physical sciences are based on oper- 
+ational definitions, which means definitions that spell out the actual 
+steps (operations) required to measure something numerically. 
+
+
+In an era when our toasters, pens, and coffee pots tell us the 
+time, it is far from obvious to most people what is the fundamental 
+operational definition of time. Until recently, the hour, minute, and 
+second were defined operationally in terms of the time required for 
+
+
+
+
+
+Liberia and Myanmar have not legally adopted metric units, but use them 
+in everyday life. 
+
+
+Chapter 0 Introduction and Review 
+
+
+the earth to rotate about its axis. Unfortunately, the Earth’s ro- 
+tation is slowing down slightly, and by 1967 this was becoming an 
+issue in scientific experiments requiring precise time measurements. 
+The second was therefore redefined as the time required for a cer- 
+tain number of vibrations of the light waves emitted by a cesium 
+atoms in a lamp constructed like a familiar neon sign but with the 
+neon replaced by cesium. The new definition not only promises to 
+stay constant indefinitely, but for scientists is a more convenient 
+way of calibrating a clock than having to carry out astronomical 
+measurements. 
+
+
+self-check C 
+What is a possible operational definition of how strong apersonis? p> 
+Answer, p. 563 
+
+
+The meter 
+
+
+The French originally defined the meter as 10~7 times the dis- 
+tance from the equator to the north pole, as measured through Paris 
+(of course). Even if the definition was operational, the operation of 
+traveling to the north pole and laying a surveying chain behind you 
+was not one that most working scientists wanted to carry out. Fairly 
+soon, a standard was created in the form of a metal bar with two 
+scratches on it. This was replaced by an atomic standard in 1960, 
+and finally in 1983 by the current definition, which is that the speed 
+of light has a defined value in units of m/s. 
+
+
+The kilogram 
+
+
+The third base unit of the SI is the kilogram, a unit of mass. 
+Mass is intended to be a measure of the amount of a substance, 
+but that is not an operational definition. Bathroom scales work by 
+measuring our planet’s gravitational attraction for the object being 
+weighed, but using that type of scale to define mass operationally 
+would be undesirable because gravity varies in strength from place 
+to place on the earth. The kilogram was for a long time defined 
+by a physical artifact (figure f), but in 2019 it was redefined by 
+giving a defined value to Planck’s constant (p. 970), which plays a 
+fundamental role in the description of the atomic world. 
+
+
+Combinations of metric units 
+
+
+Just about anything you want to measure can be measured with 
+some combination of meters, kilograms, and seconds. Speed can be 
+measured in m/s, volume in m°, and density in kg/m®. Part of what 
+makes the SI great is this basic simplicity. No more funny units like 
+a cord of wood, a bolt of cloth, or a jigger of whiskey. No more 
+liquid and dry measure. Just a simple, consistent set of units. The 
+SI measures put together from meters, kilograms, and seconds make 
+up the mks system. For example, the mks unit of speed is m/s, not 
+km/hr. 
+
+
+
+
+
+e/The original definition of 
+
+
+the meter. 
+
+
+
+
+
+CE ae OR 
+
+
+f/A duplicate of the Paris 
+kilogram, maintained at the Dan- 
+ish National Metrology Institute. 
+As of 2019, the kilogram is no 
+longer defined in terms of a 
+physical standard. 
+
+
+Section 0.5 Basics of the metric system 25 
+
+
+26 
+
+
+Chapter 0 
+
+
+
+
+
+Checking units 
+
+
+A useful technique for finding mistakes in one’s algebra is to 
+
+
+analyze the units associated with the variables. 
+
+
+Checking units example 1 
+> Jae starts from the formula V = 3Ah for the volume of a cone, 
+where A is the area of its base, and h is its height. He wants to 
+find an equation that will tell him how tall a conical tent has to be 
+in order to have a certain volume, given its radius. His algebra 
+goes like this: 
+
+
+
+
+
+| V=—Ah 
+3 
+2 A=nr- 
+3 V= anr?h 
+2 
+Tr 
+paay 
+
+
+Is his algebra correct? If not, find the mistake. 
+
+
+> Line 4 is supposed to be an equation for the height, so the units 
+of the expression on the right-hand side had better equal meters. 
+The pi and the 3 are unitless, so we can ignore them. In terms of 
+units, line 4 becomes 
+
+
+m2 1 
+nee. 
+me om 
+
+
+This is false, so there must be a mistake in the algebra. The units 
+of lines 1, 2, and 3 check out, so the mistake must be in the step 
+from line 3 to line 4. In fact the result should have been 
+
+
+3V 
+h= mre. 
+
+
+Now the units check: m = m?/m?. 
+
+
+Discussion question 
+
+
+A Isaac Newton wrote, “...the natural days are truly unequal, though 
+they are commonly considered as equal, and used for a measure of 
+time. . . It may be that there is no such thing as an equable motion, whereby 
+time may be accurately measured. All motions may be accelerated or re- 
+tarded...” Newton was right. Even the modern definition of the second 
+in terms of light emitted by cesium atoms is subject to variation. For in- 
+stance, magnetic fields could cause the cesium atoms to emit light with 
+a slightly different rate of vibration. What makes us think, though, that a 
+pendulum clock is more accurate than a sundial, or that a cesium atom 
+is a more accurate timekeeper than a pendulum clock? That is, how can 
+one test experimentally how the accuracies of different time standards 
+compare? 
+
+
+Introduction and Review 
+
+
+0.6 The Newton, the metric unit of force 
+
+
+A force is a push or a pull, or more generally anything that can 
+change an object’s speed or direction of motion. A force is required 
+to start a car moving, to slow down a baseball player sliding in to 
+home base, or to make an airplane turn. (Forces may fail to change 
+an object’s motion if they are canceled by other forces, e.g., the 
+force of gravity pulling you down right now is being canceled by the 
+force of the chair pushing up on you.) The metric unit of force is 
+the Newton, defined as the force which, if applied for one second, 
+will cause a 1-kilogram object starting from rest to reach a speed of 
+1 m/s. Later chapters will discuss the force concept in more detail. 
+In fact, this entire book is about the relationship between force and 
+motion. 
+
+
+In section 0.5, I gave a gravitational definition of mass, but by 
+defining a numerical scale of force, we can also turn around and de- 
+fine a scale of mass without reference to gravity. For instance, if a 
+force of two Newtons is required to accelerate a certain object from 
+rest to 1 m/s in 1 s, then that object must have a mass of 2 kg. 
+From this point of view, mass characterizes an object’s resistance 
+to a change in its motion, which we call inertia or inertial mass. 
+Although there is no fundamental reason why an object’s resistance 
+to a change in its motion must be related to how strongly gravity 
+affects it, careful and precise experiments have shown that the in- 
+ertial definition and the gravitational definition of mass are highly 
+consistent for a variety of objects. It therefore doesn’t really matter 
+for any practical purpose which definition one adopts. 
+
+
+Discussion question 
+
+
+A Spending a long time in weightlessness is unhealthy. One of the 
+most important negative effects experienced by astronauts is a loss of 
+muscle and bone mass. Since an ordinary scale won’t work for an astro- 
+naut in orbit, what is a possible way of monitoring this change in mass? 
+(Measuring the astronaut’s waist or biceps with a measuring tape is not 
+good enough, because it doesn't tell anything about bone mass, or about 
+the replacement of muscle with fat.) 
+
+
+0.7 Less common metric prefixes 
+
+
+The following are three metric prefixes which, while less common 
+than the ones discussed previously, are well worth memorizing. 
+
+
+prefix meaning example 
+mega- M_ 10° 6.4Mm = radius of the earth 
+micro- yp 107° 10 pm = size of a white blood cell 
+nano- n_ 107% 0.154 nm = distance between carbon 
+
+
+nuclei in an ethane molecule 
+
+
+Note that the abbreviation for micro is the Greek letter mu, ju 
+— a common mistake is to confuse it with m (milli) or M (mega). 
+
+
+pee little 
+
+
+10 -9 nano — nuns 
+
+
+
+
+
+10 6 micro <—[ mix 
+
+
+10-3 oni No 
+
+
+10 3 kilo 
+
+
+10 6 mega «| MUQS. 
+
+
+g/This is a mnemonic. to 
+help you remember the most im- 
+portant metric prefixes. The word 
+“little” is to remind you that the 
+list starts with the prefixes used 
+for small quantities and builds 
+upward. The exponent changes 
+by 3, except that of course that 
+we do not need a special prefix 
+for 10°, which equals one. 
+
+
+Section 0.6 The Newton, the metric unit of force 27 
+
+
+28 
+
+
+Chapter 0 
+
+
+There are other prefixes even less common, used for extremely 
+large and small quantities. For instance, 1 femtometer = 107! m is 
+a convenient unit of distance in nuclear physics, and 1 gigabyte = 
+10° bytes is used for computers’ hard disks. The international com- 
+mittee that makes decisions about the SI has recently even added 
+some new prefixes that sound like jokes, e.g., 1 yoctogram = 10724 g 
+is about half the mass of a proton. In the immediate future, how- 
+ever, you’re unlikely to see prefixes like “yocto-” and “zepto-” used 
+except perhaps in trivia contests at science-fiction conventions or 
+other geekfests. 
+
+
+self-check D 
+
+Suppose you could slow down time so that according to your perception, 
+a beam of light would move across a room at the speed of a slow walk. 
+If you perceived a nanosecond as if it was a second, how would you 
+perceive a microsecond? > Answer, p. 564 
+
+
+d 
+
+
+0.8 Scientific notation 
+
+
+Most of the interesting phenomena in our universe are not on the 
+human scale. It would take about 1,000,000,000,000,000,000,000 
+bacteria to equal the mass of a human body. When the physicist 
+Thomas Young discovered that light was a wave, it was back in the 
+bad old days before scientific notation, and he was obliged to write 
+that the time required for one vibration of the wave was 1/500 of 
+a millionth of a millionth of a second. Scientific notation is a less 
+awkward way to write very large and very small numbers such as 
+these. Here’s a quick review. 
+
+
+Scientific notation means writing a number in terms of a product 
+of something from 1 to 10 and something else that is a power of ten. 
+For instance, 
+
+32 = 32% 10! 
+320 = 3.2 x 10? 
+3200 = 3.2 x 10° 
+
+
+Each number is ten times bigger than the previous one. 
+
+
+Since 10! is ten times smaller than 10? , it makes sense to use 
+the notation 10° to stand for one, the number that is in turn ten 
+times smaller than 10! . Continuing on, we can write 10! to stand 
+for 0.1, the number ten times smaller than 10° . Negative exponents 
+are used for small numbers: 
+
+
+3.2 = 3.2 x 10° 
+0.32 = 3.2 x 107! 
+0.032 = 3.2 x 10~ 
+
+
+Introduction and Review 
+
+
+A common source of confusion is the notation used on the dis- 
+plays of many calculators. Examples: 
+
+
+3.2 x 10° (written notation) 
+3.2E+6 (notation on some calculators) 
+32° (notation on some other calculators) 
+
+
+The last example is particularly unfortunate, because 3.2° really 
+
+stands for the number 3.2 x 3.2 « 3.2 x 3.2 x 3.2 x 3.2 = 1074, a 
+
+totally different number from 3.2 x 10° = 3200000. The calculator 
+
+notation should never be used in writing. It’s just a way for the 
+
+manufacturer to save money by making a simpler display. 
+self-check E 
+
+
+A student learns that 104 bacteria, standing in line to register for classes 
+at Paramecium Community College, would form a queue of this size: 
+
+
+ee 
+The student concludes that 10? bacteria would form a line of this length: 
+
+
+Why is the student incorrect? > Answer, p. 564 
+
+
+0.9 Conversions 
+
+
+Conversions are one of the three essential mathematical skills, sum- 
+marized on pp.545-546, that you need for success in this course. 
+
+
+I suggest you avoid memorizing lots of conversion factors be- 
+tween SI units and U.S. units, but two that do come in handy are: 
+
+
+1 inch = 2.54 cm 
+
+
+An object with a weight on Earth of 2.2 pounds-force has a 
+mass of 1 kg. 
+
+
+The first one is the present definition of the inch, so it’s exact. The 
+second one is not exact, but is good enough for most purposes. (U.S. 
+units of force and mass are confusing, so it’s a good thing they’re 
+not used in science. In U.S. units, the unit of force is the pound- 
+force, and the best unit to use for mass is the slug, which is about 
+14.6 kg.) 
+
+
+More important than memorizing conversion factors is under- 
+standing the right method for doing conversions. Even within the 
+SI, you may need to convert, say, from grams to kilograms. Differ- 
+ent people have different ways of thinking about conversions, but 
+the method I’ll describe here is systematic and easy to understand. 
+The idea is that if 1 kg and 1000 g represent the same mass, then 
+
+
+Section 0.9 Conversions 
+
+
+29 
+
+
+30 
+
+
+Chapter 0 
+
+
+we can consider a fraction like 
+10° g 
+1 kg 
+
+
+
+
+
+to be a way of expressing the number one. This may bother you. For 
+instance, if you type 1000/1 into your calculator, you will get 1000, 
+not one. Again, different people have different ways of thinking 
+about it, but the justification is that it helps us to do conversions, 
+and it works! Now if we want to convert 0.7 kg to units of grams, 
+we can multiply kg by the number one: 
+
+
+
+
+
+10° ¢ 
+0.7 kg x 
+. 1 kg 
+If yow’re willing to treat symbols such as “kg” as if they were vari- 
+ables as used in algebra (which they’re really not), you can then 
+cancel the kg on top with the kg on the bottom, resulting in 
+LO? 
+
+
+0.7 ke x BY aul 
+
+
+
+
+
+To convert grams to kilograms, you would simply flip the fraction 
+upside down. 
+
+
+One advantage of this method is that it can easily be applied to 
+a series of conversions. For instance, to convert one year to units of 
+seconds, 
+
+
+,, 365 days | 24 hours | 60 min 60s 
+1 year 1 day lheur  1lmin — 
+= 3.15 « 10" 6. 
+
+
+
+
+
+Should that exponent be positive, or negative? 
+
+
+A common mistake is to write the conversion fraction incorrectly. 
+For instance the fraction 
+
+
+10° ke 
+eS 
+
+
+
+
+
+(incorrect) 
+
+
+does not equal one, because 10? kg is the mass of a car, and 1 g is 
+the mass of a raisin. One correct way of setting up the conversion 
+factor would be 
+1073 kg 
+lg 
+You can usually detect such a mistake if you take the time to check 
+your answer and see if it is reasonable. 
+
+
+(correct). 
+
+
+If common sense doesn’t rule out either a positive or a negative 
+exponent, here’s another way to make sure you get it right. There 
+are big prefixes and small prefixes: 
+
+
+Introduction and Review 
+
+
+big prefixes: k M 
+small prefixes: m wp n 
+
+
+(It’s not hard to keep straight which are which, since “mega” and 
+“micro” are evocative, and it’s easy to remember that a kilometer 
+is bigger than a meter and a millimeter is smaller.) In the example 
+above, we want the top of the fraction to be the same as the bottom. 
+Since & is a big prefix, we need to compensate by putting a small 
+number like 107? in front of it, not a big number like 10%. 
+
+
+> Solved problem: a simple conversion page 36, problem 6 
+
+
+> Solved problem: the geometric mean page 37, problem 8 
+Discussion question 
+
+
+A Each of the following conversions contains an error. In each case, 
+explain what the error is. 
+
+
+(a) 1000 kg x agg = 19 
+
+
+
+
+
+
+
+
+b) 50m x $% =0.5cm 
+
+
+(b) 
+(c) “Nano” is 10-9, so there are 10-9 nm in a meter. 
+(d) “Micro” is 10-®, so 1 kg is 10® ug. 
+
+
+0.10 Significant figures 
+
+
+The international governing body for football (“soccer” in the US) 
+says the ball should have a circumference of 68 to 70 cm. Taking the 
+middle of this range and dividing by a gives a diameter of approx- 
+imately 21.96338214668155633610595934540698196 cm. The digits 
+after the first few are completely meaningless. Since the circumfer- 
+ence could have varied by about a centimeter in either direction, the 
+diameter is fuzzy by something like a third of a centimeter. We say 
+that the additional, random digits are not significant figures. If you 
+write down a number with a lot of gratuitous insignificant figures, 
+it shows a lack of scientific literacy and imples to other people a 
+greater precision than you really have. 
+
+
+As a rule of thumb, the result of a calculation has as many 
+significant figures, or “sig figs,” as the least accurate piece of data 
+that went in. In the example with the soccer ball, it didn’t do us any 
+good to know z to dozens of digits, because the bottleneck in the 
+precision of the result was the figure for the circumference, which 
+was two sig figs. The result is 22 cm. The rule of thumb works best 
+for multiplication and division. 
+
+
+For calculations involving multiplication and division, a given 
+fractional or “percent” error in one of the inputs causes the same 
+fractional error in the output. The number of digits in a number 
+
+
+Section 0.10 
+
+
+Significant figures 
+
+
+31 
+
+
+32 
+
+
+Chapter 0 
+
+
+provides a rough measure of its possible fractional error. These are 
+called significant figures or “sig figs.” Examples: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.14 3 sig figs 
+
+3.1 2 sig figs 
+
+0.03 1 sig fig, because the zeroes are just placeholders 
+
+3.0 x 10! | 2 sig figs 
+
+30 could be 1 or 2 sig figs, since we can’t tell if the 
+0 is a placeholder or a real sig fig 
+
+
+
+
+
+
+
+
+In such calculations, your result should not have more than the 
+number of sig figs in the least accurate piece of data you started 
+with. 
+
+
+Sig figs in the area of a triangle example 2 
+> A triangle has an area of 6.45 m? and a base with a width of 
+4.0138 m. Find its height. 
+
+
+> The area is related to the base and height by A = bh/2. 
+_2A 
+
+
+b 
+= 3.21391200358762 m_ (calculator output) 
+
+
+=3.21m 
+
+
+h 
+
+
+The given data were 3 sig figs and 5 sig figs. We're limited by the 
+less accurate piece of data, so the final result is 3 sig figs. The 
+additional digits on the calculator don’t mean anything, and if we 
+communicated them to another person, we would create the false 
+impression of having determined h with more precision than we 
+really obtained. 
+
+
+self-check F 
+The following quote is taken from an editorial by Norimitsu Onishi in the 
+New York Times, August 18, 2002. 
+
+
+Consider Nigeria. Everyone agrees it is Africa’s most populous 
+nation. But what is its population? The United Nations says 
+114 million; the State Department, 120 million. The World Bank 
+says 126.9 million, while the Central Intelligence Agency puts it 
+at 126,635,626. 
+
+
+What should bother you about this? > Answer, p. 564 
+
+
+Dealing correctly with significant figures can save you time! Of- 
+ten, students copy down numbers from their calculators with eight 
+significant figures of precision, then type them back in for a later 
+calculation. That’s a waste of time, unless your original data had 
+that kind of incredible precision. 
+
+self-check G 
+
+
+How many significant figures are there in each of the following mea- 
+surements? 
+
+
+Introduction and Review 
+
+
+(1) 9.937 m 
+(2) 4.05 
+(3) 0.0000000000000037 kg > Answer, p. 564 
+
+
+The rules about significant figures are only rules of thumb, and 
+are not a substitute for careful thinking. For instance, $20.00 + 
+$0.05 is $20.05. It need not and should not be rounded off to $20. 
+In general, the sig fig rules work best for multiplication and division, 
+and we sometimes also apply them when doing a complicated calcu- 
+lation that involves many types of operations. For simple addition 
+and subtraction, it makes more sense to maintain a fixed number of 
+digits after the decimal point. 
+
+
+When in doubt, don’t use the sig fig rules at all. Instead, in- 
+tentionally change one piece of your initial data by the maximum 
+amount by which you think it could have been off, and recalculate 
+the final result. The digits on the end that are completely reshuffled 
+are the ones that are meaningless, and should be omitted. 
+
+
+A nonlinear function example 3 
+> How many sig figs are there in sin 88.7°? 
+
+
+> We're using a sine function, which isn’t addition, subtraction, 
+multiplication, or division. It would be reasonable to guess that 
+since the input angle had 3 sig figs, so would the output. But if 
+this was an important calculation and we really needed to know, 
+we would do the following: 
+
+
+sin 88.7° = 0.999742609322698 
+sin 88.8° = 0.999780683474846 
+
+
+Surprisingly, the result appears to have as many as 5 sig figs, not 
+just 3: 
+sin 88.7° = 0.99974, 
+
+
+where the final 4 is uncertain but may have some significance. 
+The unexpectedly high precision of the result is because the sine 
+function is nearing its maximum at 90 degrees, where the graph 
+flattens out and becomes insensitive to the input angle. 
+
+
+0.11 A note about diagrams 
+
+
+A quick note about diagrams. Often when you solve a problem, 
+the best way to get started and organize your thoughts is by draw- 
+ing a diagram. For an artist, it’s desirable to be able to draw a 
+recognizable, realistic, perspective picture of a tomato, like the one 
+at the top of figure h. But in science and engineering, we usually 
+don’t draw solid figures in perspective, because that would make it 
+difficult to label distances and angles. Usually we want views or 
+cross-sections that project the object into its planes of symmetry, 
+as in the line drawings in the figure. 
+
+
+
+
+
+horizontal 
+cross-section 
+
+
+h/A_ diagram of 
+
+
+Section 0.11 A note about diagrams 
+
+
+vertical 
+
+
+cross-section 
+
+
+a 
+
+
+tomato. 
+
+
+33 
+
+
+Summary 
+
+
+Selected vocabulary 
+
+
+matter 
+
+
+defi- 
+
+
+operational 
+nition 
+
+
+Systeme Interna- 
+tional 
+
+
+Anything that is affected by gravity. 
+Anything that can travel from one place to an- 
+other through empty space and can influence 
+matter, but is not affected by gravity. 
+
+A definition that states what operations 
+should be carried out to measure the thing be- 
+ing defined. 
+
+A fancy name for the metric system. 
+
+
+The use of metric units based on the meter, 
+
+
+kilogram, and second. Example: meters per 
+second is the mks unit of speed, not cm/s or 
+km/hr. 
+
+A numerical measure of how difficult it is to 
+change an object’s motion. 
+
+Digits that contribute to the accuracy of a 
+
+
+significant figures 
+
+
+measurement. 
+Notation 
+1 ee meter, the metric distance unit 
+KO fe BBs ot kilogram, the metric unit of mass 
+Sebati aoe 2 second, the metric unit of time 
+Me ie ba ee the metric prefix mega-, 10° 
+Kes os we et eas the metric prefix kilo-, 10° 
+Ti? vies eis ae the metric prefix milli-, 107° 
+fis sn ho eA: the metric prefix micro-, 10~° 
+TS iS speek ee the metric prefix nano-, 1079 
+Summary 
+
+
+Physics is the use of the scientific method to study the behavior 
+of light and matter. The scientific method requires a cycle of the- 
+ory and experiment, theories with both predictive and explanatory 
+value, and reproducible experiments. 
+
+
+The metric system is a simple, consistent framework for measure- 
+ment built out of the meter, the kilogram, and the second plus a set 
+of prefixes denoting powers of ten. The most systematic method for 
+doing conversions is shown in the following example: 
+
+-3 
+
+= = 0.378 
+
+ms 
+
+
+
+
+
+10 
+370 ms x 
+
+
+Mass is a measure of the amount of a substance. Mass can be 
+defined gravitationally, by comparing an object to a standard mass 
+on a double-pan balance, or in terms of inertia, by comparing the 
+effect of a force on an object to the effect of the same force on a 
+standard mass. The two definitions are found experimentally to 
+be proportional to each other to a high degree of precision, so we 
+
+
+Introduction and Review 
+
+
+usually refer simply to “mass,” without bothering to specify which 
+type. 
+
+
+A force is that which can change the motion of an object. The 
+metric unit of force is the Newton, defined as the force required to 
+accelerate a standard 1-kg mass from rest to a speed of 1 m/s in 1 
+S. 
+
+
+Scientific notation means, for example, writing 3.2 x 10° rather 
+than 320000. 
+
+
+Writing numbers with the correct number of significant figures 
+correctly communicates how accurate they are. As a rule of thumb, 
+the final result of a calculation is no more accurate than, and should 
+have no more significant figures than, the least accurate piece of 
+data. 
+
+
+Summary 
+
+
+36 
+
+
+Chapter 0 
+
+
+Problems 
+Key 
+
+
+Vv A computerized answer check is available online. 
+Jf A problem that requires calculus. 
+x A difficult problem. 
+
+
+1 Correct use of a calculator: (a) Calculate SS SEI on a cal- 
+culator. [Self-check: The most common mistake results in 97555.40.] 
+Vv 
+
+
+(b) Which would be more like the price of a TV, and which would 
+be more like the price of a house, $3.5 x 10° or $3.5°? 
+
+
+2 Compute the following things. If they don’t make sense be- 
+cause of units, say so. 
+
+(a) 3cm + 5 cm 
+
+(b) 1.11 m + 22 cm 
+
+(c) 120 miles + 2.0 hours 
+
+(d) 120 miles / 2.0 hours 
+
+
+3 Your backyard has brick walls on both ends. You measure a 
+distance of 23.4 m from the inside of one wall to the inside of the 
+other. Each wall is 29.4 cm thick. How far is it from the outside 
+of one wall to the outside of the other? Pay attention to significant 
+figures. 
+
+
+4 The speed of light is 3.0 x 10° m/s. Convert this to furlongs 
+per fortnight. A furlong is 220 yards, and a fortnight is 14 days. An 
+inch is 2.54 cm. Vv 
+
+
+5 Express each of the following quantities in micrograms: 
+(a) 10 mg, (b) 10* g, (c) 10 kg, (d) 100 x 10° g, (e) 1000 ng. v 
+
+
+6 Convert 134 mg to units of kg, writing your answer in scientific 
+notation. > Solution, p. 547 
+
+
+7 In the last century, the average age of the onset of puberty for 
+girls has decreased by several years. Urban folklore has it that this 
+is because of hormones fed to beef cattle, but it is more likely to be 
+because modern girls have more body fat on the average and pos- 
+sibly because of estrogen-mimicking chemicals in the environment 
+from the breakdown of pesticides. A hamburger from a hormone- 
+implanted steer has about 0.2 ng of estrogen (about double the 
+amount of natural beef). A serving of peas contains about 300 
+ng of estrogen. An adult woman produces about 0.5 mg of estrogen 
+per day (note the different unit!). (a) How many hamburgers would 
+a girl have to eat in one day to consume as much estrogen as an 
+adult woman’s daily production? (b) How many servings of peas? 
+
+
+Introduction and Review 
+
+
+8 The usual definition of the mean (average) of two numbers a 
+and b is (a+6)/2. This is called the arithmetic mean. The geometric 
+mean, however, is defined as (ab)!/? (i.e., the square root of ab). For 
+the sake of definiteness, let’s say both numbers have units of mass. 
+(a) Compute the arithmetic mean of two numbers that have units 
+of grams. Then convert the numbers to units of kilograms and 
+recompute their mean. Is the answer consistent? (b) Do the same 
+for the geometric mean. (c) If a and b both have units of grams, 
+what should we call the units of ab? Does your answer make sense 
+when you take the square root? (d) Suppose someone proposes to 
+you a third kind of mean, called the superduper mean, defined as 
+(ab)'/3. Is this reasonable? > Solution, p. 547 
+
+
+9 In an article on the SARS epidemic, the May 7, 2003 New 
+York Times discusses conflicting estimates of the disease’s incuba- 
+tion period (the average time that elapses from infection to the first 
+symptoms). “The study estimated it to be 6.4 days. But other sta- 
+tistical calculations ... showed that the incubation period could be 
+as long as 14.22 days.” What’s wrong here? 
+
+
+10 The photo shows the corner of a bag of pretzels. What’s 
+wrong here? 
+
+
+11 The distance to the horizon is given by the expression V2rh, 
+
+where r is the radius of the Earth, and h is the observer’s height 
+
+above the Earth’s surface. (This can be proved using the Pythagorean 
+theorem.) Show that the units of this expression make sense. Don’t 
+
+try to prove the result, just check its units. (See example 1 on p. 
+
+26 for an example of how to do this.) 
+
+
+12 (a) Based on the definitions of the sine, cosine, and tangent, 
+what units must they have? (b) A cute formula from trigonometry 
+lets you find any angle of a triangle if you know the lengths of 
+its sides. Using the notation shown in the figure, and letting s = 
+(a+b+c)/2 be half the perimeter, we have 
+
+
+—b\(s— 
+tan A/2 = (s — b)(s =o) 
+s(s — a) 
+Show that the units of this equation make sense. In other words, 
+check that the units of the right-hand side are the same as your 
+answer to part a of the question. > Solution, p. 547 
+
+
+13 A 2002 paper by Steegmann et al. uses data from modern 
+human groups like the Inuit to argue that Neanderthals in Ice Age 
+Europe had to eat up “to 4,480 kcal per day to support strenuous 
+winter foraging and cold resistance costs.” What’s wrong here? 
+
+
+NET WT. 3 1/2 oz. (99.2 g) 
+
+
+Problem 10. 
+
+
+Problem 12. 
+
+
+Problems 
+
+
+
+
+
+37 
+
+
+38 
+
+
+Exercise 0: Models and idealization 
+Equipment: 
+
+coffee filters 
+
+ramps (one per group) 
+
+balls of various sizes 
+
+sticky tape 
+
+vacuum pump and “guinea and feather” apparatus (one) 
+
+
+The motion of falling objects has been recognized since ancient times as an important piece of 
+physics, but the motion is inconveniently fast, so in our everyday experience it can be hard to 
+tell exactly what objects are doing when they fall. In this exercise you will use several techniques 
+to get around this problem and study the motion. Your goal is to construct a scientific model of 
+falling. A model means an explanation that makes testable predictions. Often models contain 
+simplifications or idealizations that make them easier to work with, even though they are not 
+strictly realistic. 
+
+
+1. One method of making falling easier to observe is to use objects like feathers that we know 
+from everyday experience will not fall as fast. You will use coffee filters, in stacks of various 
+sizes, to test the following two hypotheses and see which one is true, or whether neither is true: 
+
+
+Hypothesis 1A: When an object is dropped, it rapidly speeds up to a certain natural falling 
+speed, and then continues to fall at that speed. The falling speed is proportional to the object’s 
+weight. (A proportionality is not just a statement that if one thing gets bigger, the other does 
+too. It says that if one becomes three times bigger, the other also gets three times bigger, etc.) 
+
+
+Hypothesis 1B: Different objects fall the same way, regardless of weight. 
+Test these hypotheses and discuss your results with your instructor. 
+
+
+2. A second way to slow down the action is to let a ball roll down a ramp. The steeper the 
+ramp, the closer to free fall. Based on your experience in part 1, write a hypothesis about what 
+will happen when you race a heavier ball against a lighter ball down the same ramp, starting 
+them both from rest. 
+
+
+Hypothesis: 
+Show your hypothesis to your instructor, and then test it. 
+
+
+You have probably found that falling was more complicated than you thought! Is there more 
+than one factor that affects the motion of a falling object? Can you imagine certain idealized 
+situations that are simpler? Try to agree verbally with your group on an informal model of 
+falling that can make predictions about the experiments described in parts 3 and 4. 
+
+
+3. You have three balls: a standard “comparison ball” of medium weight, a light ball, and a 
+heavy ball. Suppose you stand on a chair and (a) drop the light ball side by side with the 
+comparison ball, then (b) drop the heavy ball side by side with the comparison ball, then (c) 
+join the light and heavy balls together with sticky tape and drop them side by side with the 
+comparison ball. 
+
+
+Use your model to make a prediction:__________________________ 
+
+
+Test your prediction. 
+
+
+Chapter 0 Introduction and Review 
+
+
+4. Your instructor will pump nearly all the air out of a chamber containing a feather and a 
+heavier object, then let them fall side by side in the chamber. 
+
+
+Use your model to make a prediction: 
+
+
+Exercise 0: Models and idealization 
+
+
+39 
+
+
+40 
+
+
+Chapter 0 
+
+
+Introduction and Review 
+
+
+
+
+
+Chapter 1 
+Scaling and Estimation 
+
+
+1.1 Introduction 
+
+
+Why can’t an insect be the size of a dog? Some skinny stretched- 
+out cells in your spinal cord are a meter tall — why does nature 
+display no single cells that are not just a meter tall, but a meter 
+wide, and a meter thick as well? Believe it or not, these are questions 
+that can be answered fairly easily without knowing much more about 
+physics than you already do. The only mathematical technique you 
+really need is the humble conversion, applied to area and volume. 
+
+
+Area and volume 
+
+
+Area can be defined by saying that we can copy the shape of 
+interest onto graph paper with 1 cm x 1 cm squares and count the 
+number of squares inside. Fractions of squares can be estimated by 
+eye. We then say the area equals the number of squares, in units of 
+square cm. Although this might seem less “pure” than computing 
+areas using formulae like A = rr? for a circle or A = wh/2 for a 
+triangle, those formulae are not useful as definitions of area because 
+they cannot be applied to irregularly shaped areas. 
+
+
+2 
+
+
+Units of square cm are more commonly written as cm“ in science. 
+
+
+Of course, the unit of measurement symbolized by “cm” is not an 
+
+
+Life would be very different if you 
+were the size of an insect. 
+
+
+
+
+
+a/Amoebas this size are 
+seldom encountered. 
+
+
+41 
+
+
+b / Visualizing 
+
+
+conversions 
+
+
+of 
+
+
+area and volume using traditional 
+
+
+U.S. units. 
+
+
+42 
+
+
+Chapter 1 
+
+
+algebra symbol standing for a number that can be literally multiplied 
+by itself. But it is advantageous to write the units of area that way 
+and treat the units as if they were algebra symbols. For instance, 
+if you have a rectangle with an area of 6m? and a width of 2 m, 
+then calculating its length as (6 m?)/(2 m) = 3 m gives a result 
+that makes sense both numerically and in terms of units. This 
+algebra-style treatment of the units also ensures that our methods 
+of converting units work out correctly. For instance, if we accept 
+
+
+the fraction 
+100 cm 
+
+
+1m 
+
+
+
+
+
+as a valid way of writing the number one, then one times one equals 
+one, so we should also say that one can be represented by 
+
+
+100 cm ‘i 100 cm 
+1m 1m 
+
+
+
+
+
+’ 
+
+
+which is the same as 
+10000 cm? 
+
+
+1 m2 
+That means the conversion factor from square meters to square cen- 
+timeters is a factor of 10+, i.e., a square meter has 104 square cen- 
+timeters in it. 
+
+
+All of the above can be easily applied to volume as well, using 
+one-cubic-centimeter blocks instead of squares on graph paper. 
+
+
+To many people, it seems hard to believe that a square meter 
+equals 10000 square centimeters, or that a cubic meter equals a 
+million cubic centimeters — they think it would make more sense if 
+there were 100 cm? in 1 m?, and 100 cm? in 1 m?, but that would be 
+incorrect. The examples shown in figure b aim to make the correct 
+answer more believable, using the traditional U.S. units of feet and 
+yards. (One foot is 12 inches, and one yard is three feet.) 
+
+
+=a a Ah YO 
+13 
+
+
+1ft2 lyd2=9ft 2 
+1yd3=27ft 3 
+
+
+self-check A 
+
+Based on figure b, convince yourself that there are 9 ft? ina square yard, 
+and 27 ft? in a cubic yard, then demonstrate the same thing symbolically 
+(i.e., with the method using fractions that equal one). > Answer, p. 
+564 
+
+
+Scaling and Estimation 
+
+
+> Solved problem: converting mm? to cm? page 59, problem 10 
+
+
+> Solved problem: scaling a liter page 60, problem 19 
+
+
+Discussion question 
+
+
+A How many square centimeters are there in a square inch? (1 inch = 
+2.54 cm) First find an approximate answer by making a drawing, then de- 
+rive the conversion factor more accurately using the symbolic method. 
+
+
+c / Galileo Galilei (1564-1642) was a Renaissance Italian who brought the 
+scientific method to bear on physics, creating the modern version of the 
+science. Coming from a noble but very poor family, Galileo had to drop 
+out of medical school at the University of Pisa when he ran out of money. 
+Eventually becoming a lecturer in mathematics at the same school, he 
+began a career as a notorious troublemaker by writing a burlesque ridi- 
+culing the university’s regulations — he was forced to resign, but found a 
+new teaching position at Padua. He invented the pendulum clock, inves- 
+tigated the motion of falling bodies, and discovered the moons of Jupiter. 
+The thrust of his life’s work was to discredit Aristotle’s physics by con- 
+fronting it with contradictory experiments, a program that paved the way 
+for Newton’s discovery of the relationship between force and motion. In 
+chapter 3 we’ll come to the story of Galileo’s ultimate fate at the hands of 
+the Church. 
+
+
+
+
+
+1.2 Scaling of area and volume 
+
+
+Great fleas have lesser fleas 
+Upon their backs to bite ’em. 
+And lesser fleas have lesser still, 
+And so ad infinitum. 
+
+
+Jonathan Swift 
+
+
+Now how do these conversions of area and volume relate to the 
+questions I posed about sizes of living things? Well, imagine that 
+you are shrunk like Alice in Wonderland to the size of an insect. 
+One way of thinking about the change of scale is that what used 
+to look like a centimeter now looks like perhaps a meter to you, 
+because you’re so much smaller. If area and volume scaled according 
+to most people’s intuitive, incorrect expectations, with 1 m? being 
+the same as 100 cm?, then there would be no particular reason 
+why nature should behave any differently on your new, reduced 
+scale. But nature does behave differently now that you’re small. 
+For instance, you will find that you can walk on water, and jump 
+to many times your own height. The physicist Galileo Galilei had 
+the basic insight that the scaling of area and volume determines 
+how natural phenomena behave differently on different scales. He 
+first reasoned about mechanical structures, but later extended his 
+insights to living things, taking the then-radical point of view that at 
+the fundamental level, a living organism should follow the same laws 
+
+
+Section 1.2 Scaling of area and volume 43 
+
+
+et 
+
+
+d/The small boat holds up 
+just fine. 
+
+
+e/A larger boat built with 
+the same proportions as_ the 
+small one will collapse under its 
+own weight. 
+
+
+f/A boat this large needs to 
+have timbers that are thicker 
+compared to its size. 
+
+
+44 Chapter 1 
+
+
+of nature as a machine. We will follow his lead by first discussing 
+machines and then living things. 
+
+
+Galileo on the behavior of nature on large and small scales 
+
+
+One of the world’s most famous pieces of scientific writing is 
+Galileo’s Dialogues Concerning the Two New Sciences. Galileo was 
+an entertaining writer who wanted to explain things clearly to laypeo- 
+ple, and he livened up his work by casting it in the form of a dialogue 
+among three people. Salviati is really Galileo’s alter ego. Simplicio 
+is the stupid character, and one of the reasons Galileo got in trouble 
+with the Church was that there were rumors that Simplicio repre- 
+sented the Pope. Sagredo is the earnest and intelligent student, with 
+whom the reader is supposed to identify. (The following excerpts 
+are from the 1914 translation by Crew and de Salvio.) 
+
+
+SAGREDO: Yes, that is what | mean; and | refer especially to 
+his last assertion which | have always regarded as false... ; 
+namely, that in speaking of these and other similar machines 
+one cannot argue from the small to the large, because many 
+devices which succeed on a small scale do not work on a 
+large scale. Now, since mechanics has its foundations in ge- 
+ometry, where mere size [ is unimportant], | do not see that 
+the properties of circles, triangles, cylinders, cones and other 
+solid figures will change with their size. If, therefore, a large 
+machine be constructed in such a way that its parts bear to 
+one another the same ratio as in a smaller one, and if the 
+smaller is sufficiently strong for the purpose for which it is 
+designed, | do not see why the larger should not be able to 
+withstand any severe and destructive tests to which it may be 
+subjected. 
+
+
+Salviati contradicts Sagredo: 
+
+
+SALVIATI: ...Please observe, gentlemen, how facts which 
+at first seem improbable will, even on scant explanation, drop 
+the cloak which has hidden them and stand forth in naked and 
+simple beauty. Who does not know that a horse falling from a 
+height of three or four cubits will break his bones, while a dog 
+falling from the same height or a cat from a height of eight 
+or ten cubits will suffer no injury? Equally harmless would be 
+the fall of a grasshopper from a tower or the fall of an ant from 
+the distance of the moon. 
+
+
+The point Galileo is making here is that small things are sturdier 
+in proportion to their size. There are a lot of objections that could be 
+raised, however. After all, what does it really mean for something to 
+be “strong”, to be “strong in proportion to its size,” or to be strong 
+“out of proportion to its size?” Galileo hasn’t given operational 
+definitions of things like “strength,” i.e., definitions that spell out 
+how to measure them numerically. 
+
+
+Scaling and Estimation 
+
+
+Also, a cat is shaped differently from a horse — an enlarged 
+photograph of a cat would not be mistaken for a horse, even if the 
+photo-doctoring experts at the National Inquirer made it look like a 
+person was riding on its back. A grasshopper is not even a mammal, 
+and it has an exoskeleton instead of an internal skeleton. The whole 
+argument would be a lot more convincing if we could do some iso- 
+lation of variables, a scientific term that means to change only one 
+thing at a time, isolating it from the other variables that might have 
+an effect. If size is the variable whose effect we’re interested in see- 
+ing, then we don’t really want to compare things that are different 
+in size but also different in other ways. 
+
+
+SALVIATI: — ...we asked the reason why [shipbuilders] em- 
+ployed stocks, scaffolding, and bracing of larger dimensions 
+for launching a big vessel than they do for a small one; and 
+[an old man] answered that they did this in order to avoid the 
+danger of the ship parting under its own heavy weight, a dan- 
+ger to which small boats are not subject? 
+
+
+After this entertaining but not scientifically rigorous beginning, 
+Galileo starts to do something worthwhile by modern standards. 
+He simplifies everything by considering the strength of a wooden 
+plank. The variables involved can then be narrowed down to the 
+type of wood, the width, the thickness, and the length. He also 
+gives an operational definition of what it means for the plank to 
+have a certain strength “in proportion to its size,” by introducing 
+the concept of a plank that is the longest one that would not snap 
+under its own weight if supported at one end. If you increased 
+its length by the slightest amount, without increasing its width or 
+thickness, it would break. He says that if one plank is the same 
+shape as another but a different size, appearing like a reduced or 
+enlarged photograph of the other, then the planks would be strong 
+“in proportion to their sizes” if both were just barely able to support 
+their own weight. 
+
+
+
+
+
+
+
+
+
+
+Dae (aS 
+eircom ost 
+
+
+
+
+
+
+
+
+g/Galileo discusses planks 
+made of wood, but the concept 
+may be easier to imagine with 
+clay. All three clay rods in the 
+figure were originally the same 
+shape. The medium-sized one 
+was twice the height, twice the 
+length, and twice the width of 
+the small one, and similarly the 
+large one was twice as big as 
+the medium one in all its linear 
+dimensions. The big one has 
+four times the linear dimensions 
+of the small one, 16 times the 
+cross-sectional area when cut 
+perpendicular to the page, and 
+64 times the volume. That means 
+that the big one has 64 times the 
+weight to support, but only 16 
+times the strength compared to 
+the smallest one. 
+
+
+h/1. This plank is as long as it 
+can be without collapsing under 
+its own weight. If it was a hun- 
+dredth of an inch longer, it would 
+collapse. 2. This plank is made 
+out of the same kind of wood. It is 
+twice as thick, twice as long, and 
+twice as wide. It will collapse un- 
+der its own weight. 
+
+
+Section 1.2 Scaling of area and volume 45 
+
+
+Also, Galileo is doing something that would be frowned on in 
+modern science: he is mixing experiments whose results he has ac- 
+tually observed (building boats of different sizes), with experiments 
+that he could not possibly have done (dropping an ant from the 
+height of the moon). He now relates how he has done actual ex- 
+periments with such planks, and found that, according to this op- 
+erational definition, they are not strong in proportion to their sizes. 
+The larger one breaks. He makes sure to tell the reader how impor- 
+tant the result is, via Sagredo’s astonished response: 
+
+
+SAGREDO: My brain already reels. My mind, like a cloud 
+momentarily illuminated by a lightning flash, is for an instant 
+filled with an unusual light, which now beckons to me and 
+which now suddenly mingles and obscures strange, crude 
+ideas. From what you have said it appears to me impossible 
+to build two similar structures of the same material, but of 
+different sizes and have them proportionately strong. 
+
+
+In other words, this specific experiment, using things like wooden 
+planks that have no intrinsic scientific interest, has very wide impli- 
+cations because it points out a general principle, that nature acts 
+differently on different scales. 
+
+
+To finish the discussion, Galileo gives an explanation. He says 
+that the strength of a plank (defined as, say, the weight of the heav- 
+iest boulder you could put on the end without breaking it) is pro- 
+portional to its cross-sectional area, that is, the surface area of the 
+fresh wood that would be exposed if you sawed through it in the 
+middle. Its weight, however, is proportional to its volume.! 
+
+
+How do the volume and cross-sectional area of the longer plank 
+compare with those of the shorter plank? We have already seen, 
+while discussing conversions of the units of area and volume, that 
+these quantities don’t act the way most people naively expect. You 
+might think that the volume and area of the longer plank would both 
+be doubled compared to the shorter plank, so they would increase 
+in proportion to each other, and the longer plank would be equally 
+able to support its weight. You would be wrong, but Galileo knows 
+that this is a common misconception, so he has Salviati address the 
+point specifically: 
+
+
+SALVIATI: — ... Take, for example, a cube two inches on a 
+side so that each face has an area of four square inches 
+and the total area, i.e., the sum of the six faces, amounts 
+to twenty-four square inches; now imagine this cube to be 
+sawed through three times [with cuts in three perpendicular 
+planes] so as to divide it into eight smaller cubes, each one 
+inch on the side, each face one inch square, and the total 
+
+
+
+
+
+‘Galileo makes a slightly more complicated argument, taking into account 
+the effect of leverage (torque). The result I’m referring to comes out the same 
+regardless of this effect. 
+
+
+Scaling and Estimation 
+
+
+surface of each cube six square inches instead of twenty- 
+four in the case of the larger cube. It is evident therefore, 
+that the surface of the little cube is only one-fourth that of 
+the larger, namely, the ratio of six to twenty-four; but the vol- 
+ume of the solid cube itself is only one-eighth; the volume, 
+and hence also the weight, diminishes therefore much more 
+rapidly than the surface... You see, therefore, Simplicio, that 
+| was not mistaken when ...1 said that the surface of a small 
+solid is comparatively greater than that of a large one. 
+
+
+The same reasoning applies to the planks. Even though they 
+are not cubes, the large one could be sawed into eight small ones, 
+each with half the length, half the thickness, and half the width. 
+The small plank, therefore, has more surface area in proportion to 
+its weight, and is therefore able to support its own weight while the 
+large one breaks. 
+
+
+Scaling of area and volume for irregularly shaped objects 
+
+
+You probably are not going to believe Galileo’s claim that this 
+has deep implications for all of nature unless you can be convinced 
+that the same is true for any shape. Every drawing you’ve seen so 
+far has been of squares, rectangles, and rectangular solids. Clearly 
+the reasoning about sawing things up into smaller pieces would not 
+prove anything about, say, an egg, which cannot be cut up into eight 
+smaller egg-shaped objects with half the length. 
+
+
+Is it always true that something half the size has one quarter 
+the surface area and one eighth the volume, even if it has an irreg- 
+ular shape? Take the example of a child’s violin. Violins are made 
+for small children in smaller size to accomodate their small bodies. 
+Figure i shows a full-size violin, along with two violins made with 
+half and 3/4 of the normal length.? Let’s study the surface area of 
+the front panels of the three violins. 
+
+
+Consider the square in the interior of the panel of the full-size 
+violin. In the 3/4-size violin, its height and width are both smaller 
+by a factor of 3/4, so the area of the corresponding, smaller square 
+becomes 3/4 x 3/4 = 9/16 of the original area, not 3/4 of the original 
+area. Similarly, the corresponding square on the smallest violin has 
+half the height and half the width of the original one, so its area is 
+1/4 the original area, not half. 
+
+
+The same reasoning works for parts of the panel near the edge, 
+such as the part that only partially fills in the other square. The 
+entire square scales down the same as a square in the interior, and 
+in each violin the same fraction (about 70%) of the square is full, so 
+the contribution of this part to the total area scales down just the 
+same. 
+
+
+
+
+
+?The customary terms “half-size” and “3/4-size” actually don’t describe the 
+sizes in any accurate way. They’re really just standard, arbitrary marketing 
+labels. 
+
+
+
+
+
+i/The area of a_ shape is 
+proportional to the square of its 
+linear dimensions, even if the 
+shape is irregular. 
+
+
+Section 1.2 Scaling of area and volume 47 
+
+
+
+
+
+j/The muffin comes out of 
+the oven too hot to eat. Breaking 
+it up into four pieces increases 
+its surface area while keeping 
+the total volume the same. It 
+
+
+cools faster because of the 
+greater surface-to-volume ratio. 
+In general, smaller things have 
+greater surface-to-volume ratios, 
+but in this example there is no 
+easy way to compute the effect 
+exactly, because the small pieces 
+aren't the same shape as the 
+original muffin. 
+
+
+48 Chapter 1 
+
+
+Since any small square region or any small region covering part 
+of a square scales down like a square object, the entire surface area 
+of an irregularly shaped object changes in the same manner as the 
+surface area of a square: scaling it down by 3/4 reduces the area by 
+a factor of 9/16, and so on. 
+
+
+In general, we can see that any time there are two objects with 
+the same shape, but different linear dimensions (i.e., one looks like a 
+reduced photo of the other), the ratio of their areas equals the ratio 
+of the squares of their linear dimensions: 
+
+
+Ay (li\? 
+
+a) 
+Note that it doesn’t matter where we choose to measure the linear 
+size, L, of an object. In the case of the violins, for instance, it could 
+have been measured vertically, horizontally, diagonally, or even from 
+the bottom of the left fhole to the middle of the right f-hole. We 
+just have to measure it in a consistent way on each violin. Since all 
+
+
+the parts are assumed to shrink or expand in the same manner, the 
+ratio L,/L» is independent of the choice of measurement. 
+
+
+It is also important to realize that it is completely unnecessary 
+to have a formula for the area of a violin. It is only possible to 
+derive simple formulas for the areas of certain shapes like circles, 
+rectangles, triangles and so on, but that is no impediment to the 
+type of reasoning we are using. 
+
+
+Sometimes it is inconvenient to write all the equations in terms 
+of ratios, especially when more than two objects are being compared. 
+A more compact way of rewriting the previous equation is 
+
+
+Ax L?. 
+
+
+The symbol “x” means “is proportional to.” Scientists and engi- 
+neers often speak about such relationships verbally using the phrases 
+
+
+“scales like” or “goes like,” for instance “area goes like length squared. 
+
+
+All of the above reasoning works just as well in the case of vol- 
+ume. Volume goes like length cubed: 
+
+
+Va L. 
+
+
+self-check B 
+
+When a car or truck travels over a road, there is wear and tear on the 
+road surface, which incurs a cost. Studies show that the cost C per kilo- 
+meter of travel is related to the weight per axle w by C x w’. Translate 
+this into a statement about ratios. > Answer, p. 564 
+
+
+If different objects are made of the same material with the same 
+density, p = m/V, then their masses, m = pV, are proportional to 
+L°. (The symbol for density is p, the lower-case Greek letter “rho.” ) 
+
+
+Scaling and Estimation 
+
+
+” 
+
+
+An important point is that all of the above reasoning about 
+scaling only applies to objects that are the same shape. For instance, 
+a piece of paper is larger than a pencil, but has a much greater 
+surface-to-volume ratio. 
+
+
+Scaling of the area of a triangle example 1 
+> In figure k, the larger triangle has sides twice as long. How 
+many times greater is its area? 
+
+
+Correct solution #1: Area scales in proportion to the square of the 
+linear dimensions, so the larger triangle has four times more area 
+(22 = 4). 
+
+
+Correct solution #2: You could cut the larger triangle into four of 
+the smaller size, as shown in fig. (b), so its area is four times 
+greater. (This solution is correct, but it would not work for a shape 
+like a circle, which can’t be cut up into smaller circles.) 
+
+
+Correct solution #3: The area of a triangle is given by 
+
+
+A = bh/2, where b is the base and h is the height. The areas of 
+the triangles are 
+
+
+Ay = bihy /2 
+Ap = bohp /2 
+= (2b;)(2h1)/2 
+= 2b; hy 
+A2/Ay = (2b; hy) /(b; hy /2) 
+=4 
+
+
+(Although this solution is correct, it is a lot more work than solution 
+#1, and it can only be used in this case because a triangle is a 
+simple geometric shape, and we happen to know a formula for its 
+area.) 
+
+
+Correct solution #4: The area of a triangle is A = bh/2. The 
+comparison of the areas will come out the same as long as the 
+ratios of the linear sizes of the triangles is as specified, so let’s 
+just say 6; = 1.00 m and bo = 2.00 m. The heights are then also 
+hy = 1.00 m and ho = 2.00 m, giving areas A; = 0.50 m? and 
+Ao = 2.00 m2, so A2/Aj = 4.00. 
+
+
+(The solution is correct, but it wouldn’t work with a shape for 
+whose area we don’t have a formula. Also, the numerical cal- 
+culation might make the answer of 4.00 appear inexact, whereas 
+solution #1 makes it clear that it is exactly 4.) 
+
+
+Incorrect solution: The area of a triangle is A = bh/2, and if you 
+plug in b = 2.00 m and h = 2.00 m, you get A = 2.00 m2, so 
+the bigger triangle has 2.00 times more area. (This solution is 
+incorrect because no comparison has been made with the smaller 
+triangle.) 
+
+
+k/Example 1. The big trian- 
+gle has four times more area than 
+the little one. 
+
+
+1/A tricky way of solving ex- 
+ample 1, explained in solution #2. 
+
+
+Section 1.2 Scaling of area and volume 49 
+
+
+© 
+
+
+m/Example 2. The big sphere 
+has 125 times more volume than 
+
+
+the little one. 
+
+
+n/Example_ 3. 
+
+
+
+
+
+The 48-point 
+
+
+“S” has 1.78 times more area 
+than the 36-point “S.” 
+
+
+50 
+
+
+Scaling of the volume of a sphere example 2 
+> In figure m, the larger sphere has a radius that is five times 
+greater. How many times greater is its volume? 
+
+
+Correct solution #1: Volume scales like the third power of the 
+linear size, so the larger sphere has a volume that is 125 times 
+greater (5° = 125). 
+
+
+Correct solution #2: The volume of a sphere is V = (4/3)zr?, so 
+
+
+V; a an} 
+4 
+= an(5n)° 
+500 _ 3 
+ae ai 
+4 
+Vo/V4 = (AP) / (3x?) = 125 
+Incorrect solution: The volume of a sphere is V = (4/3)zr°, so 
+4 
+4 
+Vo = 372 
+4 
+= an} 
+20 4 
+Vo/V1 = (Fx) / (3-4) =5 
+
+
+(The solution is incorrect because (5r;)° is not the same as 57.) 
+
+
+Scaling of a more complex shape example 3 
+> The first letter “S” in figure n is in a 36-point font, the second in 
+48-point. How many times more ink is required to make the larger 
+“S’? (Points are a unit of length used in typography.) 
+
+
+Correct solution: The amount of ink depends on the area to be 
+covered with ink, and area is proportional to the square of the 
+linear dimensions, so the amount of ink required for the second 
+“S” is greater by a factor of (48 /36)° = 1.78. 
+
+
+Incorrect solution: The length of the curve of the second “S” is 
+longer by a factor of 48/36 = 1.33, so 1.33 times more ink is 
+required. 
+
+
+(The solution is wrong because it assumes incorrectly that the 
+width of the curve is the same in both cases. Actually both the 
+
+
+Chapter 1 Scaling and Estimation 
+
+
+width and the length of the curve are greater by a factor of 48/36, 
+so the area is greater by a factor of (48/36)? = 1.78.) 
+
+
+Reasoning about ratios and proportionalities is one of the three 
+essential mathematical skills, summarized on pp.545-546, that you 
+need for success in this course. 
+
+
+> Solved problem: a telescope gathers light page 59, problem 11 
+
+
+> Solved problem: distance from an earthquake page 59, problem 12 
+
+
+Discussion questions 
+
+
+A __ A toy fire engine is 1/30 the size of the real one, but is constructed 
+from the same metal with the same proportions. How many times smaller 
+is its weight? How many times less red paint would be needed to paint 
+it? 
+
+B Galileo spends a lot of time in his dialog discussing what really 
+happens when things break. He discusses everything in terms of Aristo- 
+tle’s now-discredited explanation that things are hard to break, because 
+if something breaks, there has to be a gap between the two halves with 
+nothing in between, at least initially. Nature, according to Aristotle, “ab- 
+hors a vacuum,” i.e., nature doesn't “like” empty space to exist. Of course, 
+air will rush into the gap immediately, but at the very moment of breaking, 
+Aristotle imagined a vacuum in the gap. Is Aristotle’s explanation of why 
+it is hard to break things an experimentally testable statement? If so, how 
+could it be tested experimentally? 
+
+
+1.3 x Scaling applied to biology 
+Organisms of different sizes with the same shape 
+
+
+The left-hand panel in figure o shows the approximate valid- 
+ity of the proportionality m o L? for cockroaches (redrawn from 
+McMahon and Bonner). The scatter of the points around the curve 
+indicates that some cockroaches are proportioned slightly differently 
+from others, but in general the data seem well described by m « L?. 
+That means that the largest cockroaches the experimenter could 
+raise (is there a 4-H prize?) had roughly the same shape as the 
+smallest ones. 
+
+
+Another relationship that should exist for animals of different 
+sizes shaped in the same way is that between surface area and 
+body mass. If all the animals have the same average density, then 
+body mass should be proportional to the cube of the animal’s lin- 
+ear size, m x L?, while surface area should vary proportionately to 
+L?. Therefore, the animals’ surface areas should be proportional to 
+m2/3_ As shown in the right-hand panel of figure o, this relationship 
+appears to hold quite well for the dwarf siren, a type of salamander. 
+Notice how the curve bends over, meaning that the surface area does 
+not increase as quickly as body mass, e.g., a salamander with eight 
+
+
+Section 1.3 x Scaling applied to biology 
+
+
+1000 
+
+
+body mass (mg) 
+
+
+750 
+
+
+500 
+
+
+250 
+
+
+Body mass, m, versus leg 
+length, L, for the cockroach 
+Periplaneta americana 
+The data points rep- 
+resent individual 
+specimens, and the 
+
+curve is a fit to the 
+
+data of the form 
+
+
+m=kL 3 where k is 
+a constant. 
+
+
+
+
+
+1 2 
+
+
+length of leg segment (mm) 
+
+
+o / Geometrical scaling of animals. 
+
+
+52 
+
+
+Chapter 1 
+
+
+1000 
+
+
+
+
+
+800 
+a 
+5 
+S 800 Surface 
+a area versus 
+8 body mass for 
+5 dwarf sirens, a 
+2) 
+400 species of sala- 
+mander ( Pseudo- 
+branchus striatus __). 
+The data points 
+200 represent individual 
+specimens, and the curve is 
+afitofthe formA=km = 2/3. 
+0 
+3 0 500 1000 
+
+
+body mass (g) 
+
+
+times more body mass will have only four times more surface area. 
+
+
+This behavior of the ratio of surface area to mass (or, equiv- 
+alently, the ratio of surface area to volume) has important conse- 
+quences for mammals, which must maintain a constant body tem- 
+perature. It would make sense for the rate of heat loss through the 
+animal’s skin to be proportional to its surface area, so we should 
+expect small animals, having large ratios of surface area to volume, 
+to need to produce a great deal of heat in comparison to their size to 
+avoid dying from low body temperature. This expectation is borne 
+out by the data of the left-hand panel of figure p, showing the rate 
+of oxygen consumption of guinea pigs as a function of their body 
+mass. Neither an animal’s heat production nor its surface area is 
+convenient to measure, but in order to produce heat, the animal 
+must metabolize oxygen, so oxygen consumption is a good indicator 
+of the rate of heat production. Since surface area is proportional to 
+m2/3, the proportionality of the rate of oxygen consumption to m2/3 
+is consistent with the idea that the animal needs to produce heat at a 
+rate in proportion to its surface area. Although the smaller animals 
+
+
+Scaling and Estimation 
+
+
+Diameter versus length 
+of the third lumbar 
+vertebrae of adult 
+African Bovidae 
+(antelopes and oxen). 
+The smallest animal 
+represented is the 
+cat-sized Gunther's 
+dik-dik, and the 
+largest is the 
+
+850-kg giant 
+
+eland. The 
+
+solid curve is 
+
+a fit of the 
+
+
+diameter (cm) 
+
+
+Rate of oxygen 
+consumption versus 
+body mass for guinea 
+pigs at rest. The 
+curve is a fit of the 
+
+
+form (rate)=km 2/3 
+
+
+oxygen consumption (mL/min) 
+
+
+
+
+
+0.0 0.2 0.4 0.6 0.8 1.0 0 
+body mass (kg) 
+
+
+p / Scaling of animals’ bodies related to metabolic rate and skeletal strength. 
+
+
+metabolize less oxygen and produce less heat in absolute terms, the 
+amount of food and oxygen they must consume is greater in propor- 
+tion to their own mass. The Etruscan pigmy shrew, weighing in at 
+2 grams as an adult, is at about the lower size limit for mammals. 
+It must eat continually, consuming many times its body weight each 
+day to survive. 
+
+
+Changes in shape to accommodate changes in size 
+
+
+Large mammals, such as elephants, have a small ratio of surface 
+area to volume, and have problems getting rid of their heat fast 
+enough. An elephant cannot simply eat small enough amounts to 
+keep from producing excessive heat, because cells need to have a 
+certain minimum metabolic rate to run their internal machinery. 
+Hence the elephant’s large ears, which add to its surface area and 
+help it to cool itself. Previously, we have seen several examples 
+of data within a given species that were consistent with a fixed 
+shape, scaled up and down in the cases of individual specimens. The 
+elephant’s ears are an example of a change in shape necessitated by 
+a change in scale. 
+
+
+and the dashed 
+line is a linear 
+fit. (After 
+McMahon and 
+Bonner, 1983.) 
+
+
+
+
+
+length (cm) 
+
+
+Section 1.3 x Scaling applied to biology 
+
+
+q / Galileo’s 
+
+showing how 
+bones must be greater in diam- 
+eter compared to their lengths. 
+
+
+54 
+
+
+
+
+
+original drawing, 
+larger animals’ 
+
+
+Large animals also must be able to support their own weight. 
+Returning to the example of the strengths of planks of different 
+sizes, we can see that if the strength of the plank depends on area 
+while its weight depends on volume, then the ratio of strength to 
+weight goes as follows: 
+
+
+strength/weight « A/V « 1/L. 
+
+
+Thus, the ability of objects to support their own weights decreases 
+inversely in proportion to their linear dimensions. If an object is to 
+be just barely able to support its own weight, then a larger version 
+will have to be proportioned differently, with a different shape. 
+
+
+Since the data on the cockroaches seemed to be consistent with 
+roughly similar shapes within the species, it appears that the abil- 
+ity to support its own weight was not the tightest design constraint 
+that Nature was working under when she designed them. For large 
+animals, structural strength is important. Galileo was the first to 
+quantify this reasoning and to explain why, for instance, a large an- 
+imal must have bones that are thicker in proportion to their length. 
+Consider a roughly cylindrical bone such as a leg bone or a vertebra. 
+The length of the bone, LD, is dictated by the overall linear size of the 
+animal, since the animal’s skeleton must reach the animal’s whole 
+length. We expect the animal’s mass to scale as L?, so the strength 
+of the bone must also scale as L?. Strength is proportional to cross- 
+sectional area, as with the wooden planks, so if the diameter of the 
+bone is d, then 
+
+
+a «x L? 
+
+
+d x L3/?, 
+
+If the shape stayed the same regardless of size, then all linear di- 
+mensions, including d and L, would be proportional to one another. 
+If our reasoning holds, then the fact that d is proportional to L®/?, 
+not L, implies a change in proportions of the bone. As shown in the 
+right-hand panel of figure p, the vertebrae of African Bovidae follow 
+the rule d x L?/? fairly well. The vertebrae of the giant eland are 
+as chunky as a coffee mug, while those of a Gunther’s dik-dik are as 
+slender as the cap of a pen. 
+
+
+Discussion questions 
+
+
+A Single-celled animals must passively absorb nutrients and oxygen 
+from their surroundings, unlike humans who have lungs to pump air in and 
+out and a heart to distribute the oxygenated blood throughout their bodies. 
+Even the cells composing the bodies of multicellular animals must absorb 
+oxygen from a nearby capillary through their surfaces. Based on these 
+facts, explain why cells are always microscopic in size. 
+
+
+B The reasoning of the previous question would seem to be contra- 
+dicted by the fact that human nerve cells in the spinal cord can be as 
+much as a meter long, although their widths are still very small. Why is 
+this possible? 
+
+
+Chapter 1 Scaling and Estimation 
+
+
+1.4 Order-of-magnitude estimates 
+
+
+It is the mark of an instructed mind to rest satisfied with the 
+degree of precision that the nature of the subject permits and 
+not to seek an exactness where only an approximation of the 
+truth is possible. 
+
+
+Aristotle 
+
+
+It is a common misconception that science must be exact. For 
+instance, in the Star Trek TV series, it would often happen that 
+Captain Kirk would ask Mr. Spock, “Spock, we’re in a pretty bad 
+situation. What do you think are our chances of getting out of 
+here?” The scientific Mr. Spock would answer with something like, 
+“Captain, I estimate the odds as 237.345 to one.” In reality, he 
+could not have estimated the odds with six significant figures of 
+accuracy, but nevertheless one of the hallmarks of a person with a 
+good education in science is the ability to make estimates that are 
+likely to be at least somewhere in the right ballpark. In many such 
+situations, it is often only necessary to get an answer that is off by no 
+more than a factor of ten in either direction. Since things that differ 
+by a factor of ten are said to differ by one order of magnitude, such 
+an estimate is called an order-of-magnitude estimate. The tilde, 
+~, is used to indicate that things are only of the same order of 
+magnitude, but not exactly equal, as in 
+
+
+odds of survival ~ 100 to one. 
+
+
+The tilde can also be used in front of an individual number to em- 
+phasize that the number is only of the right order of magnitude. 
+
+
+Although making order-of-magnitude estimates seems simple and 
+natural to experienced scientists, it’s a mode of reasoning that is 
+completely unfamiliar to most college students. Some of the typical 
+mental steps can be illustrated in the following example. 
+
+
+Cost of transporting tomatoes (incorrect solution) example 4 
+> Roughly what percentage of the price of a tomato comes from 
+the cost of transporting it in a truck? 
+
+
+> The following incorrect solution illustrates one of the main ways 
+you can go wrong in order-of-magnitude estimates. 
+
+
+Incorrect solution: Let’s say the trucker needs to make a $400 
+profit on the trip. Taking into account her benefits, the cost of gas, 
+and maintenance and payments on the truck, let’s say the total 
+cost is more like $2000. I’d guess about 5000 tomatoes would fit 
+in the back of the truck, so the extra cost per tomato is 40 cents. 
+That means the cost of transporting one tomato is comparable to 
+the cost of the tomato itself. Transportation really adds a lot to the 
+cost of produce, | guess. 
+
+
+The problem is that the human brain is not very good at esti- 
+mating area or volume, so it turns out the estimate of 5000 tomatoes 
+
+
+Section 1.4 Order-of-magnitude estimates 
+
+
+55 
+
+
+
+
+
+r/Can you guess how many 
+jelly beans are in the jar? If you 
+try to guess directly, you will 
+almost certainly underestimate. 
+The right way to do it is to esti- 
+mate the linear dimensions, then 
+get the volume indirectly. See 
+problem 26, p. 62. 
+
+
+
+
+
+s/Consider a_ spherical cow. 
+
+
+fitting in the truck is way off. That’s why people have a hard time 
+at those contests where you are supposed to estimate the number of 
+jellybeans in a big jar. Another example is that most people think 
+their families use about 10 gallons of water per day, but in reality 
+the average is about 300 gallons per day. When estimating area 
+or volume, you are much better off estimating linear dimensions, 
+and computing volume from the linear dimensions. Here’s a better 
+solution to the problem about the tomato truck: 
+
+
+Cost of transporting tomatoes (correct solution) example 5 
+As in the previous solution, say the cost of the trip is $2000. The 
+dimensions of the bin are probably 4m x 2m x 1 m, for a vol- 
+ume of 8 m?. Since the whole thing is just an order-of-magnitude 
+estimate, let’s round that off to the nearest power of ten, 10 m°. 
+The shape of a tomato is complicated, and | don’t know any for- 
+mula for the volume of a tomato shape, but since this is just an 
+estimate, let’s pretend that a tomato is a cube, 0.05m x 0.05m x 
+0.05 m, for a volume of 1.25 x 10-4 m®. Since this is just a rough 
+estimate, let's round that to 10-4m%. We can find the total num- 
+ber of tomatoes by dividing the volume of the bin by the volume 
+of one tomato: 10 m°/10-* m® = 10° tomatoes. The transporta- 
+tion cost per tomato is $2000/10° tomatoes=$0.02/tomato. That 
+means that transportation really doesn’t contribute very much to 
+the cost of a tomato. 
+
+
+Approximating the shape of a tomato as a cube is an example of 
+another general strategy for making order-of-magnitude estimates. 
+A similar situation would occur if you were trying to estimate how 
+many m? of leather could be produced from a herd of ten thousand 
+cattle. There is no point in trying to take into account the shape of 
+the cows’ bodies. A reasonable plan of attack might be to consider 
+a spherical cow. Probably a cow has roughly the same surface area 
+as a sphere with a radius of about 1 m, which would be 47(1 m)?. 
+Using the well-known facts that pi equals three, and four times three 
+equals about ten, we can guess that a cow has a surface area of about 
+10 m?, so the herd as a whole might yield 10° m? of leather. 
+
+
+Estimating mass indirectly example 6 
+Usually the best way to estimate mass is to estimate linear di- 
+mensions, then use those to infer volume, and then get the mass 
+based on the volume. For example, Amphicoelias, shown in the 
+figure, may have been the largest land animal ever to live. Fossils 
+tell us the linear dimensions of an animal, but we can only indi- 
+rectly guess its mass. Given the length scale in the figure, let’s 
+estimate the mass of an Amphicoelias. 
+
+
+Its torso looks like it can be approximated by a rectangular box 
+with dimensions 10 mx 5 mx 3m, giving about 2 x 10° m°. Living 
+things are mostly made of water, so we assume the animal to 
+have the density of water, 1 g/cm®, which converts to 10? kg/m®. 
+
+
+56 Chapter 1 Scaling and Estimation 
+
+
+This gives a mass of about 2 x 10° kg, or 200 metric tons. 
+
+
+
+
+
+The following list summarizes the strategies for getting a good 
+order-of-magnitude estimate. 
+
+
+1. Don’t even attempt more than one significant figure of preci- 
+sion. 
+
+
+2. Don’t guess area, volume, or mass directly. Guess linear di- 
+mensions and get area, volume, or mass from them. 
+
+
+3. When dealing with areas or volumes of objects with complex 
+shapes, idealize them as if they were some simpler shape, a 
+cube or a sphere, for example. 
+
+
+4. Check your final answer to see if it is reasonable. If you esti- 
+mate that a herd of ten thousand cattle would yield 0.01 m? 
+of leather, then you have probably made a mistake with con- 
+version factors somewhere. 
+
+
+Section 1.4 Order-of-magnitude estimates 
+
+
+57 
+
+
+58 
+
+
+Chapter 1 
+
+
+Summary 
+
+
+Notation 
+
+OG. MegSodA emacs dus is proportional to 
+
+BOE Ses tN ne Bae ed on the order of, is on the order of 
+Summary 
+
+
+Nature behaves differently on large and small scales. Galileo 
+showed that this results fundamentally from the way area and vol- 
+ume scale. Area scales as the second power of length, A « L?, while 
+volume scales as length to the third power, V « L?. 
+
+
+An order of magnitude estimate is one in which we do not at- 
+tempt or expect an exact answer. The main reason why the unini- 
+tiated have trouble with order-of-magnitude estimates is that the 
+human brain does not intuitively make accurate estimates of area 
+and volume. Estimates of area and volume should be approached 
+by first estimating linear dimensions, which one’s brain has a feel 
+for. 
+
+
+Scaling and Estimation 
+
+
+Problems 
+Key 
+
+
+VA computerized answer check is available online. 
+J A problem that requires calculus. 
+x A difficult problem. 
+
+
+1 How many cubic inches are there in a cubic foot? The answer 
+is not 12. Vv 
+2 Assume a dog’s brain is twice as great in diameter as a cat’s, 
+
+
+but each animal’s brain cells are the same size and their brains are 
+the same shape. In addition to being a far better companion and 
+much nicer to come home to, how many times more brain cells does 
+a dog have than a cat? The answer is not 2. 
+
+2 
+
+
+3 The population density of Los Angeles is about 4000 people/km*. 
+
+
+That of San Francisco is about 6000 people/km?. How many times 
+farther away is the average person’s nearest neighbor in LA than in 
+San Francisco? The answer is not 1.5. Vv 
+
+
+4 A hunting dog’s nose has about 10 square inches of active 
+surface. How is this possible, since the dog’s nose is only about 1 in 
+x lin x 1 in = 1 in®? After all, 10 is greater than 1, so how can it 
+fit’? 
+
+
+5 Estimate the number of blades of grass on a football field. 
+
+
+6 In a computer memory chip, each bit of information (a 0 or 
+a 1) is stored in a single tiny circuit etched onto the surface of a 
+silicon chip. The circuits cover the surface of the chip like lots in a 
+housing development. A typical chip stores 64 Mb (megabytes) of 
+data, where a byte is 8 bits. Estimate (a) the area of each circuit, 
+and (b) its linear size. 
+
+
+7 Suppose someone built a gigantic apartment building, mea- 
+suring 10 km x 10 km at the base. Estimate how tall the building 
+would have to be to have space in it for the entire world’s population 
+to live. 
+
+
+8 A hamburger chain advertises that it has sold 10 billion Bongo 
+Burgers. Estimate the total mass of feed required to raise the cows 
+used to make the burgers. 
+
+
+9 Estimate the volume of a human body, in cm’. 
+
+
+10 How many cm? is 1 mm?? > Solution, p. 547 
+
+
+11 Compare the light-gathering powers of a 3-cm-diameter tele- 
+scope and a 30-cm telescope. > Solution, p. 547 
+
+
+12 One step on the Richter scale corresponds to a factor of 100 
+in terms of the energy absorbed by something on the surface of the 
+Earth, e.g., a house. For instance, a 9.3-magnitude quake would 
+release 100 times more energy than an 8.3. The energy spreads out 
+
+
+Problems 
+
+
+59 
+
+
+from the epicenter as a wave, and for the sake of this problem we’ll 
+assume we’re dealing with seismic waves that spread out in three 
+dimensions, so that we can visualize them as hemispheres spreading 
+out under the surface of the earth. If a certain 7.6-magnitude earth- 
+quake and a certain 5.6-magnitude earthquake produce the same 
+amount of vibration where I live, compare the distances from my 
+house to the two epicenters. > Solution, p. 548 
+
+
+13 In Europe, a piece of paper of the standard size, called A4, 
+is a little narrower and taller than its American counterpart. The 
+ratio of the height to the width is the square root of 2, and this has 
+some useful properties. For instance, if you cut an A4 sheet from left 
+to right, you get two smaller sheets that have the same proportions. 
+You can even buy sheets of this smaller size, and they’re called A5. 
+There is a whole series of sizes related in this way, all with the same 
+proportions. (a) Compare an A5 sheet to an A4 in terms of area and 
+linear size. (b) The series of paper sizes starts from an AO sheet, 
+which has an area of one square meter. Suppose we had a series 
+of boxes defined in a similar way: the BO box has a volume of one 
+cubic meter, two B1 boxes fit exactly inside an BO box, and so on. 
+What would be the dimensions of a BO box? Vv 
+
+
+14 Estimate the mass of one of the hairs in Albert Einstein’s 
+moustache, in units of kg. 
+
+
+15 According to folklore, every time you take a breath, you are 
+inhaling some of the atoms exhaled in Caesar’s last words. Is this 
+true? If so, how many? 
+
+
+
+
+
+Albert Einstein, and his mous- 
+
+
+tache, problem 14. 16 The Earth’s surface is about 70% water. Mars’s diameter is 
+about half the Earth’s, but it has no surface water. Compare the 
+land areas of the two planets. v 
+
+
+17 The traditional Martini glass is shaped like a cone with 
+the point at the bottom. Suppose you make a Martini by pouring 
+vermouth into the glass to a depth of 3 cm, and then adding gin 
+to bring the depth to 6 cm. What are the proportions of gin and 
+vermouth? > Solution, p. 548 
+
+
+18 The central portion of a CD is taken up by the hole and some 
+surrounding clear plastic, and this area is unavailable for storing 
+data. The radius of the central circle is about 35% of the outer 
+radius of the data-storing area. What percentage of the CD’s area 
+is therefore lost? Vv 
+
+
+
+
+
+Problem 19. 19 The one-liter cube in the photo has been marked off into 
+smaller cubes, with linear dimensions one tenth those of the big 
+one. What is the volume of each of the small cubes? 
+
+> Solution, p. 548 
+
+
+60 Chapter 1 Scaling and Estimation 
+
+
+20 [This problem is now problem 0-12 on p. 37.] 
+
+
+21 Estimate the number of man-hours required for building the 
+Great Wall of China. > Solution, p. 548 
+
+
+22 (a) Using the microscope photo in the figure, estimate the 
+mass of a one cell of the E. coli bacterium, which is one of the 
+most common ones in the human intestine. Note the scale at the 
+lower right corner, which is 1 wm. Each of the tubular objects in 
+the column is one cell. (b) The feces in the human intestine are 
+mostly bacteria (some dead, some alive), of which EL. coli is a large 
+and typical component. Estimate the number of bacteria in your 
+intestines, and compare with the number of human cells in your 
+body, which is believed to be roughly on the order of 10!%. (c) 
+Interpreting your result from part b, what does this tell you about 
+the size of a typical human cell compared to the size of a typical 
+bacterial cell? 
+
+
+23 A taxon (plural taxa) is a group of living things. For ex- 
+ample, Homo sapiens and Homo neanderthalensis are both taxa — 
+specifically, they are two different species within the genus Homo. 
+Surveys by botanists show that the number of plant taxa native 
+to a given contiguous land area A is usually approximately propor- 
+tional to A‘/3. (a) There are 70 different species of lupine native 
+to Southern California, which has an area of about 200,000 km?. 
+The San Gabriel Mountains cover about 1,600 km?. Suppose that 
+you wanted to learn to identify all the species of lupine in the San 
+Gabriels. Approximately how many species would you have to fa- 
+miliarize yourself with? > Answer, p. 569 V 
+(b) What is the interpretation of the fact that the exponent, 1/3, is 
+less than one? 
+
+
+Problem 22. 
+
+
+Problems 
+
+
+
+
+
+61 
+
+
+24 X-ray images aren’t only used with human subjects but also, 
+for example, on insects and flowers. In 2003, a team of researchers 
+at Argonne National Laboratory used x-ray imagery to find for the 
+first time that insects, although they do not have lungs, do not 
+necessarily breathe completely passively, as had been believed pre- 
+viously; many insects rapidly compress and expand their trachea, 
+head, and thorax in order to force air in and out of their bodies. 
+One difference between x-raying a human and an insect is that if a 
+medical x-ray machine was used on an insect, virtually 100% of the 
+x-rays would pass through its body, and there would be no contrast 
+in the image produced. Less penetrating x-rays of lower energies 
+have to be used. For comparison, a typical human body mass is 
+about 70 kg, whereas a typical ant is about 10 mg. Estimate the 
+ratio of the thicknesses of tissue that must be penetrated by x-rays 
+in one case compared to the other. v 
+
+
+25 Radio was first commercialized around 1920, and ever since 
+then, radio signals from our planet have been spreading out across 
+our galaxy. It is possible that alien civilizations could detect these 
+signals and learn that there is life on earth. In the 90 years that the 
+signals have been spreading at the speed of light, they have created 
+a sphere with a radius of 90 light-years. To show an idea of the 
+size of this sphere, I’ve indicated it in the figure as a tiny white 
+circle on an image of a spiral galaxy seen edge on. (We don’t have 
+similar photos of our own Milky Way galaxy, because we can’t see 
+Problem 25. it from the outside.) So far we haven’t received answering signals 
+from aliens within this sphere, but as time goes on, the sphere will 
+expand as suggested by the dashed outline, reaching more and more 
+stars that might harbor extraterrestrial life. Approximately what 
+year will it be when the sphere has expanded to fill a volume 100 
+times greater than the volume it fills today in 2010? Vv 
+
+
+
+
+
+26 Estimate the number of jellybeans in figure r on p. 56. 
+> Solution, p. 548 
+
+
+27 At the grocery store you will see oranges packed neatly in 
+stacks. Suppose we want to pack spheres as densely as possible, 
+so that the greatest possible fraction of the space is filled by the 
+spheres themselves, not by empty space. Let’s call this fraction f. 
+Mathematicians have proved that the best possible result is f ~ 
+0.7405, which requires a systematic pattern of stacking. If you buy 
+ball bearings or golf balls, however, the seller is probably not going 
+to go to the trouble of stacking them neatly. Instead they will 
+probably pour the balls into a box and vibrate the box vigorously 
+for a while to make them settle. This results in a random packing. 
+The closest random packing has f ¥ 0.64. Suppose that golf balls, 
+with a standard diameter of 4.27 cm, are sold in bulk with the 
+Problem 27. closest random packing. What is the diameter of the largest ball 
+that could be sold in boxes of the same size, packed systematically, 
+so that there would be the same number of balls per box? v 
+62 Chapter 1. Scaling and Estimation 
+28 Plutonium-239 is one of a small number of important long- 
+lived forms of high-level radioactive nuclear waste. The world’s 
+waste stockpiles have about 10° metric tons of plutonium. Drinking 
+water is considered safe by U.S. government standards if it contains 
+less than 2 x 107!3 g/cm? of plutonium. The amount of radioac- 
+tivity to which you were exposed by drinking such water on a daily 
+basis would be very small compared to the natural background radi- 
+ation that you are exposed to every year. Suppose that the world’s 
+inventory of plutonium-239 were ground up into an extremely fine 
+dust and then dispersed over the world’s oceans, thereby becoming 
+mixed uniformly into the world’s water supplies over time. Esti- 
+mate the resulting concentration of plutonium, and compare with 
+the government standard. 
+Problems 
+63 
+Exercise 1: Scaling applied to leaves 
+Equipment: 
+leaves of three sizes, having roughly similar proportions of length, width, and thickness balance 
+Each group will have one leaf, and should measure its surface area and volume, and determine 
+its surface-to-volume ratio. For consistency, every group should use units of cm? and cm?, and 
+should only find the area of one side of the leaf. The area can be found by tracing the area of 
+the leaf on graph paper and counting squares. The volume can be found by weighing the leaf 
+and assuming that its density is 1 g/cm? (the density of water). What implications do your results have for the plants’ abilities to survive in different environments? 
