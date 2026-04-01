@@ -2,7 +2,7 @@
 
 ## Problem
 
-Neural networks are black boxes. We can feed them inputs and observe outputs, but we don't understand *how* they compute.
+The 'black box' nature of AI simply means that we can feed them inputs and observe outputs, but we don't necessarily understand how they compute.
 
 The deeper problem: **polysemanticity**. When researchers examine individual neurons in neural networks, they find that single neurons respond to completely unrelated concepts. In vision models, a neuron fires for both cat faces AND car fronts. In language models, a neuron responds to academic citations, English dialogue, HTTP requests, AND Korean text simultaneously.
 
