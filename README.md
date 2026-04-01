@@ -1,1 +1,2 @@
 # Interpretability Project
+I have noticed I tend to drift away from discussions surrounding applications of AI and indulging in ones that into its inner workings. Its black box esque nature is a description that seems to drive people away from learning more. That didn't however, stop the interepatbility team at Anthropic. Their amazing work in this area will always fascinate me. So much so that I chose to replicate their work on monosemanticty alebit a toy version since I don't have the same resources that they do.
