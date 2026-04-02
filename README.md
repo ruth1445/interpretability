@@ -4,9 +4,7 @@
 
 The 'black box' nature of AI simply means that we can feed them inputs and observe outputs, but we don't necessarily understand how they compute.
 
-The deeper problem: **polysemanticity**. When researchers examine individual neurons in neural networks, they find that single neurons respond to completely unrelated concepts. In vision models, a neuron fires for both cat faces AND car fronts. In language models, a neuron responds to academic citations, English dialogue, HTTP requests, AND Korean text simultaneously.
-
-This makes neurons useless as units of analysis. You can't reason about how a network works if you don't understand what individual components are computing.
+When researchers examine individual neurons in neural networks, they find that single neurons respond to completely unrelated concepts. This would mean that one neuron responds to academic citations, English dialogue, HTTP requests, and Korean text simultaneously. This makes neurons almost useless as units of analysis.
 
 ## Solution
 
